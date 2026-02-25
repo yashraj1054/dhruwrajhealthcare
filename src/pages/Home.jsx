@@ -388,7 +388,7 @@ Mobile Number: ${mobile}
                     >
                       <div className="bg-white rounded-3xl shadow-lg p-6">
                         <img
-                          src={item.img}
+                          src={item.image}
                           alt={item.name}
                           className="rounded-2xl w-full h-64 object-cover mb-6"
                         />
