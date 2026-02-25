@@ -3,62 +3,94 @@
 export const testimonials = {
   Diabetes: [
     {
-      id: 1,
+      slug: "jatin-pal",
       name: "Jatin Pal",
+      disease: "Diabetes",
       issue: "Knee Pain",
-      img: "/images/Patients/Joint/Jatin Pal .jpg",
+      image: "/images/Patients/Joint/Jatin Pal .jpg",
+      description: `
+Jatin Pal was suffering from long-term knee pain and unstable sugar levels.
+After Ayurvedic treatment and personalized herbal therapy,
+his mobility improved and blood sugar levels stabilized.
+      `,
+      youtubeId: "", 
+      gallery: [
+    "/images/Patients/Joint/before1.jpg",
+    "/images/Patients/Joint/after1.jpg"
+  ],
     },
     {
-      id: 2,
+      slug: "ayush-sharma",
       name: "Ayush Sharma",
+      disease: "Diabetes",
       issue: "Diabetes",
-      img: "/images/patient3.jpg",
+      image: "/images/patient3.jpg",
+      description: `
+Ayush Sharma had uncontrolled diabetes.
+With regular consultation and herbal medicines,
+his condition improved significantly.
+      `,
+      youtubeId: ""
     },
     {
-      id: 3,
+      slug: "shlok-diwedi",
       name: "Shlok Diwedi",
+      disease: "Diabetes",
       issue: "Diabetes",
-      img: "/images/patient3.jpg",
-    },
+      image: "/images/patient3.jpg",
+      description: `
+Shlok consulted for recurring diabetes complications.
+Ayurvedic therapy helped balance his sugar levels naturally.
+      `,
+      youtubeId: ""
+    }
+  ],
+
+  "Joint Pain": [
     {
-      id: 4,
-      name: "Yash Gupta",
-      issue: "Nerve",
-      img: "/images/Patients/Nerve/YashGupta.jpg",
-    },
-    {
-      id: 5,
+      slug: "arpit-jain",
       name: "Arpit Jain",
-      issue: "Knee Pain",
-      img: "/images/Patients/Joint/JatinPall.jpg",
+      disease: "Joint Pain",
+      issue: "Severe Knee Pain",
+      image: "/images/Patients/Joint/JatinPall.jpg",
+      description: `
+Arpit Jain experienced chronic knee pain.
+After Panchkarma therapy and herbal oil treatment,
+pain reduced drastically.
+      `,
+      youtubeId: ""
     },
     {
-      id: 6,
+      slug: "ritik-gupta",
       name: "Ritik Gupta",
-      issue: "Knee Pain",
-      img: "/images/Patients/Joint/JatinPall.jpg",
-    },
-    
+      disease: "Joint Pain",
+      issue: "Joint Stiffness",
+      image: "/images/Patients/Joint/JatinPall.jpg",
+      description: `
+Ritik had severe stiffness and mobility issues.
+With regular Abhyanga therapy, his condition improved.
+      `,
+      youtubeId: ""
+    }
+  ],
+
+  "Migraine Nerve": [
+    {
+      slug: "yash-gupta",
+      name: "Yash Gupta",
+      disease: "Migraine Nerve",
+      issue: "Nerve Pain",
+      image: "/images/Patients/Nerve/YashGupta.jpg",
+      description: `
+Yash Gupta suffered from recurring nerve pain and migraines.
+Nasya therapy provided long-term relief.
+      `,
+      youtubeId: ""
+    }
   ],
 
   Infertility: [],
   Skin: [],
   "Thyroid PCOD": [],
-  "Joint Pain": [
-    {
-      id: 1,
-      name: "Jatin Pal",
-      issue: "Knee Pain",
-      img: "/images/Patients/Joint/Jatin Pal .jpg",
-    },
-  ],
-  Respiratory: [],
-  "Migraine Nerve": [
-    {
-      id: 1,
-      name: "Yash Gupta",
-      issue: "Nerve",
-      img: "/images/Patients/Nerve/YashGupta.jpg",
-    }
-  ],
+  Respiratory: []
 };

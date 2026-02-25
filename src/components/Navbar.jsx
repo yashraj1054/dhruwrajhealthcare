@@ -176,6 +176,9 @@ const Navbar = () => {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
+              <Link to="/" className="hover:text-gray-600">
+                Home
+              </Link>
               <NavItem
                 label="Diseases"
                 menuId="diseases"
@@ -203,15 +206,16 @@ const Navbar = () => {
                 links={[
                   { name: "Shirodhara", href: "/therapy/shirodhara" },
                   { name: "Abhyanga", href: "/therapy/abhyanga" },
+                  { name: "Nasya", href: "/therapy/nasya" },
                 ]}
               />
 
               <NavItem
                 label="Services"
                 links={[
-                  { name: "Video Consultation", href: "/services/video" },
-                  { name: "Clinical Consultation", href: "/services/clinical" },
-                  { name: "Phone Consultation", href: "/services/phone" },
+                  { name: "Video Consultation", href: "/services/video-consultation" },
+                  { name: "Clinical Consultation", href: "/services/clinical-consultation" },
+                  { name: "Telephonic Consultation", href: "/services/telephonic-consultation" },
                   { name: "Panchkarma", href: "/services/panchkarma" },
                 ]}
               />
@@ -220,13 +224,13 @@ const Navbar = () => {
                 Testimonials
               </Link>
 
-              <Link to="/healthtips" className="hover:text-gray-600">
+              <Link to="/health-tips" className="hover:text-gray-600">
                 Health Tips
               </Link>
 
-              <Link to="/contact" className="hover:text-gray-600">
+              {/* <Link to="/contact" className="hover:text-gray-600">
                 Contact
-              </Link>
+              </Link> */}
 
               {/* Appointment Button */}
               <a
@@ -282,6 +286,10 @@ const Navbar = () => {
   </div>
 
   <div className="px-10 space-y-6 text-md tracking-widest text-gray-800">
+
+    <a href="/" className="block">
+      HOME
+    </a>
 
     {/* DISEASES */}
     <div>
@@ -340,11 +348,14 @@ const Navbar = () => {
 
       {mobileDropdown === "services" && (
         <div className="mt-4 ml-4 space-y-3 text-base tracking-normal text-gray-600">
-          <a href="/services/video" className="block">
+          <a href="/services/video-consultation" className="block">
             Video Consultation
           </a>
-          <a href="/services/clinical" className="block">
+          <a href="/services/clinical-consultation" className="block">
             Clinical Consultation
+          </a>
+          <a href="/services/telephonic-consultation" className="block">
+            Telephonic Consultation
           </a>
           <a href="/services/panchkarma" className="block">
             Panchkarma
@@ -381,22 +392,22 @@ const Navbar = () => {
           <a href="/therapy/abhyanga" className="block">
             Abhyanga
           </a>
+          <a href="/therapy/nasya" className="block">
+            Nasya
+          </a>
         </div>
       )}
     </div>
 
     {/* Other Links */}
-    <a href="/home-remedies" className="block">
-      HOME REMEDIES
+    <a href="/health-tips" className="block">
+      HEALTH TIPS
     </a>
 
     <a href="/testimonials" className="block">
       TESTIMONIALS
     </a>
 
-    <a href="/contact" className="block">
-      CONTACT
-    </a>
 
     {/* Call Button */}
     <div className="pt-8">
