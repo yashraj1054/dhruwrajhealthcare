@@ -132,32 +132,30 @@ Mobile Number: ${mobile}
 
           {/* Categories Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {[
-              { name: "Digestive", img: "/images/Diseases/digestive.png" },
-              { name: "Endocrine", img: "/images/Diseases/endocrine.png" },
-              { name: "Respiratory", img: "/images/Diseases/respirtory.png" },
-              {
-                name: "Hair & Skin",
-                img: "/images/Diseases/hair-and-skin.png",
-              },
-              { name: "Joint Pain", img: "/images/Diseases/joint-pain.png" },
-              { name: "Gynae", img: "/images/Diseases/gynae.png" },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="bg-[#FDFBF3] rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition duration-300 hover:-translate-y-1 cursor-pointer"
-              >
-                <img
-                  src={item.img}
-                  alt={item.name}
-                  className="w-full h-32 object-cover"
-                />
-                <div className="py-4 font-semibold text-gray-800 text-lg">
-                  {item.name}
-                </div>
-              </div>
-            ))}
-          </div>
+  {[
+    { name: "Digestive", slug: "digestive", img: "/images/Diseases/digestive.png" },
+    { name: "Endocrine", slug: "endocrine", img: "/images/Diseases/endocrine.png" },
+    { name: "Respiratory", slug: "respiratory", img: "/images/Diseases/respirtory.png" },
+    { name: "Hair & Skin", slug: "hair-skin", img: "/images/Diseases/hair-and-skin.png" },
+    { name: "Joint Pain", slug: "joint-pain", img: "/images/Diseases/joint-pain.png" },
+    { name: "Gynae", slug: "gynae", img: "/images/Diseases/gynae.png" },
+  ].map((item, index) => (
+    <Link
+      key={index}
+      to={`/diseases/${item.slug}`}
+      className="bg-[#FDFBF3] rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition duration-300 hover:-translate-y-1 cursor-pointer block"
+    >
+      <img
+        src={item.img}
+        alt={item.name}
+        className="w-full h-32 object-cover"
+      />
+      <div className="py-4 font-semibold text-gray-800 text-lg text-center">
+        {item.name}
+      </div>
+    </Link>
+  ))}
+</div>
 
           {/* CTA Button */}
           <div className="mt-16">

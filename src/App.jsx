@@ -14,6 +14,10 @@ import TestimonialDetails from "./pages/TestimonialDetails";
 import Services from "./pages/Services";
 import ServiceDetails from "./pages/ServiceDetails";
 
+import Diseases from "./pages/Diseases";
+import CategoryDiseases from "./pages/CategoryDiseases";
+import DiseaseDetails from "./pages/DiseaseDetails";
+
 import HealthTips from "./pages/HealthTips";
 
 function App() {
@@ -35,6 +39,13 @@ function App() {
             {/* Testimonials */}
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/testimonials/:slug" element={<TestimonialDetails />} />
+
+            {/* Diseases */}
+            <Route path="/diseases" element={<Diseases />} />
+            <Route path="/diseases/:category" element={<CategoryDiseases />} />
+            <Route path="/diseases/:category/:slug" element={<DiseaseDetails />} />
+            
+
 
             {/* Health Tips */}
             <Route path="/health-tips" element={<HealthTips />} />

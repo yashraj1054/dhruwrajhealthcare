@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { diseases } from "../data/diseases";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -180,6 +181,16 @@ const Navbar = () => {
                 Home
               </Link>
               <NavItem
+  label="Diseases"
+  links={diseases.map((cat) => ({
+    name: cat.categoryName,
+    subLinks: cat.diseases.map((disease) => ({
+      name: disease.name,
+      href: `/diseases/${cat.categorySlug}/${disease.slug}`,
+    })),
+  }))}
+/>
+              {/* <NavItem
                 label="Diseases"
                 menuId="diseases"
                 links={[
@@ -199,7 +210,7 @@ const Navbar = () => {
                     ],
                   },
                 ]}
-              />
+              /> */}
 
               <NavItem
                 label="Therapy"
@@ -292,6 +303,7 @@ const Navbar = () => {
     </a>
 
     {/* DISEASES */}
+    
     <div>
       <button
         onClick={() =>
