@@ -4,7 +4,7 @@ export const services = [
   {
     slug: "video-consultation",
     name: "Video Consultation",
-    image: "/images/consultation/video.jpg",
+    image: "/images/Services/video-consult.jpeg",
     description: `
 Consult with our Ayurvedic expert from the comfort of your home via secure video call.
 
@@ -17,7 +17,7 @@ Benefits:
   {
     slug: "telephonic-consultation",
     name: "Telephonic Consultation",
-    image: "/images/consultation/phone.jpg",
+    image: "/images/Services/phone-consult.jpg",
     description: `
 Get expert Ayurvedic advice over a phone call.
 
@@ -30,7 +30,7 @@ Benefits:
   {
     slug: "clinical-consultation",
     name: "Clinic Consultation",
-    image: "/images/consultation/clinic.jpg",
+    image: "/images/Services/clinic-consult.jpg",
     description: `
 Visit our clinic for detailed examination and personalized therapy.
 
@@ -43,7 +43,7 @@ Benefits:
   {
     slug: "panchkarma",
     name: "Panchkarma",
-    image: "/images/consultation/panchkarma.jpg",
+    image: "/images/Services/panchkarma.avif",
     description: `
 Traditional detoxification therapy to rejuvenate your body.
 

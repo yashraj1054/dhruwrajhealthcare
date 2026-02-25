@@ -382,21 +382,37 @@ Mobile Number: ${mobile}
                   }}
                 >
                   {currentTestimonials.map((item, index) => (
-                    <div
-                      key={index}
-                      className="w-full md:w-1/3 flex-shrink-0 px-4"
-                    >
-                      <div className="bg-white rounded-3xl shadow-lg p-6">
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                          className="rounded-2xl w-full h-64 object-cover mb-6"
-                        />
-                        <h3 className="text-xl font-semibold text-gray-900 text-center">
-                          {item.name} - {item.issue}
-                        </h3>
-                      </div>
-                    </div>
+                    // <div
+                    //   key={index}
+                    //   className="w-full md:w-1/3 flex-shrink-0 px-4"
+                    // >
+                    //   <div className="bg-white rounded-3xl shadow-lg p-6">
+                    //     <img
+                    //       src={item.image}
+                    //       alt={item.name}
+                    //       className="rounded-2xl w-full h-64 object-cover mb-6"
+                    //     />
+                    //     <h3 className="text-xl font-semibold text-gray-900 text-center">
+                    //       {item.name} - {item.issue}
+                    //     </h3>
+                    //   </div>
+                    // </div>
+                    <Link
+  key={item.slug}
+  to={`/testimonials/${item.slug}`}
+  className="w-full md:w-1/3 flex-shrink-0 px-4"
+>
+  <div className="bg-white rounded-3xl shadow-lg p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300 cursor-pointer">
+    <img
+      src={item.image}
+      alt={item.name}
+      className="rounded-2xl w-full h-64 object-cover mb-6"
+    />
+    <h3 className="text-xl font-semibold text-gray-900 text-center">
+      {item.name} - {item.issue}
+    </h3>
+  </div>
+</Link>
                   ))}
                 </div>
               </div>
