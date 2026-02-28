@@ -787,8 +787,14 @@ const Home = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-2xl text-center">
             <h3 className="text-2xl font-bold mb-4 text-[#C4531A]">
-              Consultation Charges ₹{consultationFee}
+              Consultation Charges
             </h3>
+            <p className="text-gray-700 mb-6">
+              Consultation charges are ₹{consultationFee}.  
+              You will have to pay before consultation.
+              <br /><br />
+              Do you wish to proceed?
+            </p>
 
             <div className="flex gap-4 justify-center">
               <button
@@ -802,10 +808,13 @@ const Home = () => {
                 onClick={() => {
                   const message = `
 New Consultation Booking
-Name: ${bookingData.name}
-Mobile: ${bookingData.mobile}
-Consultation: ${bookingData.consultation}
-Date: ${bookingData.date}
+
+Patient Name: ${bookingData.name}
+Mobile Number: ${bookingData.mobile}
+Consultation Type: ${bookingData.consultation}
+Preffered Date: ${bookingData.date}
+
+Patient has agreed to pay ₹${consultationFee} before consultation.
 `;
 
                   window.open(
