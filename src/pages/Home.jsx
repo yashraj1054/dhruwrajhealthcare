@@ -191,7 +191,7 @@ const Home = () => {
 
               <a
                 href="/health-tips"
-                className="border border-[#C4531A] text-[#C4531A] px-6 py-3 rounded-full hover:bg-[#C4531A] hover:text-white transition"
+                className="border text-center border-[#C4531A] text-[#C4531A] px-6 py-3 rounded-full hover:bg-[#C4531A] hover:text-white transition"
               >
                 Explore Health Tips
               </a>
