@@ -84,6 +84,10 @@ const Footer = () => {
           <button className="w-full bg-[#C4531A] text-white py-2 rounded hover:opacity-90 transition">
             Subscribe
           </button>
+
+          <p className="text-xs text-gray-400 mt-2">
+          We respect your privacy. No spam, only health tips.
+        </p>
         </div>
       </div>
 
