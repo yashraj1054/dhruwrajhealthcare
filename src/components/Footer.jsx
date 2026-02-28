@@ -14,7 +14,7 @@ const Footer = () => {
     className="h-18 mb-4 object-contain"
   />
           <p className="text-sm mb-6">
-            Authentic Ayurvedic & Panchkarma treatments for holistic healing.
+            Treating The Route Cause, Not Just the Symptoms, is The Aim of Dhruwraj Healthcare.
           </p>
 
           {/* Social Media */}
@@ -62,10 +62,12 @@ const Footer = () => {
         {/* Contact */}
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
-          <p className="text-sm mb-2">📍 20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur, Uttar Pradesh 208002</p>
+          <p className="text-sm mb-2"><a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449">📍 Kanpur : 20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur, Uttar Pradesh 208002</a></p>
+          <p className="text-sm mb-2"><a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6">📍 Auraiya : H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>
           <p className="text-sm mb-2">
             📞 <a href="tel:+919795053040" className="hover:text-white">+91 97950 53040</a>
           </p>
+           <p className="text-sm">📧 E-mail : info@dhruwraj.com</p>
           <p className="text-sm">🕒 Mon – Sat | 4PM – 8PM</p>
         </div>
 

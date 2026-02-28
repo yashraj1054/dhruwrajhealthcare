@@ -2,23 +2,7 @@
 
 export const testimonials = {
   Diabetes: [
-    {
-      slug: "jatin-pal",
-      name: "Jatin Pal",
-      disease: "Diabetes",
-      issue: "Knee Pain",
-      image: "/images/Patients/Joint/Jatin Pal .jpg",
-      description: `
-Jatin Pal was suffering from long-term knee pain and unstable sugar levels.
-After Ayurvedic treatment and personalized herbal therapy,
-his mobility improved and blood sugar levels stabilized.
-      `,
-      youtubeId: "", 
-      gallery: [
-    "/images/Patients/Joint/before1.jpg",
-    "/images/Patients/Joint/after1.jpg"
-  ],
-    },
+    
     {
       slug: "ayush-sharma",
       name: "Ayush Sharma",
@@ -48,17 +32,37 @@ Ayurvedic therapy helped balance his sugar levels naturally.
 
   "Joint Pain": [
     {
-      slug: "arpit-jain",
-      name: "Arpit Jain",
+      slug: "jatin-pal",
+      name: "Jatin Pal",
+      disease: "Diabetes",
+      issue: "Knee Pain",
+      image: "/images/Patients/Joint/Jatin Pal .jpg",
+      description: `
+Jatin Pal was suffering from long-term knee pain and unstable sugar levels.
+After Ayurvedic treatment and personalized herbal therapy,
+his mobility improved and blood sugar levels stabilized.
+      `,
+      youtubeId: "", 
+      gallery: [
+    "/images/Patients/Joint/before1.jpg",
+    "/images/Patients/Joint/after1.jpg"
+  ],
+    },
+    {
+      slug: "seema",
+      name: "Seema",
       disease: "Joint Pain",
       issue: "Severe Knee Pain",
-      image: "/images/Patients/Joint/JatinPall.jpg",
+      image: "/images/Patients/Joint/seema.png",
       description: `
-Arpit Jain experienced chronic knee pain.
+Seema experienced chronic knee pain.
 After Panchkarma therapy and herbal oil treatment,
 pain reduced drastically.
       `,
-      youtubeId: ""
+      youtubeId: "PYgkZJcYrYQ",
+      gallery: [
+    "/images/Patients/Joint/before1.jpg",
+    "/images/Patients/Joint/after1.jpg"],
     },
     {
       slug: "ritik-gupta",

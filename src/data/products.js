@@ -1,0 +1,51 @@
+export const productCategories = [
+  "All",
+  "Digestive",
+  "Diabetes",
+  "Skin Care",
+  "Joint Pain",
+  "Immunity",
+];
+
+export const products = [
+  {
+    id: 1,
+    name: "Ayurvedic Diabetes Care Juice",
+    category: "Diabetes",
+    image: "/images/products/diabetes.jpg",
+    price: "₹899",
+    amazonLink: "https://www.amazon.in/your-product-link-1",
+  },
+  {
+    id: 2,
+    name: "Joint Pain Relief Oil",
+    category: "Joint Pain",
+    image: "/images/products/joint-oil.jpg",
+    price: "₹499",
+    amazonLink: "https://www.amazon.in/your-product-link-2",
+  },
+  {
+    id: 3,
+    name: "Digestive Health Powder",
+    category: "Digestive",
+    image: "/images/products/digestive.jpg",
+    price: "₹699",
+    amazonLink: "https://www.amazon.in/your-product-link-3",
+  },
+  {
+    id: 4,
+    name: "Herbal Skin Glow Pack",
+    category: "Skin Care",
+    image: "/images/products/skin.jpg",
+    price: "₹799",
+    amazonLink: "https://www.amazon.in/your-product-link-4",
+  },
+  {
+    id: 5,
+    name: "Ashwagandha Immunity Booster",
+    category: "Immunity",
+    image: "/images/Products/ashwagandha.jpeg",
+    price: "₹799",
+    amazonLink: "https://www.amazon.in/your-product-link-5",
+  },
+];

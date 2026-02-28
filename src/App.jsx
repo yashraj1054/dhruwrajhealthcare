@@ -20,6 +20,10 @@ import DiseaseDetails from "./pages/DiseaseDetails";
 
 import HealthTips from "./pages/HealthTips";
 
+import Store from "./pages/Store";
+
+import OnlineBooking from "./pages/OnlineBooking";
+
 function App() {
   return (
     <Router>
@@ -53,6 +57,12 @@ function App() {
             {/* Services */}
             <Route path="/services" element={<Services />} />
             <Route path="/services/:slug" element={<ServiceDetails />} />
+
+            {/* Store */}
+            <Route path="/store" element={<Store />} />
+
+            {/* Online Booking */}
+            <Route path="/book-appointment" element={<OnlineBooking />} />
 
           </Routes>
         </main>

@@ -13,50 +13,151 @@ const Home = () => {
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
 
+//   const currentTestimonials = testimonials[activeCategory] || [];
+
+//   // Reset slide on category change
+//   useEffect(() => {
+//     setCurrentIndex(0);
+//   }, [activeCategory]);
+
+//   // Auto slide
+//   useEffect(() => {
+//     if (!currentTestimonials.length) return;
+
+//     const auto = setInterval(() => {
+//       setCurrentIndex((prev) =>
+//         prev === currentTestimonials.length - 1 ? 0 : prev + 1,
+//       );
+//     }, 5000);
+
+//     return () => clearInterval(auto);
+//   }, [currentTestimonials]);
+
+//   // WhatsApp Submit
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+
+//     if (!consultation || !name || !mobile) {
+//       alert("Please fill all fields");
+//       return;
+//     }
+
+//     const message = `
+// New Appointment Request:
+
+// Consultation Type: ${consultation}
+// Patient Name: ${name}
+// Mobile Number: ${mobile}
+// `;
+
+//     const encodedMessage = encodeURIComponent(message);
+//     const whatsappNumber = "919795053040";
+
+//     window.open(
+//       `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
+//       "_blank",
+//     );
+//   };
+
+/* ---------------- NEW BOOKING STATES ---------------- */
+  const [bookingData, setBookingData] = useState({
+    consultation: "",
+    name: "",
+    mobile: "",
+    date: "",
+  });
+
+  const [showFeeModal, setShowFeeModal] = useState(false);
+  const [showUnavailableModal, setShowUnavailableModal] = useState(false);
+  const [unavailableMessage, setUnavailableMessage] = useState("");
+
+  const consultationFee = 500;
+  const clinicNumber = "919795053040";
+
+  const blockedDates = ["2026-03-02", "2026-03-03", "2026-03-04"];
+  const today = new Date().toISOString().split("T")[0];
+
   const currentTestimonials = testimonials[activeCategory] || [];
 
-  // Reset slide on category change
+  /* ---------------- TESTIMONIAL LOGIC ---------------- */
   useEffect(() => {
     setCurrentIndex(0);
   }, [activeCategory]);
 
-  // Auto slide
   useEffect(() => {
     if (!currentTestimonials.length) return;
 
     const auto = setInterval(() => {
       setCurrentIndex((prev) =>
-        prev === currentTestimonials.length - 1 ? 0 : prev + 1,
+        prev === currentTestimonials.length - 1 ? 0 : prev + 1
       );
     }, 5000);
 
     return () => clearInterval(auto);
   }, [currentTestimonials]);
 
-  // WhatsApp Submit
-  const handleSubmit = (e) => {
+  /* ---------------- BOOKING LOGIC ---------------- */
+  const handleBookingChange = (e) => {
+    setBookingData({
+      ...bookingData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const isSunday = (dateString) => {
+    const date = new Date(dateString);
+    return date.getDay() === 0;
+  };
+
+  const getNextAvailableDate = (selectedDate) => {
+    let nextDate = new Date(selectedDate);
+    nextDate.setDate(nextDate.getDate() + 1);
+
+    while (true) {
+      const formatted = nextDate.toISOString().split("T")[0];
+      const isPast =
+        nextDate < new Date(new Date().toISOString().split("T")[0]);
+      const isSun = nextDate.getDay() === 0;
+      const isBlocked = blockedDates.includes(formatted);
+
+      if (!isPast && !isSun && !isBlocked) return formatted;
+
+      nextDate.setDate(nextDate.getDate() + 1);
+    }
+  };
+
+  const handleHomeBookingSubmit = (e) => {
     e.preventDefault();
 
-    if (!consultation || !name || !mobile) {
+    if (
+      !bookingData.consultation ||
+      !bookingData.name ||
+      !bookingData.mobile ||
+      !bookingData.date
+    ) {
       alert("Please fill all fields");
       return;
     }
 
-    const message = `
-New Appointment Request:
+    if (isSunday(bookingData.date)) {
+      const suggestion = getNextAvailableDate(bookingData.date);
+      setUnavailableMessage(
+        `Doctor is not available on Sundays.\n\nNext available date: ${suggestion}`
+      );
+      setShowUnavailableModal(true);
+      return;
+    }
 
-Consultation Type: ${consultation}
-Patient Name: ${name}
-Mobile Number: ${mobile}
-`;
+    if (blockedDates.includes(bookingData.date)) {
+      const suggestion = getNextAvailableDate(bookingData.date);
+      setUnavailableMessage(
+        `Doctor is not available on selected date.\n\nNext available date: ${suggestion}`
+      );
+      setShowUnavailableModal(true);
+      return;
+    }
 
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappNumber = "919795053040";
-
-    window.open(
-      `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
-      "_blank",
-    );
+    setShowFeeModal(true);
   };
 
   return (
@@ -321,12 +422,18 @@ Mobile Number: ${mobile}
               the next generation of Ayurvedic physicians.
             </p>
 
-            <button
+            {/* <button
               onClick={() => setOpenModal(true)}
               className="bg-[#C4531A] text-white px-6 py-3 rounded-full"
             >
               Book Consultation
-            </button>
+            </button> */}
+            <Link
+              to="/book-appointment"
+              className="bg-[#C4531A] text-white px-6 py-3 rounded-full inline-block mt-4"
+            >
+              Book Consultation
+            </Link>
           </div>
         </div>
       </section>
@@ -470,10 +577,10 @@ Mobile Number: ${mobile}
       </section>
 
       {/* ================= BOOK APPOINTMENT SECTION ================= */}
-      <section className="bg-[#Fdfbf3] py-24">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
+      {/* <section className="bg-[#Fdfbf3] py-24">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start"> */}
           {/* ================= LEFT SIDE ================= */}
-          <div>
+          {/* <div>
             <h2 className="text-4xl font-bold mb-4">Dhruwraj Ayurveda</h2>
 
             <h3 className="text-3xl font-bold mb-6">
@@ -484,10 +591,10 @@ Mobile Number: ${mobile}
               We Have Treated more than 8,000 patients speak with our Ayurvedic
               expert to understand the root cause of their health problems and
               receive personalised treatment.
-            </p>
+            </p> */}
 
             {/* Stats Cards */}
-            <div className="grid grid-cols-2 gap-6">
+            {/* <div className="grid grid-cols-2 gap-6">
               {["13+ Years of Experience", "8000+ Patients Treated"].map(
                 (item, index) => (
                   <div
@@ -500,10 +607,10 @@ Mobile Number: ${mobile}
                 ),
               )}
             </div>
-          </div>
+          </div> */}
 
           {/* ================= RIGHT SIDE ================= */}
-          <div className="bg-white p-10 rounded-2xl shadow-lg">
+          {/* <div className="bg-white p-10 rounded-2xl shadow-lg">
             <h3 className="text-3xl font-bold mb-8 text-gray-900">
               Book An Appointment
             </h3>
@@ -545,7 +652,92 @@ Mobile Number: ${mobile}
             </form>
           </div>
         </div>
+      </section>  */}
+
+      <section className="bg-[#Fdfbf3] py-24">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+          <div>
+            <h2 className="text-3xl font-bold mb-6">
+              <span className="text-[#C4531A]">Consultation</span> Advantages
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed mb-10">
+              We Have Treated more than 8,000 patients speak with our Ayurvedic
+              expert to understand the root cause of their health problems and
+              receive personalised treatment.
+            </p>
+            <div className="grid grid-cols-2 gap-6">
+              {["13+ Years of Experience", "8000+ Patients Treated","Consultation Fees : ₹500","Consultation charges must be paid before confirmation of appointment."].map(
+                (item, index) => (
+                  <div
+                    key={index}
+                    className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition"
+                  >
+                    <div className="text-[#C4531A] text-3xl mb-4">★</div>
+                    <p className="font-semibold text-gray-800">{item}</p>
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+
+          <div className="bg-white p-10 rounded-2xl shadow-lg">
+            <h3 className="text-3xl font-bold mb-8">
+              Book An Appointment
+            </h3>
+
+            <form onSubmit={handleHomeBookingSubmit} className="space-y-6">
+              <select
+                name="consultation"
+                value={bookingData.consultation}
+                onChange={handleBookingChange}
+                className="w-full border p-4 rounded-md"
+              >
+                <option value="">Select Consultation</option>
+                <option>Video Consultation</option>
+                <option>Clinical Consultation</option>
+                <option>Telephonic Consultation</option>
+              </select>
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Patient Name"
+                value={bookingData.name}
+                onChange={handleBookingChange}
+                className="w-full border p-4 rounded-md"
+              />
+
+              <input
+                type="tel"
+                name="mobile"
+                placeholder="Mobile Number"
+                value={bookingData.mobile}
+                onChange={handleBookingChange}
+                className="w-full border p-4 rounded-md"
+              />
+
+              <input
+                type="date"
+                name="date"
+                min={today}
+                value={bookingData.date}
+                onChange={handleBookingChange}
+                className="w-full border p-4 rounded-md"
+              />
+
+              <button
+                type="submit"
+                className="w-full bg-[#C4531A] text-white py-4 rounded-md"
+              >
+                Submit via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
+
+      
 
       {/* ================= FAQ SECTION ================= */}
       <section className="bg-white py-24">
@@ -563,7 +755,7 @@ Mobile Number: ${mobile}
       </section>
 
       {/* ================= APPOINTMENT MODAL ================= */}
-      {openModal && (
+      {/* {openModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-2xl w-96 relative">
             <button
@@ -587,6 +779,70 @@ Mobile Number: ${mobile}
             >
               Submit & Call
             </a>
+          </div>
+        </div>
+      )} */}
+      {/* ================= FEE MODAL ================= */}
+      {showFeeModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-8 rounded-2xl text-center">
+            <h3 className="text-2xl font-bold mb-4 text-[#C4531A]">
+              Consultation Charges ₹{consultationFee}
+            </h3>
+
+            <div className="flex gap-4 justify-center">
+              <button
+                onClick={() => setShowFeeModal(false)}
+                className="border px-6 py-2 rounded-full"
+              >
+                Cancel
+              </button>
+
+              <button
+                onClick={() => {
+                  const message = `
+New Consultation Booking
+Name: ${bookingData.name}
+Mobile: ${bookingData.mobile}
+Consultation: ${bookingData.consultation}
+Date: ${bookingData.date}
+`;
+
+                  window.open(
+                    `https://wa.me/${clinicNumber}?text=${encodeURIComponent(
+                      message
+                    )}`,
+                    "_blank"
+                  );
+                  setShowFeeModal(false);
+                }}
+                className="bg-[#C4531A] text-white px-6 py-2 rounded-full"
+              >
+                Proceed
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================= UNAVAILABLE MODAL ================= */}
+      {showUnavailableModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-8 rounded-2xl text-center">
+            <h3 className="text-xl font-bold text-red-600 mb-4">
+              Doctor Not Available
+            </h3>
+
+            <p className="whitespace-pre-line mb-6">
+              {unavailableMessage}
+            </p>
+
+            <button
+              onClick={() => setShowUnavailableModal(false)}
+              className="bg-[#C4531A] text-white px-6 py-2 rounded-full"
+            >
+              Select New Date
+            </button>
           </div>
         </div>
       )}

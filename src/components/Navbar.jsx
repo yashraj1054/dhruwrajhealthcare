@@ -218,6 +218,13 @@ const Navbar = () => {
                   { name: "Shirodhara", href: "/therapy/shirodhara" },
                   { name: "Abhyanga", href: "/therapy/abhyanga" },
                   { name: "Nasya", href: "/therapy/nasya" },
+                  { name: "Panchkarma", href: "/therapy/panchkarma" },
+                  { name: "Kati Basti", href: "/therapy/kati-basti" },
+                  { name: "Janu Basti", href: "/therapy/janu-basti" },
+                  { name: "Basti Therapy", href: "/therapy/basti" },
+                  { name: "Kshar Sutra", href: "/therapy/kshar-sutra" },
+                  { name: "Ayurvedic Facial", href: "/therapy/ayurvedic-facial" }, 
+
                 ]}
               />
 
@@ -239,13 +246,13 @@ const Navbar = () => {
                 Health Tips
               </Link>
 
-              {/* <Link to="/contact" className="hover:text-gray-600">
-                Contact
-              </Link> */}
+              <Link to="/store" className="hover:text-gray-600">
+                Store
+              </Link>
 
               {/* Appointment Button */}
               <a
-                href="tel:+919795053040"
+                href="/book-appointment"
                 className="bg-[#C4531A] text-white px-4 py-2 rounded-lg hover:opacity-90 transition"
               >
                 Book Appointment
@@ -325,15 +332,65 @@ const Navbar = () => {
 
       {mobileDropdown === "diseases" && (
         <div className="mt-4 ml-4 space-y-3 text-base tracking-normal text-gray-600">
-          <a href="/diseases/heart" className="block">
-            Heart Disease
+          <a href="/diseases/lifestyle" className="block">
+            Lifestyle Disorders
           </a>
-          <a href="/diseases/neurology" className="block">
-            Neurology
+          <a href="/diseases/age-related" className="block">
+            Age Related Disorders
           </a>
-          <a href="/diseases/liver" className="block">
-            Liver & Gall Disease
+          <a href="/diseases/digestive" className="block">Digestive Disorders</a>
+          <a href="/diseases/skin" className="block">Skin Disorders</a>
+          <a href="/diseases/gynae" className="block">Gynae Disorders</a>
+          <a href="/diseases/renal" className="block">Renal Disorders</a>
+          <a href="/diseases/joint-pain" className="block">Joint Pain</a>
+          <a href="/diseases/hair-skin" className="block">Hair & Skin</a>
+          <a href="/diseases/respiratory" className="block">Respiratory</a>
+          <a href="/diseases" className="block">& Many More.....</a>
+        </div>
+      )}
+    </div>
+
+    {/* THERAPY */}
+    <div>
+      <button
+        onClick={() =>
+          setMobileDropdown(
+            mobileDropdown === "therapy" ? null : "therapy"
+          )
+        }
+        className="flex justify-between items-center w-full"
+      >
+        THERAPY
+        <span
+          className={`transition-transform ${
+            mobileDropdown === "therapy" ? "rotate-180" : ""
+          }`}
+        >
+          ⌄
+        </span>
+      </button>
+
+      {mobileDropdown === "therapy" && (
+        <div className="mt-4 ml-4 space-y-3 text-base tracking-normal text-gray-600">
+          <a href="/therapy/shirodhara" className="block">
+            Shirodhara
           </a>
+          <a href="/therapy/abhyanga" className="block">
+            Abhyanga
+          </a>
+          <a href="/therapy/nasya" className="block">
+            Nasya
+          </a>
+          <a href="/therapy/panchkarma" className="block">
+            Panchkarma
+          </a>
+          <a href="/therapy/kati-basti" className="block">
+            Kati Basti
+          </a>
+          <a href="/therapy/janu-basti" className="block">
+            Janu Basti
+          </a>
+          <a href="/therapies" className="block">& Many More.....</a>
         </div>
       )}
     </div>
@@ -376,41 +433,6 @@ const Navbar = () => {
       )}
     </div>
 
-    {/* THERAPY */}
-    <div>
-      <button
-        onClick={() =>
-          setMobileDropdown(
-            mobileDropdown === "therapy" ? null : "therapy"
-          )
-        }
-        className="flex justify-between items-center w-full"
-      >
-        THERAPY
-        <span
-          className={`transition-transform ${
-            mobileDropdown === "therapy" ? "rotate-180" : ""
-          }`}
-        >
-          ⌄
-        </span>
-      </button>
-
-      {mobileDropdown === "therapy" && (
-        <div className="mt-4 ml-4 space-y-3 text-base tracking-normal text-gray-600">
-          <a href="/therapy/shirodhara" className="block">
-            Shirodhara
-          </a>
-          <a href="/therapy/abhyanga" className="block">
-            Abhyanga
-          </a>
-          <a href="/therapy/nasya" className="block">
-            Nasya
-          </a>
-        </div>
-      )}
-    </div>
-
     {/* Other Links */}
     <a href="/health-tips" className="block">
       HEALTH TIPS
@@ -420,15 +442,30 @@ const Navbar = () => {
       TESTIMONIALS
     </a>
 
+    <a href="/store" className="block">
+      STORE
+    </a>
 
-    {/* Call Button */}
-    <div className="pt-8">
+     {/* Booking Appointmenr */}
+    <div className="pt-8 flex flex-col gap-4 items-center">
+      <a
+        href="/book-appointment"
+        className="inline-flex items-center gap-3 bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-md"
+      >
+        Book Consultation
+      </a>
       <a
         href="tel:+919795053040"
         className="inline-flex items-center gap-3 bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-md"
       >
         📞 +91 9795053040
       </a>
+    </div>
+
+
+    {/* Call Button */}
+    <div className="pt-8">
+      
     </div>
   </div>
 </div>
