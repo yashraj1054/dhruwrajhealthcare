@@ -13,7 +13,8 @@ export const products = [
     name: "Ayurvedic Diabetes Care Juice",
     category: "Diabetes",
     image: "/images/products/diabetes.jpg",
-    price: "₹899",
+    originalPrice: 599,
+    discount: 20,
     amazonLink: "https://www.amazon.in/your-product-link-1",
   },
   {
@@ -21,7 +22,8 @@ export const products = [
     name: "Joint Pain Relief Oil",
     category: "Joint Pain",
     image: "/images/products/joint-oil.jpg",
-    price: "₹499",
+    originalPrice: 599,
+    discount: 20,
     amazonLink: "https://www.amazon.in/your-product-link-2",
   },
   {
@@ -29,7 +31,8 @@ export const products = [
     name: "Digestive Health Powder",
     category: "Digestive",
     image: "/images/products/digestive.jpg",
-    price: "₹699",
+    originalPrice: 599,
+    discount: 20,
     amazonLink: "https://www.amazon.in/your-product-link-3",
   },
   {
@@ -37,7 +40,8 @@ export const products = [
     name: "Herbal Skin Glow Pack",
     category: "Skin Care",
     image: "/images/products/skin.jpg",
-    price: "₹799",
+    originalPrice: 599,
+    discount: 20,
     amazonLink: "https://www.amazon.in/your-product-link-4",
   },
   {
@@ -45,7 +49,8 @@ export const products = [
     name: "Ashwagandha Immunity Booster",
     category: "Immunity",
     image: "/images/Products/ashwagandha.jpeg",
-    price: "₹799",
+    originalPrice: 999,
+    discount: 20,
     amazonLink: "https://www.amazon.in/your-product-link-5",
   },
 ];

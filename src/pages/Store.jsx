@@ -7,7 +7,9 @@ const Store = () => {
   const filteredProducts =
     activeCategory === "All"
       ? products
-      : products.filter((product) => product.category === activeCategory);
+      : products.filter(
+          (product) => product.category === activeCategory
+        );
 
   return (
     <section className="bg-[#FDFBF3] min-h-screen py-24">
@@ -43,41 +45,69 @@ const Store = () => {
         {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
 
-          {filteredProducts.map((product) => (
-            <div
-              key={product.id}
-              className="bg-white rounded-3xl shadow-md hover:shadow-xl transition duration-300 hover:-translate-y-2 overflow-hidden flex flex-col"
-            >
-              <img
-                src={product.image}
-                alt={product.name}
-                className="h-52 w-full object-cover"
-              />
+          {filteredProducts.map((product) => {
+            const finalPrice = Math.round(
+              product.originalPrice -
+                (product.originalPrice * product.discount) / 100
+            );
 
-              <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-lg font-semibold mb-2">
-                  {product.name}
-                </h3>
+            const savings =
+              product.originalPrice - finalPrice;
 
-                <p className="text-[#C4531A] font-bold mb-4">
-                  {product.price}
-                </p>
+            return (
+              <div
+                key={product.id}
+                className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 overflow-hidden flex flex-col relative"
+              >
+                {/* Discount Badge */}
+                <div className="absolute top-4 left-4 bg-[#C4531A] text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                  {product.discount}% OFF
+                </div>
 
-                <button
-                  onClick={() =>
-                    window.open(product.amazonLink, "_blank")
-                  }
-                  className="mt-auto bg-[#C4531A] text-white py-2 rounded-full hover:opacity-90 transition"
-                >
-                  Buy on Amazon
-                </button>
+                {/* Product Image */}
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="h-full w-full object-cover"
+                />
+
+                {/* Content */}
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-semibold mb-3">
+                    {product.name}
+                  </h3>
+
+                  {/* Price Section */}
+                  <div className="mb-4">
+                    <span className="text-gray-400 line-through mr-2 text-sm">
+                      ₹{product.originalPrice}
+                    </span>
+
+                    <span className="text-[#C4531A] font-bold text-xl">
+                      ₹{finalPrice}
+                    </span>
+
+                    <p className="text-green-600 text-xs mt-1">
+                      You save ₹{savings}
+                    </p>
+                  </div>
+
+                  {/* Buy Button */}
+                  <button
+                    onClick={() =>
+                      window.open(product.amazonLink, "_blank")
+                    }
+                    className="mt-auto bg-[#C4531A] text-white py-2 rounded-full hover:opacity-90 transition"
+                  >
+                    Buy on Amazon
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
-
+            );
+          })}
         </div>
 
-        {/* No Products */}
+        {/* No Products Message */}
         {filteredProducts.length === 0 && (
           <div className="text-center text-gray-500 mt-20">
             No products found in this category.

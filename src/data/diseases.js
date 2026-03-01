@@ -1,109 +1,3 @@
-// export const diseases = [
-//   {
-
-//     // Heart Disease Category
-//     categorySlug: "heart",
-//     categoryName: "Heart Disease",
-//     image: "/images/Diseases/heart.jpg",
-//     diseases: [
-//       {
-//         slug: "arrhythmia",
-//         name: "Arrhythmia",
-//         image: "/images/Diseases/hear.jpg",
-//         content: `
-// Arrhythmia is irregular heartbeat condition.
-
-// Ayurvedic Treatment:
-// • Herbal formulations
-// • Stress management
-// • Panchkarma detox
-//         `,
-//       },
-//       {
-//         slug: "hypertension",
-//         name: "Hypertension",
-//         image: "/images/Diseases/hypertension.jpg",
-//         content: `
-// Hypertension is high blood pressure.
-
-// Ayurvedic Treatment:
-// • Natural BP control herbs
-// • Diet modification
-// • Lifestyle correction
-//         `,
-//       },
-//     ],
-//   },
-
-//   // Neurology Category
-//   {
-//     categorySlug: "neurology",
-//     categoryName: "Neurology",
-//     image: "/images/Diseases/neurology.webp",
-//     diseases: [
-//       {
-//         slug: "migraine",
-//         name: "Migraine",
-//         image: "/images/Diseases/migrane.jpeg",
-//         content: `
-// Migraine is chronic headache disorder.
-
-// Ayurvedic Therapy:
-// • Nasya
-// • Shirodhara
-// • Stress balance
-//         `,
-//       },
-//     ],
-//   },
-
-
-//   // Digestive Disorders Category
-
-//   {
-//     categorySlug: "digestive",
-//     categoryName: "Digestive Disorders",
-//     image: "/images/Diseases/digestive.png",
-//     diseases: [
-//       {
-//         slug: "irritable-bowel-syndrome",
-//         name: "Irritable Bowel Syndrome",
-//         image: "/images/Diseases/irritable.jpg",
-//         content: `
-// Irritable Bowel Syndrome is a common digestive disorder.
-
-// Ayurvedic Therapy:
-// • Nasya
-// • Shirodhara
-// • Stress balance
-//         `,
-//       },
-//     ],
-//   },
-
-//   // Lifestyle Diseases Category
-//   {
-//     categorySlug: "lifestyle",
-//     categoryName: "Lifestyle Diseases",
-//     image: "/images/Diseases/lifestyle.jpg",
-//     diseases: [
-//       {
-//         slug: "diabetes",
-//         name: "Diabetes",
-//         image: "/images/Diseases/diabetes.jpg",
-//         content: `
-// Diabetes is a metabolic disorder characterized by high blood sugar levels.
-
-// Ayurvedic Treatment:
-// • Herbal formulations
-// • Diet modification
-// • Lifestyle correction
-//         `,
-//       },
-//     ],
-//   },
-// ];
-
 export const diseases = [
   // 1️⃣ Lifestyle Disorders
   {
@@ -114,7 +8,7 @@ export const diseases = [
       {
         slug: "diabetes",
         name: "Diabetes",
-        image: "/images/Diseases/diabetes.jpg",
+        image: "/images/Diseases/lifestyle/diabetes.jpg",
         content: `Diabetes is a metabolic disorder characterized by high blood sugar levels.
 
 Ayurvedic Treatment:
@@ -125,7 +19,7 @@ Ayurvedic Treatment:
       {
         slug: "high-bp",
         name: "High Blood Pressure (BP)",
-        image: "/images/Diseases/bp.jpg",
+        image: "/images/Diseases/lifestyle/highbp.avif",
         content: `High BP is a condition where blood pressure remains elevated.
 
 Ayurvedic Treatment:
@@ -136,7 +30,7 @@ Ayurvedic Treatment:
       {
         slug: "thyroid",
         name: "Thyroid Disorder",
-        image: "/images/Diseases/thyroid.jpg",
+        image: "/images/Diseases/lifestyle/thyroid.jpg",
         content: `Thyroid disorders affect metabolism and hormone balance.
 
 Ayurvedic Treatment:
@@ -147,7 +41,7 @@ Ayurvedic Treatment:
       {
         slug: "obesity",
         name: "Obesity",
-        image: "/images/Diseases/obesity.jpg",
+        image: "/images/Diseases/lifestyle/obesity.png",
         content: `Obesity is excessive body fat accumulation.
 
 Ayurvedic Treatment:
@@ -162,12 +56,12 @@ Ayurvedic Treatment:
   {
     categorySlug: "age-related",
     categoryName: "Age Related Disorders",
-    image: "/images/Diseases/arthritis.jpg",
+    image: "/images/Diseases/age.jpg",
     diseases: [
       {
         slug: "arthritis",
         name: "Arthritis",
-        image: "/images/Diseases/arthritis.jpg",
+        image: "/images/Diseases/age/arthritis.jpg",
         content: `Arthritis causes joint pain and stiffness.
 
 Ayurvedic Treatment:
@@ -178,7 +72,7 @@ Ayurvedic Treatment:
       {
         slug: "asthma",
         name: "Asthma",
-        image: "/images/Diseases/asthma.jpg",
+        image: "/images/Diseases/age/asthama.png",
         content: `Asthma is a chronic respiratory condition.
 
 Ayurvedic Treatment:
@@ -193,12 +87,12 @@ Ayurvedic Treatment:
   {
     categorySlug: "digestive",
     categoryName: "Digestive Disorders",
-    image: "/images/Diseases/digestive.jpg",
+    image: "/images/Diseases/digestive.png",
     diseases: [
       {
         slug: "piles",
         name: "Piles",
-        image: "/images/Diseases/piles.jpg",
+        image: "/images/Diseases/digestive/Piles.jpg",
         content: `Piles are swollen veins in the rectum.
 
 Ayurvedic Treatment:
@@ -209,7 +103,7 @@ Ayurvedic Treatment:
       {
         slug: "fissure",
         name: "Fissure",
-        image: "/images/Diseases/fissure.jpg",
+        image: "/images/Diseases/digestive/fissure.webp",
         content: `Anal fissure is a small tear in the lining of the anus.
 
 Ayurvedic Treatment:
@@ -240,7 +134,7 @@ Ayurvedic Treatment:
       {
         slug: "eczema",
         name: "Eczema",
-        image: "/images/Diseases/eczema.jpg",
+        image: "/images/Diseases/skin/eczema.jpg",
         content: `Eczema causes itchy and inflamed skin.
 
 Ayurvedic Treatment:
@@ -251,7 +145,7 @@ Ayurvedic Treatment:
       {
         slug: "leucoderma",
         name: "Leucoderma",
-        image: "/images/Diseases/leucoderma.jpg",
+        image: "/images/Diseases/skin/leukoderma.jpg",
         content: `Leucoderma causes white patches on skin.
 
 Ayurvedic Treatment:
@@ -262,7 +156,7 @@ Ayurvedic Treatment:
       {
         slug: "urticaria",
         name: "Urticaria",
-        image: "/images/Diseases/urticaria.jpg",
+        image: "/images/Diseases/skin/urticaria.jpg",
         content: `Urticaria causes itchy skin rashes.
 
 Ayurvedic Treatment:
@@ -277,12 +171,12 @@ Ayurvedic Treatment:
   {
     categorySlug: "gynae",
     categoryName: "Gynae Disorders",
-    image: "/images/Diseases/gynae.jpg",
+    image: "/images/Diseases/gynae.png",
     diseases: [
       {
         slug: "pcod",
         name: "PCOD",
-        image: "/images/Diseases/pcod.jpg",
+        image: "/images/Diseases/gynae/pcod.jpg",
         content: `PCOD is a hormonal imbalance condition.
 
 Ayurvedic Treatment:
@@ -293,7 +187,7 @@ Ayurvedic Treatment:
       {
         slug: "leucorrhea",
         name: "Leucorrhea",
-        image: "/images/Diseases/leucorrhea.jpg",
+        image: "/images/Diseases/gynae/leucorrhea.jpg",
         content: `Leucorrhea is abnormal vaginal discharge.
 
 Ayurvedic Treatment:
@@ -304,7 +198,7 @@ Ayurvedic Treatment:
       {
         slug: "menstrual-disorders",
         name: "Menstrual Disorders",
-        image: "/images/Diseases/menstrual.jpg",
+        image: "/images/Diseases/gynae/menstural.avif",
         content: `Menstrual disorders include irregular or painful periods.
 
 Ayurvedic Treatment:
@@ -319,7 +213,7 @@ Ayurvedic Treatment:
   {
     categorySlug: "renal",
     categoryName: "Renal Disorders",
-    image: "/images/Diseases/kidney.jpg",
+    image: "/images/Diseases/renal.webp",
     diseases: [
       {
         slug: "kidney-stone",
@@ -361,7 +255,7 @@ Ayurvedic Treatment:
   {
     categorySlug: "spondylitis",
     categoryName: "Spondylitis",
-    image: "/images/Diseases/spondylitis.jpg",
+    image: "/images/Diseases/spondylitis.webp",
     diseases: [
       {
         slug: "cervical-spondylitis",
@@ -392,7 +286,7 @@ Ayurvedic Treatment:
   {
     categorySlug: "joint-disorders",
     categoryName: "Joint & Uric Disorders",
-    image: "/images/Diseases/joint.jpg",
+    image: "/images/Diseases/uric.jpg",
     diseases: [
       {
         slug: "uric-acid",
@@ -434,7 +328,7 @@ Ayurvedic Treatment:
 {
   categorySlug: "endocrine",
   categoryName: "Endocrine",
-  image: "/images/Diseases/endocrine.jpg",
+  image: "/images/Diseases/endocrine.png",
   diseases: [
     {
       slug: "thyroid-disorder",
@@ -482,7 +376,7 @@ Ayurvedic Treatment:
 {
   categorySlug: "respiratory",
   categoryName: "Respiratory",
-  image: "/images/Diseases/respiratory.jpg",
+  image: "/images/Diseases/respirtory.png",
   diseases: [
     {
       slug: "asthma-respiratory",
@@ -530,7 +424,7 @@ Ayurvedic Treatment:
 {
   categorySlug: "hair-skin",
   categoryName: "Hair & Skin",
-  image: "/images/Diseases/hair-skin.jpg",
+  image: "/images/Diseases/hair-and-skin.png",
   diseases: [
     {
       slug: "hair-fall",
@@ -578,7 +472,7 @@ Ayurvedic Treatment:
 {
   categorySlug: "joint-pain",
   categoryName: "Joint Pain",
-  image: "/images/Diseases/joint-pain.jpg",
+  image: "/images/Diseases/joint-pain.png",
   diseases: [
     {
       slug: "arthritis-joint",

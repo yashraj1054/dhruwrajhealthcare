@@ -11,7 +11,7 @@ const Therapies = () => {
           Our Ayurvedic Therapies
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
           {therapies.map((therapy) => (
             <Link
               key={therapy.slug}
@@ -21,7 +21,7 @@ const Therapies = () => {
               <img
                 src={therapy.image}
                 alt={therapy.name}
-                className="w-full h-40 object-cover"
+                className="w-full h-52 object-cover"
               />
               <div className="p-5">
                 <h3 className="text-lg font-semibold text-[#C4531A]">
