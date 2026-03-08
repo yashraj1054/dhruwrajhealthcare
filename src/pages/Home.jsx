@@ -4,6 +4,8 @@ import { faqs } from "../data/faq";
 import { youtubeVideos } from "../data/youtubeVideos";
 import { Link } from "react-router-dom";
 
+import CountUp from "../hooks/CountUp";
+
 const Home = () => {
   const [openModal, setOpenModal] = useState(false);
   const [activeCategory, setActiveCategory] = useState("Diabetes");
@@ -13,51 +15,6 @@ const Home = () => {
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
 
-//   const currentTestimonials = testimonials[activeCategory] || [];
-
-//   // Reset slide on category change
-//   useEffect(() => {
-//     setCurrentIndex(0);
-//   }, [activeCategory]);
-
-//   // Auto slide
-//   useEffect(() => {
-//     if (!currentTestimonials.length) return;
-
-//     const auto = setInterval(() => {
-//       setCurrentIndex((prev) =>
-//         prev === currentTestimonials.length - 1 ? 0 : prev + 1,
-//       );
-//     }, 5000);
-
-//     return () => clearInterval(auto);
-//   }, [currentTestimonials]);
-
-//   // WhatsApp Submit
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-
-//     if (!consultation || !name || !mobile) {
-//       alert("Please fill all fields");
-//       return;
-//     }
-
-//     const message = `
-// New Appointment Request:
-
-// Consultation Type: ${consultation}
-// Patient Name: ${name}
-// Mobile Number: ${mobile}
-// `;
-
-//     const encodedMessage = encodeURIComponent(message);
-//     const whatsappNumber = "919795053040";
-
-//     window.open(
-//       `https://wa.me/${whatsappNumber}?text=${encodedMessage}`,
-//       "_blank",
-//     );
-//   };
 
 /* ---------------- NEW BOOKING STATES ---------------- */
   const [bookingData, setBookingData] = useState({
@@ -199,15 +156,15 @@ const Home = () => {
 
             <div className="flex gap-10 mt-10">
               <div>
-                <h3 className="text-2xl font-bold text-[#C4531A]">12+</h3>
+                <h3 className="text-2xl font-bold text-[#C4531A]"><CountUp end={12} />+</h3>
                 <p className="text-gray-600 text-sm">Years Experience</p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#C4531A]">5K+</h3>
+                <h3 className="text-2xl font-bold text-[#C4531A]"><CountUp end={8} />K+</h3>
                 <p className="text-gray-600 text-sm">Happy Patients</p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#C4531A]">20+</h3>
+                <h3 className="text-2xl font-bold text-[#C4531A]"><CountUp end={20} />+</h3>
                 <p className="text-gray-600 text-sm">Therapies Offered</p>
               </div>
             </div>
