@@ -13,14 +13,16 @@ export const products = [
     slug: "diabetes-care-juice",
     name: "Ayurvedic Diabetes Care Juice",
     category: "Diabetes",
+    productImage: "/images/Products/Diabetes/dc1.webp",
     originalPrice: 999,
     discount: 20,
     inStock: false,
 
     images: [
-      "/images/products/diabetes1.jpg",
-      "/images/products/diabetes2.jpg",
-      "/images/products/diabetes3.jpg",
+      "/images/Products/Diabetes/dc1.webp",
+      "/images/Products/Diabetes/dc2.webp",
+      "/images/Products/Diabetes/dc3.webp",
+      "/images/Products/Diabetes/dc4.webp",
     ],
 
     shortDescription:
@@ -41,7 +43,6 @@ export const products = [
     buyLinks: {
       amazon: "https://amazon.in/your-link",
       flipkart: "https://flipkart.com/your-link",
-      onemg: "https://1mg.com/your-link",
     },
   },
 
@@ -49,14 +50,17 @@ export const products = [
     id: 2,
     slug: "joint-pain-oil",
     name: "Joint Pain Relief Oil",
+    productImage: "/images/Products/JointPain/jointpain1.webp",
     category: "Joint Pain",
     originalPrice: 999,
     discount: 20,
     inStock: true,
 
     images: [
-      "/images/products/joint1.jpg",
-      "/images/products/joint2.jpg",
+      "/images/Products/JointPain/jointpain1.webp",
+      "/images/Products/JointPain/jointpain2.webp",
+      "/images/Products/JointPain/jointpain3.webp",
+      "/images/Products/JointPain/jointpain4.webp",
     ],
 
     shortDescription:
@@ -77,7 +81,6 @@ export const products = [
     buyLinks: {
       amazon: "https://amazon.in/your-link",
       flipkart: "https://flipkart.com/your-link",
-      onemg: "https://1mg.com/your-link",
     },
   },
 ];

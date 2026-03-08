@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { products } from "../data/products";
 
+import { FaAmazon } from "react-icons/fa";
+import { SiFlipkart } from "react-icons/si";
+// import { Si1Mg } from "react-icons/si";
+
 const ProductDetails = () => {
   const { slug } = useParams();
   const product = products.find((p) => p.slug === slug);
@@ -40,7 +44,7 @@ const ProductDetails = () => {
               className="rounded-3xl shadow-lg mb-6"
             />
 
-            <div className="flex gap-4">
+            <div className="flex gap-2">
               {product.images.map((img, index) => (
                 <img
                   key={index}
@@ -86,13 +90,15 @@ const ProductDetails = () => {
             {/* Buy Buttons */}
             <div className="flex flex-col gap-4">
 
+              <h3 className="font-semibold mb-3">Buy Links:</h3>
+
               <button
                 onClick={() =>
                   window.open(product.buyLinks.amazon, "_blank")
                 }
                 className="bg-[#C4531A] text-white py-3 rounded-full"
               >
-                Buy on Amazon
+              <FaAmazon className="inline ml-2" /> Amazon
               </button>
 
               <button
@@ -101,16 +107,7 @@ const ProductDetails = () => {
                 }
                 className="bg-blue-600 text-white py-3 rounded-full"
               >
-                Buy on Flipkart
-              </button>
-
-              <button
-                onClick={() =>
-                  window.open(product.buyLinks.onemg, "_blank")
-                }
-                className="bg-green-600 text-white py-3 rounded-full"
-              >
-                Buy on 1mg
+               <SiFlipkart className="inline ml-2" /> Flipkart 
               </button>
 
             </div>

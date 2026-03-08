@@ -80,7 +80,7 @@ const Store = () => {
 
                 {/* Product Image */}
                 <img
-                  src={product.image}
+                  src={product.productImage}
                   alt={product.name}
                   className={`h-60 w-full object-cover ${
                     !product.inStock ? "grayscale opacity-70" : ""
