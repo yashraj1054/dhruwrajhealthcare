@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { products, productCategories } from "../data/products";
+import { useNavigate } from "react-router-dom";
+
+
 
 const Store = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -10,6 +13,8 @@ const Store = () => {
       : products.filter(
           (product) => product.category === activeCategory
         );
+
+        const navigate = useNavigate();
 
   return (
     <section className="bg-[#FDFBF3] min-h-screen py-24">
@@ -59,16 +64,27 @@ const Store = () => {
                 key={product.id}
                 className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300 overflow-hidden flex flex-col relative"
               >
+                {/* OUT OF STOCK Badge */}
+                {!product.inStock && (
+                  <div className="absolute top-4 right-4 bg-gray-800 text-white text-xs font-bold px-3 py-1 rounded-full shadow z-10">
+                    Out of Stock
+                  </div>
+                )}
+
                 {/* Discount Badge */}
-                <div className="absolute top-4 left-4 bg-[#C4531A] text-white text-xs font-bold px-3 py-1 rounded-full shadow">
-                  {product.discount}% OFF
-                </div>
+                {product.inStock && (
+                  <div className="absolute top-4 left-4 bg-[#C4531A] text-white text-xs font-bold px-3 py-1 rounded-full shadow z-10">
+                    {product.discount}% OFF
+                  </div>
+                )}
 
                 {/* Product Image */}
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="h-full w-full object-cover"
+                  className={`h-60 w-full object-cover ${
+                    !product.inStock ? "grayscale opacity-70" : ""
+                  }`}
                 />
 
                 {/* Content */}
@@ -94,13 +110,19 @@ const Store = () => {
 
                   {/* Buy Button */}
                   <button
-                    onClick={() =>
-                      window.open(product.amazonLink, "_blank")
-                    }
-                    className="mt-auto bg-[#C4531A] text-white py-2 rounded-full hover:opacity-90 transition"
-                  >
-                    Buy on Amazon
-                  </button>
+  disabled={!product.inStock}
+  onClick={() =>
+    product.inStock &&
+    navigate(`/store/${product.slug}`)
+  }
+  className={`mt-auto py-2 rounded-full transition ${
+    product.inStock
+      ? "bg-[#C4531A] text-white hover:opacity-90"
+      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+  }`}
+>
+  {product.inStock ? "View Details" : "Currently Unavailable"}
+</button>
                 </div>
               </div>
             );

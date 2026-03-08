@@ -10,47 +10,74 @@ export const productCategories = [
 export const products = [
   {
     id: 1,
+    slug: "diabetes-care-juice",
     name: "Ayurvedic Diabetes Care Juice",
     category: "Diabetes",
-    image: "/images/products/diabetes.jpg",
-    originalPrice: 599,
-    discount: 20,
-    amazonLink: "https://www.amazon.in/your-product-link-1",
-  },
-  {
-    id: 2,
-    name: "Joint Pain Relief Oil",
-    category: "Joint Pain",
-    image: "/images/products/joint-oil.jpg",
-    originalPrice: 599,
-    discount: 20,
-    amazonLink: "https://www.amazon.in/your-product-link-2",
-  },
-  {
-    id: 3,
-    name: "Digestive Health Powder",
-    category: "Digestive",
-    image: "/images/products/digestive.jpg",
-    originalPrice: 599,
-    discount: 20,
-    amazonLink: "https://www.amazon.in/your-product-link-3",
-  },
-  {
-    id: 4,
-    name: "Herbal Skin Glow Pack",
-    category: "Skin Care",
-    image: "/images/products/skin.jpg",
-    originalPrice: 599,
-    discount: 20,
-    amazonLink: "https://www.amazon.in/your-product-link-4",
-  },
-  {
-    id: 5,
-    name: "Ashwagandha Immunity Booster",
-    category: "Immunity",
-    image: "/images/Products/ashwagandha.jpeg",
     originalPrice: 999,
     discount: 20,
-    amazonLink: "https://www.amazon.in/your-product-link-5",
+    inStock: false,
+
+    images: [
+      "/images/products/diabetes1.jpg",
+      "/images/products/diabetes2.jpg",
+      "/images/products/diabetes3.jpg",
+    ],
+
+    shortDescription:
+      "Supports healthy blood sugar levels naturally.",
+
+    description:
+      "Formulated using classical Ayurvedic herbs to support healthy glucose metabolism and improve overall vitality.",
+
+    benefits: [
+      "Supports blood sugar balance",
+      "Boosts metabolism",
+      "Improves energy levels",
+    ],
+
+    usage:
+      "Take 20ml twice daily after meals or as directed by physician.",
+
+    buyLinks: {
+      amazon: "https://amazon.in/your-link",
+      flipkart: "https://flipkart.com/your-link",
+      onemg: "https://1mg.com/your-link",
+    },
+  },
+
+  {
+    id: 2,
+    slug: "joint-pain-oil",
+    name: "Joint Pain Relief Oil",
+    category: "Joint Pain",
+    originalPrice: 999,
+    discount: 20,
+    inStock: true,
+
+    images: [
+      "/images/products/joint1.jpg",
+      "/images/products/joint2.jpg",
+    ],
+
+    shortDescription:
+      "Herbal oil for joint and muscle comfort.",
+
+    description:
+      "Traditional oil prepared with potent Ayurvedic herbs to relieve stiffness and discomfort.",
+
+    benefits: [
+      "Reduces stiffness",
+      "Improves flexibility",
+      "Natural pain support",
+    ],
+
+    usage:
+      "Apply gently on affected area twice daily.",
+
+    buyLinks: {
+      amazon: "https://amazon.in/your-link",
+      flipkart: "https://flipkart.com/your-link",
+      onemg: "https://1mg.com/your-link",
+    },
   },
 ];

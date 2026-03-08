@@ -52,22 +52,22 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="/diseases" className="hover:text-white">Diseases</a></li>
-            <li><a href="/therapies" className="hover:text-white">Therapies</a></li>
-            <li><a href="/health-tips" className="hover:text-white">Health Tips</a></li>
-            <li><a href="/testimonials" className="hover:text-white">Testimonials</a></li>
+            <li><a href="/diseases" className="hover:text-[#C4531A]">Diseases</a></li>
+            <li><a href="/therapies" className="hover:text-[#C4531A]">Therapies</a></li>
+            <li><a href="/health-tips" className="hover:text-[#C4531A]">Health Tips</a></li>
+            <li><a href="/testimonials" className="hover:text-[#C4531A]">Testimonials</a></li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
-          <p className="text-sm mb-2"><a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449">📍 Kanpur : 20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur, Uttar Pradesh 208002</a></p>
-          <p className="text-sm mb-2"><a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6">📍 Auraiya : H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>
-          <p className="text-sm mb-2">
-            📞 <a href="tel:+919795053040" className="hover:text-white">+91 97950 53040</a>
+          <p className="text-sm mb-2 ">📍 Kanpur : <a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449" className="hover:text-[#C4531A]">20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur, Uttar Pradesh 208002</a></p>
+          <p className="text-sm mb-2 ">📍 Auraiya : <a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6" className="hover:text-[#C4531A]">H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>
+          <p className="text-sm mb-2 ">
+            📞 Call Us : <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 97950 53040</a>
           </p>
-           <p className="text-sm">📧 E-mail : info@dhruwraj.com</p>
+           <p className="text-sm ">📧 E-mail : <a href="mailto:info@dhruwraj.com" className="hover:text-[#C4531A]">info@dhruwraj.com</a></p>
           <p className="text-sm">🕒 Mon – Sat | 4PM – 8PM</p>
         </div>
 
@@ -92,7 +92,8 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-700 mt-12 pt-6 text-center text-sm">
-        © {new Date().getFullYear()} Dhruwraj Healthcare. All Rights Reserved.
+        © {new Date().getFullYear()} Dhruwraj Healthcare. All Rights Reserved. 
+        <p>Designed & Developed by <a href="https://yashraj1054.github.io/Portfolio" className="text-[#C4531A] hover:text-[#ff5500]">Yashraj Singh</a></p>
       </div>
     </footer>
   );

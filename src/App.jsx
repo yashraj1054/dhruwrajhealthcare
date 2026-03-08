@@ -21,6 +21,7 @@ import DiseaseDetails from "./pages/DiseaseDetails";
 import HealthTips from "./pages/HealthTips";
 
 import Store from "./pages/Store";
+import ProductDetails from "./pages/ProductDetails";
 
 import OnlineBooking from "./pages/OnlineBooking";
 
@@ -60,6 +61,7 @@ function App() {
 
             {/* Store */}
             <Route path="/store" element={<Store />} />
+            <Route path="/store/:slug" element={<ProductDetails />} />
 
             {/* Online Booking */}
             <Route path="/book-appointment" element={<OnlineBooking />} />
