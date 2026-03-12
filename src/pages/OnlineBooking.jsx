@@ -17,12 +17,7 @@ const OnlineBooking = () => {
 
   // 🔴 MANUALLY BLOCK DOCTOR UNAVAILABLE DATES
   const blockedDates = [
-    "2026-03-02",
-    "2026-03-03",
-    "2026-03-04",
-    "2026-03-05",
-    "2026-03-06",
-    "2026-03-07",
+    "2026-03-12","2026-03-13",
   ];
 
   // 🔹 Disable past dates

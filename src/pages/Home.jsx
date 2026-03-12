@@ -11,6 +11,8 @@ const Home = () => {
   const [activeCategory, setActiveCategory] = useState("Diabetes");
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const [showPopup, setShowPopup] = useState(false);
+
   const [consultation, setConsultation] = useState("");
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
@@ -31,10 +33,19 @@ const Home = () => {
   const consultationFee = 500;
   const clinicNumber = "919795053040";
 
-  const blockedDates = ["2026-03-02", "2026-03-03", "2026-03-04"];
+  const blockedDates = ["2026-03-12","2026-03-13",];
   const today = new Date().toISOString().split("T")[0];
 
   const currentTestimonials = testimonials[activeCategory] || [];
+
+/* ---------------- POPUP LOGIC ---------------- */
+  useEffect(() => {
+  const timer = setTimeout(() => {
+    setShowPopup(true);
+  }, 800); // popup delay
+
+  return () => clearTimeout(timer);
+}, []);
 
   /* ---------------- TESTIMONIAL LOGIC ---------------- */
   useEffect(() => {
@@ -179,6 +190,53 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* ================= WEBSITE ENTRY POPUP ================= */}
+{showPopup && (
+  <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-[999] px-6">
+
+    <div className="bg-white rounded-3xl shadow-2xl max-w-md w-full relative overflow-hidden animate-fadeIn">
+
+      {/* Close Button */}
+      <button
+        onClick={() => setShowPopup(false)}
+        className="absolute top- right-4 text-2xl text-[#C4531A] hover:text-black"
+      >
+        ✕
+      </button>
+
+      {/* Image */}
+      <img
+        src="/images/popup-image.png"
+        alt="Consultation Offer"
+        className="w-full h-60 object-cover"
+      />
+
+      {/* Content */}
+      <div className="p-6 text-center">
+
+        <h3 className="text-2xl font-bold mb-2 text-[#C4531A]">
+          Book Your Consultation
+        </h3>
+
+        <p className="text-gray-600 mb-6">
+          Speak directly with our Ayurvedic expert and get personalized
+          treatment for your health concerns.
+        </p>
+
+        <Link
+          to="/book-appointment"
+          onClick={() => setShowPopup(false)}
+          className="inline-block bg-[#C4531A] text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition"
+        >
+          Book Appointment
+        </Link>
+
+      </div>
+
+    </div>
+  </div>
+)}
 
       {/* ================= HEALTH CATEGORY PREMIUM ================= */}
       <section className="bg-white py-24">
