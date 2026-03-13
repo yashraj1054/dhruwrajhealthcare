@@ -87,29 +87,15 @@ Regards
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
 
-          <p className="text-sm mb-2">
-          📍 Kanpur :
-          <a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449" className="hover:text-[#C4531A]">
-          20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur
-          </a>
-          </p>
+          <p className="text-sm mb-2">📍 Kanpur : <a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449" className="hover:text-[#C4531A]">20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur</a> </p>
           <p className="text-sm mb-2 ">📍 Auraiya : <a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6" className="hover:text-[#C4531A]">H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>           <p className="text-sm mb-2 "></p>
 
-          <p className="text-sm mb-2">
-          📞 Call Us :
-          <a href="tel:+919795053040" className="hover:text-[#C4531A]">
-          +91 97950 53040
-          </a>
-          </p>
+          <p className="text-sm mb-2">📞 Call Us : <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 97950 53040</a> or <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 97950 53040</a></p>
 
           <p className="text-sm mb-2">
-          📧 E-mail :
-          <a href="mailto:info@dhruwraj.com" className="hover:text-[#C4531A]">
-          info@dhruwraj.com
-          </a>
-          </p>
+          📧 E-mail : <a href="mailto:queries@dhruwraj.com" className="hover:text-[#C4531A]">queries@dhruwraj.com</a> </p>
 
-          <p className="text-sm">🕒 Mon – Sat | 4PM – 8PM</p>
+          <p className="text-sm">🕒 Timings : Mon – Sat | 4PM – 8PM</p>
         </div>
 
         {/* Newsletter */}

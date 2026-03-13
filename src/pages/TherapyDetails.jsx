@@ -49,7 +49,13 @@ Therapy Name: ${therapy.name}
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               {therapy.name}
+              {therapy.shloka && (
+                <span className="block text-sm mt-4 text-white italic">
+                  {therapy.shloka}
+                </span>
+              )}
             </h1>
+            
 
             <button
               onClick={handleBooking}

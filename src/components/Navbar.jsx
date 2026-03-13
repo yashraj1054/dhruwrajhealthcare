@@ -221,9 +221,9 @@ const Navbar = () => {
                   { name: "Panchkarma", href: "/therapy/panchkarma" },
                   { name: "Kati Basti", href: "/therapy/kati-basti" },
                   { name: "Janu Basti", href: "/therapy/janu-basti" },
-                  { name: "Basti Therapy", href: "/therapy/basti" },
-                  { name: "Kshar Sutra", href: "/therapy/kshar-sutra" },
-                  { name: "Ayurvedic Facial", href: "/therapy/ayurvedic-facial" }, 
+                  { name: "Akshitarpana", href: "/therapy/akshitarpana" },
+                  { name: "Udvartana", href: "/therapy/udvartana" },
+                  { name: "Karnapoorna", href: "/therapy/karnapoorna" }, 
 
                 ]}
               />

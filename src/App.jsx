@@ -25,9 +25,21 @@ import ProductDetails from "./pages/ProductDetails";
 
 import OnlineBooking from "./pages/OnlineBooking";
 
+import ScrollToTop from "./hooks/ScrollToTop";
+
+import NotFound from "./pages/NotFound";
+import ValidateSlug from "./hooks/ValidateSlug";
+
+import { therapies } from "./data/therapies";
+import { testimonials } from "./data/testimonials";
+import { services } from "./data/services";
+import { diseases } from "./data/diseases";
+import { products } from "./data/products";
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       {/* Main Layout */}
       <div className="flex flex-col min-h-screen bg-white">
         {/* Navbar */}
@@ -39,7 +51,9 @@ function App() {
 
             {/* Therapies */}
             <Route path="/therapies" element={<Therapies />} />
-            <Route path="/therapy/:slug" element={<TherapyDetails />} />
+            <Route path="/therapy/:slug" element={<ValidateSlug data={therapies} paramName="slug">
+      <TherapyDetails />
+    </ValidateSlug>} />
 
             {/* Testimonials */}
             <Route path="/testimonials" element={<Testimonials />} />
@@ -48,7 +62,7 @@ function App() {
             {/* Diseases */}
             <Route path="/diseases" element={<Diseases />} />
             <Route path="/diseases/:category" element={<CategoryDiseases />} />
-            <Route path="/diseases/:category/:slug" element={<DiseaseDetails />} />
+            <Route path="/diseases/:category/:slug" element={ <DiseaseDetails />} />
             
 
 
@@ -65,6 +79,9 @@ function App() {
 
             {/* Online Booking */}
             <Route path="/book-appointment" element={<OnlineBooking />} />
+
+            {/* 404 route */}
+            <Route path="*" element={<NotFound />} />
 
           </Routes>
         </main>

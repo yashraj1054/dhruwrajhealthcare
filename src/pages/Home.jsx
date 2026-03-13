@@ -298,10 +298,10 @@ const Home = () => {
   {[
     { name: "Shirodhara", img: "/images/Therapy/shirodhara.jpg", slug: "shirodhara" },
     { name: "Abhyanga", img: "/images/Therapy/abhyanga.jpg", slug: "abhyanga" },
-    { name: "Nasya", img: "/images/Therapy/nasya.jpg", slug: "nasya" },
+    { name: "Nasya", img: "/images/Therapy/nasya.avif", slug: "nasya" },
     { name: "Janu Basti", img: "/images/Therapy/janubasti.jpg", slug: "janu-basti" },
-    { name: "Kati Basti", img: "/images/Therapy/kati-basti.jpg", slug: "kati-basti" },
-    { name: "Ayurvedic Facial", img: "/images/Therapy/face-massage.jpg", slug: "ayurvedic-facial" },
+    { name: "Kati Basti", img: "/images/Therapy/katibasti.webp", slug: "kati-basti" },
+    { name: "Panchkarma", img: "/images/Therapy/panchkarma.jpg", slug: "panchkarma" },
   ].map((item, index) => (
     <Link
       key={index}
