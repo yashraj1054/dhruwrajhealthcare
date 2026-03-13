@@ -1,48 +1,19 @@
 // src/data/testimonials.js
 
 export const testimonials = {
-  Diabetes: [
-    
-    {
-      slug: "ayush-sharma",
-      name: "Ayush Sharma",
-      disease: "Diabetes",
-      issue: "Diabetes",
-      image: "/images/patient3.jpg",
-      description: `
-Ayush Sharma had uncontrolled diabetes.
-With regular consultation and herbal medicines,
-his condition improved significantly.
-      `,
-      youtubeId: ""
-    },
-    {
-      slug: "shlok-diwedi",
-      name: "Shlok Diwedi",
-      disease: "Diabetes",
-      issue: "Diabetes",
-      image: "/images/patient3.jpg",
-      description: `
-Shlok consulted for recurring diabetes complications.
-Ayurvedic therapy helped balance his sugar levels naturally.
-      `,
-      youtubeId: ""
-    }
-  ],
-
   "Joint Pain": [
     {
-      slug: "jatin-pal",
-      name: "Jatin Pal",
-      disease: "Diabetes",
+      slug: "anshu-gupta",
+      name: "Anshu Gupta",
+      disease: "Joint Pain",
       issue: "Knee Pain",
-      image: "/images/Patients/Joint/Jatin Pal .jpg",
+      image: "/images/Patients/Joint/anshugupta.png",
       description: `
-Jatin Pal was suffering from long-term knee pain and unstable sugar levels.
+Anshu Gupta was suffering from long-term knee pain and unstable sugar levels.
 After Ayurvedic treatment and personalized herbal therapy,
 his mobility improved and blood sugar levels stabilized.
       `,
-      youtubeId: "", 
+      youtubeId: "VIhiWYXwMOw", 
       gallery: [
     "/images/Patients/Joint/before1.jpg",
     "/images/Patients/Joint/after1.jpg"
@@ -64,18 +35,6 @@ pain reduced drastically.
     "/images/Patients/Joint/before1.jpg",
     "/images/Patients/Joint/after1.jpg"],
     },
-    {
-      slug: "ritik-gupta",
-      name: "Ritik Gupta",
-      disease: "Joint Pain",
-      issue: "Joint Stiffness",
-      image: "/images/Patients/Joint/JatinPall.jpg",
-      description: `
-Ritik had severe stiffness and mobility issues.
-With regular Abhyanga therapy, his condition improved.
-      `,
-      youtubeId: ""
-    }
   ],
 
   "Migraine Nerve": [
@@ -96,5 +55,6 @@ Nasya therapy provided long-term relief.
   Infertility: [],
   Skin: [],
   "Thyroid PCOD": [],
-  Respiratory: []
+  Respiratory: [],
+  Diabetes: [],
 };

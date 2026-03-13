@@ -82,7 +82,7 @@ const HealthTips = () => {
 
                 {/* Play Button Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-red-600 w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                  <div className="bg-white/80 w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition">
                     ▶
                   </div>
                 </div>

@@ -209,7 +209,7 @@ const Home = () => {
       <img
         src="/images/popup-image.png"
         alt="Consultation Offer"
-        className="w-full h-60 object-cover"
+        className="w-full h-60 object-fill"
       />
 
       {/* Content */}
