@@ -27,6 +27,12 @@ const TestimonialDetails = () => {
           <h1 className="text-4xl md:text-5xl font-bold">
             {patient.name}
           </h1>
+          <button
+          onClick={() => navigate("/testimonials")}
+          className="absolute top-6 left-6 z-20 bg-white/90 text-black backdrop-blur px-5 py-2 rounded-full shadow-md flex items-center gap-2 hover:bg-white transition"
+        >
+          ← Back to Testimonials
+        </button>
           <p className="mt-4 bg-[#C4531A] px-6 py-2 rounded-full">
             {patient.disease}
           </p>
@@ -35,12 +41,12 @@ const TestimonialDetails = () => {
 
       <div className="max-w-5xl mx-auto px-6 py-16">
 
-        <button
+        {/* <button
           onClick={() => navigate("/testimonials")}
           className="mb-8 text-[#C4531A]"
         >
-          ← Back to Testimonials
-        </button>
+          ← Back to 
+        </button> */}
 
         <p className="text-lg text-gray-700 mb-10 whitespace-pre-line">
           {patient.description}

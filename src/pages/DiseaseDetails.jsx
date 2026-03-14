@@ -27,16 +27,22 @@ const DiseaseDetails = () => {
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
           <h1 className="text-4xl font-bold">{disease.name}</h1>
+          <button
+          onClick={() => navigate("/diseases")}
+          className="absolute top-6 left-6 z-20 bg-white/90 text-black backdrop-blur px-5 py-2 rounded-full shadow-md flex items-center gap-2 hover:bg-white transition"
+        >
+          ← Back to Diseases
+        </button>
         </div>
       </div>
 
       <div className="max-w-5xl mx-auto px-6 py-16">
-        <button
+        {/* <button
           onClick={() => navigate("/diseases")}
           className="text-[#C4531A] mb-6"
         >
           ← Back to Diseases
-        </button>
+        </button> */}
 
         <p className="whitespace-pre-line text-lg text-gray-700">
           {disease.content}

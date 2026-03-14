@@ -40,6 +40,12 @@ Service: ${service.name}
           <h1 className="text-4xl md:text-5xl font-bold">
             {service.name}
           </h1>
+          <button
+          onClick={() => navigate("/services")}
+          className="absolute top-6 left-6 z-20 bg-white/90 text-black backdrop-blur px-5 py-2 rounded-full shadow-md flex items-center gap-2 hover:bg-white transition"
+        >
+          ← Back to Services
+        </button>
 
           <button
             onClick={handleBooking}
@@ -52,12 +58,12 @@ Service: ${service.name}
 
       <div className="max-w-5xl mx-auto px-6 py-16">
 
-        <button
+        {/* <button
           onClick={() => navigate("/services")}
           className="mb-8 text-[#C4531A]"
         >
           ← Back to Services
-        </button>
+        </button> */}
 
         <p className="text-lg text-gray-700 whitespace-pre-line">
           {service.description}

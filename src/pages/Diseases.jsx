@@ -34,6 +34,9 @@ const Diseases = () => {
                 <h2 className="text-2xl font-semibold text-gray-800">
                   {category.categoryName}
                 </h2>
+                <h4 className="text-2xl font-semibold text-gray-800">
+                  {category.categoryNameHindi}
+                </h4>
 
                 <p className="text-gray-500 mt-2">
                   {category.diseases.length} Conditions Covered

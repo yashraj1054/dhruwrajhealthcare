@@ -200,7 +200,8 @@ const Home = () => {
       {/* Close Button */}
       <button
         onClick={() => setShowPopup(false)}
-        className="absolute top- right-4 text-2xl text-[#C4531A] hover:text-black"
+        // className="absolute top- right-4 text-2xl text-[#C4531A] hover:text-black"
+        className="absolute cursor-pointer top-4 right-4 flex items-center justify-center w-8 h-8 rounded-full border-2 border-[#C4531A] text-xl  bg-[#C4531A] text-white transition-colors"
       >
         ✕
       </button>

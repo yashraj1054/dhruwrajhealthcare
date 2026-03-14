@@ -3,6 +3,7 @@ export const diseases = [
   {
     categorySlug: "lifestyle",
     categoryName: "Lifestyle Disorders",
+    categoryNameHindi: "जीवनशैली विकार",
     image: "/images/Diseases/lifestyle.jpg",
     diseases: [
       {

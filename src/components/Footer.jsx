@@ -87,10 +87,11 @@ Regards
         <div>
           <h4 className="text-white font-semibold mb-4">Contact</h4>
 
-          <p className="text-sm mb-2">📍 Kanpur : <a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449" className="hover:text-[#C4531A]">20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur</a> </p>
-          <p className="text-sm mb-2 ">📍 Auraiya : <a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6" className="hover:text-[#C4531A]">H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>           <p className="text-sm mb-2 "></p>
+          <p className="text-sm mb-2">📍 Kanpur : <a href="https://maps.app.goo.gl/LxW2B1RDZ5Wy9b449" className="hover:text-[#C4531A]">20, Zoo Rd, Vikas Nagar, Nawabganj, Kanpur, Uttar Pradesh 208002</a> </p>
+          <p className="text-sm mb-2 ">📍 Auraiya : <a href="https://maps.app.goo.gl/nwNg7y2Dg3B7GYFw6" className="hover:text-[#C4531A]">H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh 206244</a>  </p>
 
-          <p className="text-sm mb-2">📞 Call Us : <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 97950 53040</a> or <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 97950 53040</a></p>
+          <p className="text-sm mb-2">📞 Call Us : <a href="tel:+919795053040" className="hover:text-[#C4531A]">+91 9795053040</a> </p>
+          <p className="text-sm mb-2">☎️ Help Desk : <a href="tel:+919196053040" className="hover:text-[#C4531A]">+91 9196053040</a></p>
 
           <p className="text-sm mb-2">
           📧 E-mail : <a href="mailto:queries@dhruwraj.com" className="hover:text-[#C4531A]">queries@dhruwraj.com</a> </p>
