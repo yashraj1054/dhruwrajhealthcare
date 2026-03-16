@@ -17,6 +17,19 @@ const DiseaseDetails = () => {
     return <div className="p-20 text-center">Not Found</div>;
   }
 
+  const handleBooking = () => {
+    const message = `
+Hello, I would like to conusult for the following disease:
+
+Disease Name: ${disease.name}
+`;
+
+    const encoded = encodeURIComponent(message);
+    const number = "919795053040";
+
+    window.open(`https://wa.me/${number}?text=${encoded}`, "_blank");
+  };
+
   return (
     <section className="bg-[#FDFBF3] min-h-screen">
 
@@ -71,6 +84,27 @@ const DiseaseDetails = () => {
     ></iframe>
   </div>
 </div>
+<div className="bg-white rounded-3xl shadow-lg p-10">
+          <h2 className="text-2xl font-bold text-[#C4531A] mb-6">
+            Why Consult Us?
+          </h2>
+
+          <ul className="space-y-4 text-gray-700">
+            <li>✔ We Follow 100% Natural & Safe Procedure</li>
+            <li>✔ Performed by Experienced Ayurvedic Expert</li>
+            <li>✔ Personalized Treatment Approach</li>
+            <li>✔ Proven Holistic Healing Results</li>
+          </ul>
+
+          <div className="mt-10">
+            <button
+              onClick={handleBooking}
+              className="bg-[#C4531A] text-white px-8 py-3 rounded-full hover:opacity-90 transition"
+            >
+              Book Appointment Now
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
