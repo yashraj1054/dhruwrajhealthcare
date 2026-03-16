@@ -1,6 +1,22 @@
 import React, { useState } from "react";
 import { testimonials } from "../data/testimonials";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+
+<title>
+Patient Testimonials | Dhruwraj Healthcare
+</title>
+
+<meta
+name="description"
+content="Watch real patient testimonials and success stories of Ayurvedic treatments at Dhruwraj Healthcare."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/testimonials" />
+
+</Helmet>
 
 const Testimonials = () => {
   const [filter, setFilter] = useState("All");

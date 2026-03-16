@@ -2,6 +2,17 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { therapies } from "../data/therapies";
 
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+<title>{therapies.name} Treatment | Dhruwraj Healthcare</title>
+
+<meta
+name="description"
+content={`Learn about ${therapies.name} Ayurvedic therapy, its benefits, procedure and diseases it treats at Dhruwraj Healthcare.`}
+/>
+</Helmet>
+
 const TherapyDetails = () => {
   const { slug } = useParams();
   const navigate = useNavigate();

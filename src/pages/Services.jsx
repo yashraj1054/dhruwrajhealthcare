@@ -1,6 +1,21 @@
 import React from "react";
 import { services } from "../data/services";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+<Helmet>
+
+<title>
+Online Ayurvedic Consultation | Dhruwraj Healthcare
+</title>
+
+<meta
+name="description"
+content="Book online video consultation with Ayurvedic expert Dr R.K Pal for personalized Ayurvedic treatment."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/services" />
+
+</Helmet>
 
 const Services = () => {
   return (

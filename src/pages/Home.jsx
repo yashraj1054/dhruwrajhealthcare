@@ -6,6 +6,27 @@ import { Link } from "react-router-dom";
 
 import CountUp from "../hooks/CountUp";
 
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+<title>Dhruwraj Healthcare | Ayurvedic Doctor & Panchkarma Treatment</title>
+
+<meta
+name="description"
+content="Dhruwraj Healthcare provides authentic Ayurvedic treatment, Panchkarma therapy, online consultation and disease specific Ayurvedic treatment by Dr R.K Pal."
+/>
+
+<meta
+name="keywords"
+content="Ayurvedic doctor Kanpur, Panchkarma treatment, Ayurveda clinic Kanpur, natural treatment"
+/>
+
+<meta property="og:title" content="Dhruwraj Healthcare"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://dhruwraj.com"/>
+<meta property="og:image" content="/images/brandphoto.png"/>
+</Helmet>
+
 const Home = () => {
   const [openModal, setOpenModal] = useState(false);
   const [activeCategory, setActiveCategory] = useState("Diabetes");

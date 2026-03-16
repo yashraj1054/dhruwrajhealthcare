@@ -1,5 +1,20 @@
 import React, { useState } from "react";
 import { healthTips } from "../data/healthTips";
+import { Helmet } from "react-helmet-async";
+<Helmet>
+
+<title>
+Ayurvedic Health Tips & Natural Remedies
+</title>
+
+<meta
+name="description"
+content="Learn natural Ayurvedic health tips, home remedies and lifestyle guidance for better health."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/health-tips" />
+
+</Helmet>
 
 const HealthTips = () => {
   const [filter, setFilter] = useState("All");

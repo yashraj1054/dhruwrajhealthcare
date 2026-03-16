@@ -1,6 +1,21 @@
 import React from "react";
 import { therapies } from "../data/therapies";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+<Helmet>
+
+<title>
+Panchkarma Therapy in Kanpur | Ayurvedic Treatments
+</title>
+
+<meta
+name="description"
+content="Experience authentic Panchkarma therapies like Shirodhara, Nasya and Abhyanga at Dhruwraj Healthcare Ayurvedic clinic."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/therapies" />
+
+</Helmet>
 
 const Therapies = () => {
   return (

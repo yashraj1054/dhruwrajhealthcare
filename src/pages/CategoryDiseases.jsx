@@ -58,7 +58,7 @@ const CategoryDiseases = () => {
 
               <div className="p-6">
                 <h2 className="text-xl font-semibold text-gray-800">
-                  {disease.name}
+                  {disease.name} ( {disease.nameHindi} )
                 </h2>
 
                 <p className="text-gray-500 mt-2">

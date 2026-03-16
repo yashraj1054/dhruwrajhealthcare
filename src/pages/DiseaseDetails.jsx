@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { diseases } from "../data/diseases";
+import ReactMarkdown from 'react-markdown'
 
 const DiseaseDetails = () => {
   const { category, slug } = useParams();
@@ -17,7 +18,7 @@ const DiseaseDetails = () => {
   }
 
   return (
-    <section className="bg-white min-h-screen">
+    <section className="bg-[#FDFBF3] min-h-screen">
 
       <div className="relative h-[60vh]">
         <img
@@ -25,13 +26,14 @@ const DiseaseDetails = () => {
           alt={disease.name}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white">
-          <h1 className="text-4xl font-bold">{disease.name}</h1>
+        <div className="absolute inset-0 bg-black/50 flex flex-col gap-1 items-center justify-center text-white">
+          <h1 className="text-4xl font-bold text-center">{disease.name}</h1>
+          <h4 className="text-xl font-bold text-center">{disease.nameHindi}</h4>
           <button
-          onClick={() => navigate("/diseases")}
+          onClick={() => navigate(`/diseases/${category}`)}
           className="absolute top-6 left-6 z-20 bg-white/90 text-black backdrop-blur px-5 py-2 rounded-full shadow-md flex items-center gap-2 hover:bg-white transition"
         >
-          ← Back to Diseases
+          ← Back to {categoryData.categoryName}
         </button>
         </div>
       </div>
@@ -45,8 +47,30 @@ const DiseaseDetails = () => {
         </button> */}
 
         <p className="whitespace-pre-line text-lg text-gray-700">
-          {disease.content}
+          <div className="prose prose-slate max-w-none">
+  <ReactMarkdown>
+    {disease.content}
+  </ReactMarkdown>
+</div>
         </p>
+        <div className="flex flex-row gap-4 mt-4 overflow-x-auto pb-2">
+  <div className="aspect-video w-1/2">
+    <iframe
+      className="w-full h-full rounded-2xl"
+      src={`https://www.youtube.com/embed/${disease.patient1_youtubeId}`}
+      title="Patient Testimonial 1"
+      allowFullScreen
+    ></iframe>
+  </div>
+  <div className="aspect-video w-1/2">
+    <iframe
+      className="w-full h-full rounded-2xl"
+      src={`https://www.youtube.com/embed/${disease.patient2_youtubeId}`}
+      title="Patient Testimonial 2"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
       </div>
     </section>
   );

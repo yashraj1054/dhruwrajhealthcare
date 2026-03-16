@@ -1,5 +1,21 @@
 import { Link } from "react-router-dom";
 import { diseases } from "../data/diseases";
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+
+<title>
+Ayurvedic Treatment for Diseases | Dhruwraj Healthcare
+</title>
+
+<meta
+name="description"
+content="Explore Ayurvedic treatment for diabetes, thyroid, joint pain, skin diseases and other chronic conditions at Dhruwraj Healthcare."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/diseases" />
+
+</Helmet>
 
 const Diseases = () => {
   return (
@@ -35,7 +51,7 @@ const Diseases = () => {
                   {category.categoryName}
                 </h2>
                 <h4 className="text-2xl font-semibold text-gray-800">
-                  {category.categoryNameHindi}
+                  ( {category.categoryNameHindi} )
                 </h4>
 
                 <p className="text-gray-500 mt-2">

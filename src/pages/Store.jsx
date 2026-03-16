@@ -1,8 +1,21 @@
 import React, { useState } from "react";
 import { products, productCategories } from "../data/products";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async"; 
+<Helmet>
 
+<title>
+Ayurvedic Products Store | Natural Herbal Medicines
+</title>
 
+<meta
+name="description"
+content="Buy recommended Ayurvedic medicines, herbal supplements and natural health products from Dhruwraj Healthcare store."
+/>
+
+<link rel="canonical" href="https://dhruwraj.com/store" />
+
+</Helmet>
 
 const Store = () => {
   const [activeCategory, setActiveCategory] = useState("All");
