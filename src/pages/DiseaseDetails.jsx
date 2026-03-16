@@ -74,6 +74,7 @@ Disease Name: ${disease.name}
       title="Patient Testimonial 1"
       allowFullScreen
     ></iframe>
+    <p className="text-right  text-[#C4531A] mt-2"><a href="/testimonials">and Many More Happy Patients - View All</a></p>
   </div>
 
 <div className="bg-white rounded-3xl shadow-lg p-10 mt-4">

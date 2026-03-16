@@ -20,6 +20,9 @@ import DiseaseDetails from "./pages/DiseaseDetails";
 
 import HealthTips from "./pages/HealthTips";
 
+import Blogs from "./pages/Blogs";
+import BlogDetails from "./pages/BlogDetails";
+
 import Store from "./pages/Store";
 import ProductDetails from "./pages/ProductDetails";
 
@@ -31,6 +34,9 @@ import NotFound from "./pages/NotFound";
 import ValidateSlug from "./hooks/ValidateSlug";
 
 import { therapies } from "./data/therapies";
+
+import MeetDoctor from "./pages/MeetDoctor";
+
 import { testimonials } from "./data/testimonials";
 import { services } from "./data/services";
 import { diseases } from "./data/diseases";
@@ -69,6 +75,10 @@ function App() {
             {/* Health Tips */}
             <Route path="/health-tips" element={<HealthTips />} />
 
+            {/* Blogs */}
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogDetails />} />
+
             {/* Services */}
             <Route path="/services" element={<Services />} />
             <Route path="/services/:slug" element={<ServiceDetails />} />
@@ -82,6 +92,9 @@ function App() {
 
             {/* 404 route */}
             <Route path="*" element={<NotFound />} />
+
+{/* Our Doctor*/}
+<Route path="/meet-doctor" element={<MeetDoctor />} />
 
           </Routes>
         </main>

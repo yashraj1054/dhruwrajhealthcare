@@ -229,7 +229,7 @@ const Home = () => {
 
       {/* Image */}
       <img
-        src="/images/popup-image.png"
+        src="/images/popup-img.png"
         alt="Consultation Offer"
         className="w-full h-60 object-fill"
       />
@@ -411,7 +411,7 @@ const Home = () => {
           />
 
           <div>
-            <h2 className="text-3xl font-bold mb-1">Meet Dr. R.K Pal</h2>
+            <h2 className="text-3xl text-[#C4531A] font-bold mb-1"><a href="/meet-doctor"> Meet Dr. R.K Pal</a></h2>
             <h3 className="text-lg font-medium text-[#000000] mb-2">
               ( BAMS, C.A.R.D (Mumbai), M.D. - Panchkarma, Phd. (Sch.) )
             </h3>

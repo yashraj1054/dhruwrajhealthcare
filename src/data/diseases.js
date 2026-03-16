@@ -14,7 +14,9 @@ export const diseases = [
   image: "/images/Diseases/lifestyle/hypertension.webp",
   content: `### ***What is Hypertension ??***
 
-Hypertension is a **"silent killer"** where the force of the blood against your artery walls is consistently too high. In Ayurveda, this is known as **Rakta Chapa** or **Vyata Vata**. It is viewed as an imbalance where the blood (**Rakta**) is pressurized by aggravated **Vata and Pitta** doshas, often leading to **'Dhamani Praticaya'** (hardening of the arteries) which forces the heart to overwork.
+Hypertension is a **"silent killer"** where the force of the blood against your artery walls is consistently too high. 
+
+In Ayurveda, this is known as **Rakta Chapa** or **Vyata Vata**. It is viewed as an imbalance where the blood (**Rakta**) is pressurized by aggravated **Vata and Pitta** doshas, often leading to **'Dhamani Praticaya'** (hardening of the arteries) which forces the heart to overwork.
 
 ### **Causes :-**
 
@@ -57,57 +59,188 @@ Anshu Gupta was suffering from long-term knee pain and unstable sugar levels.
 After Ayurvedic treatment and personalized herbal therapy,
 his mobility improved and blood sugar levels stabilized.`,
 patient1_youtubeId: "VIhiWYXwMOw",
-patient2_youtubeId: "VIhiWYXwMOw",
 
 },
-    {
-      slug: "diabetes",
-      name: "Diabetes",
-      nameHindi: "मधुमेह",
-      image: "/images/Diseases/lifestyle/diabetes.jpg",
-      content: `Diabetes is a chronic metabolic disorder where the body cannot effectively regulate blood glucose levels. In Ayurveda, it is classified under 'Prameha,' primarily caused by an imbalance in Kapha Dosha and a weakened 'Agni' (metabolic fire), leading to the accumulation of toxins in the urinary tract and blood.
+  {
+  slug: "diabetes",
+  name: "Diabetes",
+  nameHindi: "मधुमेह",
+  image: "/images/Diseases/lifestyle/diabetes.jpg",
 
-Ayurvedic Treatment & Management:
-• Herbal Therapy: Use of bitter herbs like Neem, Karela (Bitter Gourd), and Vijaysar to enhance insulin sensitivity.
-• Chandraprabha Vati: A key formulation to manage urinary symptoms and rejuvenate the kidneys.
-• Pathya (Diet): Shifting to a low-glycemic diet including barley (Yava), millets, and strictly avoiding processed sugars and sedentary habits.`,
-    },
-    {
-      slug: "high-bp",
-      name: "High Blood Pressure",
-      nameHindi: "उच्च रक्तचाप",
-      image: "/images/Diseases/lifestyle/highbp.avif",
-      content: `High Blood Pressure (Hypertension) occurs when the force of the blood against artery walls is too high. Ayurveda views this as an imbalance of 'Vyata Vata' and 'Rakta Dhatu.' Stress, poor diet, and lack of sleep cause the circulatory channels to narrow and harden.
+  content: `### ***What is Diabetes ??***
 
-Ayurvedic Treatment & Management:
-• Medhya Rasayana: Stress-relieving herbs like Ashwagandha and Brahmi to calm the nervous system and lower pressure.
-• Sarpagandha: A potent herb used specifically to regulate heart rate and vascular tone.
-• Lifestyle: Practicing Shavasana (Corpse Pose) and Anulom-Vilom Pranayama daily to improve arterial elasticity and reduce mental tension.`,
-    },
-    {
-      slug: "thyroid",
-      name: "Thyroid Disorder",
-      nameHindi: "थायराइड विकार",
-      image: "/images/Diseases/lifestyle/thyroid.jpg",
-      content: `Thyroid disorders involve the underactivity (Hypothyroidism) or overactivity (Hyperthyroidism) of the thyroid gland, affecting overall metabolism. It is often linked to an imbalance in the 'Vishuddha Chakra' and 'Dhatu Agni' (tissue metabolism), leading to weight changes, fatigue, and hormonal shifts.
+Diabetes is a chronic metabolic disorder where the body cannot properly regulate **blood glucose (sugar) levels**. This happens either because the pancreas does not produce enough **insulin** or the body cannot effectively use the insulin it produces.
 
-Ayurvedic Treatment & Management:
-• Kanchanar Guggulu: The primary Ayurvedic formulation used to treat glandular swellings and balance thyroid secretions.
-• Nasya Therapy: Administering medicated oils through the nasal passage to stimulate the endocrine glands.
-• Iodine-Rich Diet: Incorporating seaweed, coconut oil, and specific 'Ushna' (warming) spices like ginger and black pepper to stimulate a sluggish metabolism.`,
-    },
-    {
-      slug: "obesity",
-      name: "Obesity",
-      nameHindi: "मोटापा",
-      image: "/images/Diseases/lifestyle/obesity.png",
-      content: `Obesity is the excessive accumulation of 'Medas' (fat tissue) that blocks the body's channels (Srotas). This blockage prevents nutrition from reaching other tissues while causing the fat layer to grow uncontrollably. It is characterized by low energy and increased hunger despite high calorie intake.
+In Ayurveda, diabetes is known as **Madhumeha**, which falls under the category of **Prameha** disorders. It occurs due to an imbalance in **Kapha Dosha**, weakened **Agni (digestive fire)**, and accumulation of toxins (**Ama**) that disturb glucose metabolism.
 
-Ayurvedic Treatment & Management:
-• Udvartana: A specialized dry powder massage using herbal powders (like Triphala) to "scrape" away subcutaneous fat and improve circulation.
-• Lekhaniya Mahakashaya: A group of 10 "scraping" herbs that help metabolize fat and clear blockages in the channels.
-• Langhana (Fasting/Lightness): Adopting a diet of honey-water, steamed vegetables, and honey to naturally reduce Kapha and fat.`,
-    },
+### **Causes :-**
+
+• **Poor Diet:** Excessive intake of sweets, refined carbohydrates, and processed foods.
+• **Sedentary Lifestyle:** Lack of physical activity leading to metabolic imbalance.
+• **Obesity:** Excess accumulation of **Medas (fat tissue)**.
+• **Genetic Factors:** Family history increases the risk.
+• **Stress:** Mental stress disturbs hormonal balance and metabolism.
+
+### **Symptoms :-**
+
+• **Frequent Urination (Prabhuta Mutrata)**
+• **Excessive Thirst (Trishna)**
+• **Fatigue and Weakness**
+• **Slow Healing of Wounds**
+• **Blurred Vision**
+• **Unexplained Weight Loss**
+
+### **Ayurvedic Treatment :-**
+
+• **Herbal Blood Sugar Regulators:** Herbs like **Neem, Karela (Bitter Gourd), Vijaysar, and Gudmar** help regulate glucose levels.
+• **Chandraprabha Vati:** Supports kidney health and improves urinary symptoms.
+• **Meshashringi (Gudmar):** Known as the **“sugar destroyer”** for its ability to regulate glucose absorption.
+• **Triphala:** Helps detoxify the body and improve metabolism.
+
+### **Panchkarma Therapy :-**
+
+• **Virechana:** Detoxifies excess **Pitta and toxins** from the body.
+• **Basti:** Medicated enemas to balance **Vata and metabolism**.
+• **Udwartana:** Herbal powder massage that helps reduce obesity and Kapha.
+
+### **Diet Recommendations :-**
+
+• **Include:** Barley (**Yava**), Millets, Bitter Gourd, Fenugreek seeds, Green vegetables.
+• **Avoid:** Refined sugar, sweets, fried foods, and packaged snacks.
+• **Healthy Drinks:** **Neem juice, Amla juice, and Fenugreek water** help regulate blood sugar.
+
+### **Patient Testimonial :-**
+
+`,
+
+description: `
+Ramesh Verma had uncontrolled blood sugar levels for several years.
+After following Ayurvedic herbal therapy and lifestyle correction,
+his glucose levels stabilized and overall energy significantly improved.
+`,
+
+patient1_youtubeId: "VIhiWYXwMOw"
+},
+    {
+slug: "thyroid",
+name: "Thyroid Disorder",
+nameHindi: "थायराइड विकार",
+image: "/images/Diseases/lifestyle/thyroid.jpg",
+
+content: `### ***What is Thyroid Disorder ??***
+
+Thyroid disorders occur when the **thyroid gland**, located in the front of the neck, produces either too much or too little thyroid hormone. These hormones regulate the body's **metabolism, energy production, and temperature balance**.
+
+There are two common types of thyroid disorders:
+• **Hypothyroidism** – When the thyroid gland produces insufficient hormones, causing slow metabolism.
+• **Hyperthyroidism** – When the thyroid gland produces excess hormones, speeding up metabolism.
+
+In Ayurveda, thyroid imbalance is associated with disturbances in **Agni (metabolic fire)** and the **Vishuddha Chakra**, along with imbalance in **Kapha and Vata doshas**. When metabolic fire becomes weak, the body's tissues (**Dhatus**) cannot function properly, leading to hormonal imbalance.
+
+### **Causes :-**
+
+• **Hormonal Imbalance:** Dysfunction of the thyroid gland affecting hormone production.
+• **Autoimmune Disorders:** Conditions like Hashimoto’s thyroiditis or Graves’ disease.
+• **Poor Diet:** Iodine deficiency or excessive consumption of processed foods.
+• **Stress:** Chronic stress disrupts endocrine gland function.
+• **Genetics:** Family history of thyroid disorders increases risk.
+
+### **Symptoms :-**
+
+• **Unexplained Weight Gain or Weight Loss**
+• **Fatigue and Weakness**
+• **Hair Loss and Dry Skin**
+• **Mood Changes and Irritability**
+• **Irregular Menstrual Cycles**
+• **Cold or Heat Intolerance**
+
+### **Ayurvedic Treatment :-**
+
+• **Kanchanar Guggulu:** The most important Ayurvedic formulation used to reduce glandular swelling and balance thyroid function.
+• **Ashwagandha:** Helps regulate thyroid hormone levels and improve energy.
+• **Varun and Punarnava:** Support detoxification and improve glandular health.
+• **Triphala:** Enhances digestion and removes toxins (Ama) from the body.
+
+### **Panchkarma Therapy :-**
+
+• **Nasya Therapy:** Medicated oils administered through the nasal passage to stimulate endocrine glands and improve hormonal balance.
+• **Virechana:** Detoxification therapy that removes excess **Pitta** and improves metabolism.
+• **Abhyanga:** Herbal oil massage to balance **Vata dosha** and improve circulation.
+
+### **Diet Recommendations :-**
+
+• **Include:** Iodine-rich foods, coconut oil, pumpkin seeds, and fresh vegetables.
+• **Avoid:** Processed foods, excessive soy products, and refined sugars.
+• **Healthy Herbs:** Ginger, turmeric, black pepper, and cinnamon to stimulate metabolism.
+• **Hydration:** Warm herbal teas like **Triphala tea or ginger tea** improve digestion.
+
+### **Patient Testimonial :-**
+
+`,
+
+description: `Priya Sharma experienced severe fatigue, weight gain, and hormonal imbalance due to thyroid dysfunction.  
+After Ayurvedic herbal therapy and lifestyle correction, her thyroid levels gradually normalized and her overall energy significantly improved.`,
+
+patient1_youtubeId: "VIhiWYXwMOw"
+}
+,
+    {
+slug: "obesity",
+name: "Obesity",
+nameHindi: "मोटापा",
+image: "/images/Diseases/lifestyle/obesity.png",
+
+content: `### ***What is Obesity ??***
+
+Obesity is a medical condition characterized by excessive accumulation of **body fat**, which increases the risk of many health problems such as diabetes, heart disease, and joint disorders.
+
+In Ayurveda, obesity is known as **Sthaulya**. It occurs due to excessive accumulation of **Medas Dhatu (fat tissue)** and aggravation of **Kapha Dosha**. This leads to blockage in the body's channels (**Srotas**), slowing down metabolism and causing abnormal fat deposition.
+
+### **Causes :-**
+
+• **Overeating:** Excessive intake of fatty, sugary, and processed foods.
+• **Sedentary Lifestyle:** Lack of exercise and physical activity.
+• **Hormonal Imbalance:** Thyroid disorders and metabolic dysfunction.
+• **Poor Digestion:** Weak **Agni (digestive fire)** leading to toxin formation (**Ama**).
+• **Stress and Emotional Eating:** Psychological factors that trigger overeating.
+
+### **Symptoms :-**
+
+• **Excess Body Weight and Fat Accumulation**
+• **Shortness of Breath During Physical Activity**
+• **Low Energy and Fatigue**
+• **Joint Pain and Mobility Issues**
+• **Increased Hunger and Slow Metabolism**
+
+### **Ayurvedic Treatment :-**
+
+• **Triphala:** Helps detoxify the body and improve metabolism.
+• **Guggulu Preparations:** Such as **Medohar Guggulu** to reduce excess fat tissue.
+• **Honey Therapy:** Honey is considered **Medo-Hara** (fat-reducing) in Ayurveda.
+• **Herbal Formulations:** Use of **Punarnava, Musta, and Vidanga** to balance Kapha and burn fat.
+
+### **Panchkarma Therapy :-**
+
+• **Udvartana:** A specialized dry herbal powder massage that reduces fat and improves circulation.
+• **Virechana:** Detoxification therapy to remove excess toxins and balance metabolism.
+• **Basti:** Medicated enemas that help regulate digestive fire and metabolic balance.
+
+### **Diet Recommendations :-**
+
+• **Include:** Barley (Yava), green vegetables, lentils, and warm herbal teas.
+• **Avoid:** Fried foods, sugary snacks, dairy excess, and refined carbohydrates.
+• **Healthy Drinks:** Warm lemon water with honey in the morning to stimulate metabolism.
+• **Lifestyle:** Regular exercise, yoga, and brisk walking to burn excess fat.
+
+### **Patient Testimonial :-**
+
+`,
+
+description: `Amit Singh struggled with long-term obesity and low energy levels.  
+After Ayurvedic detox therapies, herbal medicines, and dietary corrections, he experienced healthy weight loss and improved vitality.`,
+
+patient1_youtubeId: "VIhiWYXwMOw"
+},
   ],
 },
 
@@ -144,50 +277,6 @@ Ayurvedic Treatment:
   },
 
   // 3️⃣ Digestive Disorders
-//   {
-//     categorySlug: "digestive",
-//     categoryName: "Digestive Disorders",
-//     categoryNameHindi: "पाचन विकार",
-//     image: "/images/Diseases/digestive.png",
-//     diseases: [
-//       {
-//         slug: "piles",
-//         name: "Piles",
-//         nameHindi: "बवासीर",
-//         image: "/images/Diseases/digestive/Piles.jpg",
-//         content: `Piles are swollen veins in the rectum.
-
-// Ayurvedic Treatment:
-// • Kshar sutra therapy
-// • Herbal medicines
-// • Diet regulation`,
-//       },
-//       {
-//         slug: "fissure",
-//         name: "Fissure",
-//         nameHindi: "फिशर",
-//         image: "/images/Diseases/digestive/fissure.webp",
-//         content: `Anal fissure is a small tear in the lining of the anus.
-
-// Ayurvedic Treatment:
-// • Herbal healing oils
-// • Sitz bath
-// • Fiber-rich diet`,
-//       },
-//       {
-//         slug: "fistula",
-//         name: "Fistula",
-//         nameHindi: "फिस्टुला",
-//         image: "/images/Diseases/fistula.jpg",
-//         content: `Fistula is an abnormal connection between organs.
-
-// Ayurvedic Treatment:
-// • Kshar sutra
-// • Detox therapy
-// • Infection control herbs`,
-//       },
-//     ],
-//   },
 {
   categorySlug: "digestive",
   categoryName: "Digestive Disorders",

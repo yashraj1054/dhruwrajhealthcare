@@ -246,9 +246,15 @@ const Navbar = () => {
                 Health Tips
               </Link>
 
+              <Link to="/blogs" className="hover:text-gray-600">
+                Blogs
+              </Link>
+
               <Link to="/store" className="hover:text-gray-600">
                 Store
               </Link>
+
+              
 
               {/* Appointment Button */}
               <a
@@ -438,6 +444,11 @@ const Navbar = () => {
       HEALTH TIPS
     </a>
 
+    <a href="/blogs" className="block">
+      BLOGS
+    </a>
+
+
     <a href="/testimonials" className="block">
       TESTIMONIALS
     </a>
@@ -445,6 +456,8 @@ const Navbar = () => {
     <a href="/store" className="block">
       STORE
     </a>
+
+
 
      {/* Booking Appointmenr */}
     <div className="pt-8 flex flex-col gap-4 items-center">
