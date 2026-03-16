@@ -66,8 +66,8 @@ Disease Name: ${disease.name}
   </ReactMarkdown>
 </div>
         </p>
-        <div className="flex flex-row gap-4 mt-4 overflow-x-auto pb-2">
-  <div className="aspect-video w-1/2">
+       
+  <div className="aspect-video mt-2">
     <iframe
       className="w-full h-full rounded-2xl"
       src={`https://www.youtube.com/embed/${disease.patient1_youtubeId}`}
@@ -75,16 +75,8 @@ Disease Name: ${disease.name}
       allowFullScreen
     ></iframe>
   </div>
-  <div className="aspect-video w-1/2">
-    <iframe
-      className="w-full h-full rounded-2xl"
-      src={`https://www.youtube.com/embed/${disease.patient2_youtubeId}`}
-      title="Patient Testimonial 2"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
-<div className="bg-white rounded-3xl shadow-lg p-10">
+
+<div className="bg-white rounded-3xl shadow-lg p-10 mt-4">
           <h2 className="text-2xl font-bold text-[#C4531A] mb-6">
             Why Consult Us?
           </h2>
