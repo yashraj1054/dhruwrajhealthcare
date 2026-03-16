@@ -109,15 +109,6 @@ Therapy Name: ${therapy.name}
 
       </div>
 
-      {/* MOBILE STICKY BUTTON */}
-      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-white shadow-lg p-4">
-        <button
-          onClick={handleBooking}
-          className="w-full bg-[#C4531A] text-white py-3 rounded-full font-semibold"
-        >
-          Book This Therapy
-        </button>
-      </div>
 
     </section>
   );
