@@ -24,7 +24,7 @@ const MeetDoctor = () => {
           {/* Doctor Image */}
           <div className="flex justify-center">
             <img
-              src="/images/doctor2.jpg"
+              src="/images/doctor3.jpg"
               alt="Dr RK Pal"
               className="rounded-3xl shadow-xl w-full max-w-md object-cover"
             />
