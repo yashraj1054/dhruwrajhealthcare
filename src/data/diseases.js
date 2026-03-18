@@ -51,8 +51,6 @@ In Ayurveda, this is known as **Rakta Chapa** or **Vyata Vata**. It is viewed as
 • **Reduce:** Strict restriction of **table salt**, pickles, papads, and processed snacks.
 • **Fluid Intake:** Drinking **coriander-infused water** or coconut water to keep the system cool.
 
-### **Patient Testimonial :-**
-
 `,
 description: `
 Anshu Gupta was suffering from long-term knee pain and unstable sugar levels.
@@ -109,17 +107,7 @@ In Ayurveda, diabetes is known as **Madhumeha**, which falls under the category 
 • **Avoid:** Refined sugar, sweets, fried foods, and packaged snacks.
 • **Healthy Drinks:** **Neem juice, Amla juice, and Fenugreek water** help regulate blood sugar.
 
-### **Patient Testimonial :-**
-
 `,
-
-description: `
-Ramesh Verma had uncontrolled blood sugar levels for several years.
-After following Ayurvedic herbal therapy and lifestyle correction,
-his glucose levels stabilized and overall energy significantly improved.
-`,
-
-patient1_youtubeId: "VIhiWYXwMOw"
 },
     {
 slug: "thyroid",
@@ -174,14 +162,8 @@ In Ayurveda, thyroid imbalance is associated with disturbances in **Agni (metabo
 • **Healthy Herbs:** Ginger, turmeric, black pepper, and cinnamon to stimulate metabolism.
 • **Hydration:** Warm herbal teas like **Triphala tea or ginger tea** improve digestion.
 
-### **Patient Testimonial :-**
 
 `,
-
-description: `Priya Sharma experienced severe fatigue, weight gain, and hormonal imbalance due to thyroid dysfunction.  
-After Ayurvedic herbal therapy and lifestyle correction, her thyroid levels gradually normalized and her overall energy significantly improved.`,
-
-patient1_youtubeId: "VIhiWYXwMOw"
 }
 ,
     {
@@ -231,47 +213,173 @@ In Ayurveda, obesity is known as **Sthaulya**. It occurs due to excessive accumu
 • **Avoid:** Fried foods, sugary snacks, dairy excess, and refined carbohydrates.
 • **Healthy Drinks:** Warm lemon water with honey in the morning to stimulate metabolism.
 • **Lifestyle:** Regular exercise, yoga, and brisk walking to burn excess fat.
-
-### **Patient Testimonial :-**
-
 `,
-
-description: `Amit Singh struggled with long-term obesity and low energy levels.  
-After Ayurvedic detox therapies, herbal medicines, and dietary corrections, he experienced healthy weight loss and improved vitality.`,
-
-patient1_youtubeId: "VIhiWYXwMOw"
 },
   ],
 },
 
-  // 2️⃣ Age Related Disorders
+  // 2️⃣ Nuerological Disorders
   {
-    categorySlug: "age-related",
-    categoryName: "Age Related Disorders",
-    categoryNameHindi: "आयु संबंधित विकार",
-    image: "/images/Diseases/age.jpg",
+    categorySlug: "neurological",
+    categoryName: "Neurological Disorders",
+    categoryNameHindi: "न्यूरोलॉजिकल विकार",
+    image: "/images/Diseases/neurology.webp",
     diseases: [
+      //anxity
       {
-        slug: "arthritis",
-        name: "Arthritis",
-        image: "/images/Diseases/age/arthritis.jpg",
-        content: `Arthritis causes joint pain and stiffness.
+        slug: "anxiety-disorder",
+        name: "Anxiety Disorder",
+        nameHindi: "चित्तोद्वेग",
+        image: "/images/Diseases/neurology/anxiety.jpg",
+        content: `### What is Anxiety ??
 
-Ayurvedic Treatment:
-• Joint strengthening herbs
-• Abhyanga therapy
-• Panchkarma`,
+In Ayurveda, Anxiety is termed **Chittodvega**. It is primarily a **Vata** disorder affecting the **Manovaha Srotas** (channels of the mind). When Raja Guna (the quality of activity/restlessness) increases and Sattva (purity/calmness) decreases, the mind becomes unstable.
+
+The aggravated Vata causes the mind to fluctuate rapidly, leading to constant worry, fear, and physical symptoms like palpitations. It is often linked to a depletion of **Ojas** (vital energy).
+
+Causes :-
+• Prajagara: Chronic lack of sleep or irregular sleep-wake cycles.
+• Gadgada: Constant exposure to loud noise or high-stress environments.
+• Ruksha Ahara: Excessive consumption of dry, light, and cold foods that aggravate Vata.
+• Ati-Chintana: Overthinking and mental overexertion without relaxation.
+
+Symptoms :-
+• Hrid-Drava: Palpitations or a racing heartbeat.
+• Anidra: Difficulty falling asleep or staying asleep.
+• Bhaya: Unreasonable fear, nervousness, or a sense of impending doom.
+• kampa: Trembling or shakiness in the hands and body.
+
+Ayurvedic Treatment :-
+• Saraswatarishta: A powerful brain tonic that improves memory and calms the nerves.
+• Ashwagandhadi Churna: Helps the body adapt to stress and balances Vata.
+• Brahmi Vati: Specifically used to reduce mental fatigue and anxiety.
+
+Panchkarma Therapy :-
+• Shirodhara: Continuous pouring of warm medicated oil on the forehead; the gold standard for anxiety.
+• Abhyanga: Full-body warm oil massage to ground the Vata Dosha.
+• Nasya: Medicated oil drops in the nose to soothe the nervous system and brain.
+
+Diet Recommendations :-
+• Include: Warm milk with nutmeg, Almonds, Ghee, and sweet, juicy fruits.
+• Reduce: Caffeine, White sugar, Carbonated drinks, and Raw cold salads.
+• Lifestyle: Practice "Pranayama" (Bhramari) and grounding Yoga poses like Child’s Pose (Balasana).`,
       },
+      //depression
       {
-        slug: "asthma",
-        name: "Asthma",
-        image: "/images/Diseases/age/asthama.png",
-        content: `Asthma is a chronic respiratory condition.
+        slug: "depression",
+        name: "Depression",
+        nameHindi: "विषाद / मनोवसाद",
+        image: "/images/Diseases/neurology/depression.jpg",
+        content: `### What is Depression ??
 
-Ayurvedic Treatment:
-• Herbal bronchodilators
-• Steam therapy
-• Immunity boosting`,
+Ayurveda describes Depression as **Vishada**, a state of "psychic despair." It is characterized by an imbalance of the three Gunas, specifically an increase in **Tamas** (darkness/inertia) and a decrease in **Sattva**.
+
+Physically, it involves a stagnation of **Kapha** and **Vata**. Heavy Kapha causes the feeling of lethargy and sadness, while obstructed Vata leads to a lack of motivation and "mental fog."
+
+Causes :-
+• Alpa-Sattva: A weak mental constitution or low psychological resilience.
+• Viruddha Ahara: Toxic food habits that lead to "Ama" (toxins) blocking the mental channels.
+• Karma-Phala: Chronic failure, grief, or suppression of emotions over a long period.
+• Sheeta-Abhyasa: Living in cold, dark, or isolated environments.
+
+Symptoms :-
+• Alasya: Extreme lethargy, lack of interest in daily activities, and physical heaviness.
+• Dainya: Feelings of helplessness, worthlessness, or excessive guilt.
+• Agnimandya: Significant loss of appetite or emotional overeating.
+• Shoonyata: A feeling of emptiness or mental "blankness."
+
+Ayurvedic Treatment :-
+• Mansyadi Kwath: A specialized decoction (Jatamansi based) that stabilizes the mood.
+• Arjuna: Used when depression is associated with emotional "heartache" or grief.
+• Vacha Churna: Helps in clearing the mental channels and improving clarity.
+
+Panchkarma Therapy :-
+• Shiro-Basti: Keeping warm oil on the head using a cap to deeply nourish the brain.
+• Vamana: If Kapha is dominant, emesis helps "lift" the heaviness from the chest and mind.
+• Pratimarsha Nasya: Daily application of Anutaila in nostrils for mental strength.
+
+Diet Recommendations :-
+• Include: Fresh ginger, Saffron, Honey, Walnuts, and light, warm, freshly cooked meals.
+• Reduce: Heavy, oily, processed "Tamasic" foods and stale (leftover) food.
+• Lifestyle: Daily Sun exposure (Surya Snana) and vigorous Yoga like Surya Namaskar.`,
+      },
+      //insomnia
+      {
+        slug: "insomnia",
+        name: "Insomnia",
+        nameHindi: "अनिद्रा / निद्रानाश",
+        image: "/images/Diseases/neurology/Insomnia.png",
+        content: `### What is Insomnia ??
+
+In Ayurveda, sleep is one of the three pillars of life (**Trayopasthamba**). Insomnia, or **Anidra**, occurs when **Vata** and **Pitta** increase, preventing the natural dominance of **Kapha** required for sleep.
+
+When Vata is high, the mind is too restless to fall asleep; when Pitta is high, one may wake up frequently or have "fiery" dreams, leading to unrefreshing sleep.
+
+Causes :-
+• Manas-Tapa: Mental stress, anger, and over-excitement.
+• Ruksha-Sevana: Consuming dry foods and stimulants like nicotine or caffeine.
+• Karya-Bhara: Excessive workload or staring at screens (blue light) late at night.
+• Vayu-Vriddhi: Natural aging or seasonal changes that increase Vata.
+
+Symptoms :-
+• Jrimbha: Excessive yawning during the day.
+• Shiro-Roga: Frequent headaches and heaviness in the eyes.
+• Glani: A sense of exhaustion even after lying in bed for hours.
+• Bhrama: Dizziness or lack of concentration during waking hours.
+
+Ayurvedic Treatment :-
+• Tagar (Indian Valerian): The primary herb for inducing natural, non-habit-forming sleep.
+• Ashwagandha Arishta: Calms the nervous system and helps in deep sleep.
+• Jatamansi: Reduces hyperactivity of the brain to allow the mind to drift off.
+
+Panchkarma Therapy :-
+• Padabhyanga: Massaging the soles of the feet with Ksheerabala oil before bed.
+• Shiro-Abhyanga: Gentle head massage to release scalp tension.
+• Pichu: Placing a cloth soaked in medicated oil on the crown of the head.
+
+Diet Recommendations :-
+• Include: Buffalo milk (which is heavier and more sleep-inducing), Nutmeg, Rice, and Poppy seeds.
+• Reduce: Spicy snacks, Coffee, Tea, and skipping dinner.
+• Lifestyle: Establish a "Dinacharya" (routine); keep the bedroom dark, quiet, and cool.`,
+      },
+      //migrane
+      {
+        slug: "migraine",
+        name: "Migraine",
+        nameHindi: "अर्धावभेदक",
+        image: "/images/Diseases/neurology/migrane.jpeg",
+        content: `### What is Migraine ??
+
+Ayurveda refers to Migraine as **Ardhavabhedaka**, where "Ardha" means half and "Vabhedaka" means piercing pain. It is a paroxysmal headache involving the one-sided piercing pain in the skull.
+
+It is a **Tridoshic** disorder but primarily involves **Vata** (for the piercing pain) and **Pitta** (for the light sensitivity and nausea). It occurs when the Vata-Pitta balance in the blood vessels of the head is disturbed.
+
+Causes :-
+• Ati-Katu/Amla Ahara: Excessive consumption of very spicy, salty, or fermented foods.
+• Vegadharana: Suppressing the urge to eat or sleep.
+• Anupa-Sevana: Exposure to sudden changes in temperature or bright sunlight.
+• Upavasa: Excessive fasting or skipping meals which triggers Pitta acidity.
+
+Symptoms :-
+• Ardha-Shira Shoola: Intense, throbbing pain on one side of the head.
+• Chakshur-Dwesha: Photophobia (intolerance to light) and sensitivity to sound.
+• Chardi: Nausea and vomiting, which often provide temporary relief from the headache.
+• Bhrama: Vertigo or dizziness during an attack.
+
+Ayurvedic Treatment :-
+• Pathyadi Kadha: A specialized herbal decoction for all types of headaches.
+• Godanti Bhasma: A natural calcium-based formulation that acts as a potent analgesic.
+• Shirashuladi Vajra Ras: A classical mineral-herbal herb for chronic migraine.
+
+Panchkarma Therapy :-
+• Nasya: Specifically "Anu Taila" or "Kumkumadi Taila" to clear the cranial nerves.
+• Rakta-Mokshana: Bloodletting (leech therapy) on the temples to reduce localized Pitta pressure.
+• Shiro-Lepa: Applying a cooling herbal paste (like Sandalwood or Jatamansi) on the forehead.
+
+Diet Recommendations :-
+• Include: Ghee, Soaked raisins, Coconut water, and sweet fruits like Pears.
+• Reduce: Pickles, Fermented foods (Idli/Dosa), Curd, and Chilies.
+• Lifestyle: Wear sunglasses in bright sun and practice "Anulom Vilom" Pranayama regularly.`,
       },
     ],
   },
@@ -283,120 +391,445 @@ Ayurvedic Treatment:
   categoryNameHindi: "पाचन विकार",
   image: "/images/Diseases/digestive.png",
   diseases: [
+    //piles
     {
       slug: "piles",
-      name: "Piles",
-      nameHindi: "बवासीर",
-      image: "/images/Diseases/digestive/Piles.jpg",
-      content: `Piles are swollen veins in your lower rectum and anus, similar to varicose veins. They can develop inside the rectum (internal) or under the skin around the anus (external). Chronic constipation and straining during bowel movements are primary causes.
+name: "Piles",
+nameHindi: "बवासीर",
+image: "/images/Diseases/digestive/Piles.jpg",
+content: `### What are Piles ??
 
-Ayurvedic Treatment & Management:
-• Kshar Sutra: A specialized para-surgical procedure using medicated thread for permanent relief.
-• Herbal Internal Meds: Triphala Guggulu and Arshogni Vati to reduce inflammation.
-• Lifestyle: Increasing dietary fiber (Takra/Buttermilk is highly recommended) and avoiding spicy 'Ushna' foods.`,
-    },
-    {
-      slug: "liver-diseases",
-      name: "Liver Diseases",
-      nameHindi: "यकृत रोग",
-      image: "/images/Diseases/digestive/liver.jpg",
-      content: `The liver is responsible for 'Ranjana Pitta' (blood coloring). Liver diseases like Fatty Liver involve the accumulation of excess fat, while Jaundice indicates a bile imbalance. These conditions can lead to fatigue, loss of appetite, and metabolic slowdown.
+In Ayurveda, Piles are known as Arsha, described as "enemy-like" growths (Mamsankura) in the anal canal that obstruct the passage of stool.
 
-Ayurvedic Treatment & Management:
-• Hepatoprotective Herbs: Use of Bhumi-Amla, Katuki, and Punarnava to detoxify and regenerate liver cells.
-• Virechana Therapy: A Panchakarma procedure to flush out excess Pitta and toxins from the liver.
-• Diet: Strict avoidance of alcohol and oily foods; consumption of bitter (Tikta) vegetables like bitter gourd.`,
-    },
-    {
-      slug: "pachan-vikar",
-      name: "Indigestion",
-      nameHindi: "पाचन विकार",
-      image: "/images/Diseases/digestive/indigestion.jpg",
-      content: `In Ayurveda, almost all diseases start from weak 'Agni' (digestive fire). Ajeerna occurs when the food is not properly digested, leading to the formation of 'Ama' (toxins). Symptoms include bloating, heaviness, and lack of energy.
+It is primarily caused by an imbalance of the Vata and Pitta doshas, leading to the accumulation of toxins (Ama) and weakening of the digestive fire (Agni). This causes swelling of the veins in the rectal area, leading to discomfort, pain, or bleeding.
 
-Ayurvedic Treatment & Management:
-• Deepana-Pachana: Using herbs like Shunthi (Ginger) and Pippali to rekindle the digestive fire and digest Ama.
-• Herbal Churnas: Hingvashtak or Avipattikar Churna to balance stomach acids and improve motility.
-• Rituals: Following 'Ahara Vidhi'—eating only when hungry and drinking warm water throughout the day.`,
-    },
-    {
-      slug: "cholesterol",
-      name: "Cholesterol",
-      nameHindi: "कोलेस्ट्रॉल",
-      image: "/images/Diseases/digestive/cholesterol.jpg",
-      content: `High cholesterol is viewed as an imbalance of 'Medas Dhatu' (fat tissue) and Kapha. Excess 'Ama' (metabolic waste) blocks the channels (Srotas), leading to plaque formation and heart-related risks.
+Causes :-
+• Mandagni: Chronically weak digestion and persistent constipation (Vibandha).
+• Dietary Habits: Excessive consumption of dry, spicy, or fermented foods.
+• Lifestyle: Long hours of continuous sitting or straining during bowel movements.
+• Garbhavastha: Increased pressure during pregnancy or post-delivery.
 
-Ayurvedic Treatment & Management:
-• Lipid-Lowering Herbs: Guggulu (Medohara) and Arjuna bark are used to clear blockages and strengthen the heart.
-• Detoxification: Lekhana Basti (scraping enema) to reduce excess fat from the body.
-• Dietary Fiber: Incorporating Oats, Barley (Yava), and Garlic (Lashuna) to naturally scrape away arterial plaque.`,
+Symptoms :-
+• Arsha Shoola: Pain or discomfort during and after passing stool.
+• Raktasrava: Bright red bleeding (in 'Ardravastha' or bleeding piles).
+• Kandu: Persistent itching or irritation in the anal region.
+• Guda-Ansh: Protrusion or lumps felt around the anus.
+
+Ayurvedic Treatment :-
+• Deepana-Pachana: Using Triphala or Haritaki to improve digestion and soften stools.
+• Arshoghna Vati: Traditional tablets formulated specifically to shrink hemorrhoidal masses.
+• Nagkesar: A potent herb used to control bleeding and reduce inflammation.
+
+Panchkarma Therapy :-
+• Abhyanga: Local application of medicated oils like Jatyadi Taila to soothe the area.
+• Avagaha Sweda: Medicated sitz baths to reduce pain, swelling, and infection.
+• Kshara Sutra: A specialized para-surgical procedure for permanent removal of persistent piles.
+
+Diet Recommendations :-
+• Include: High-fiber foods like Buttermilk (Takra), Papaya, Suran (Elephant Foot Yam), and leafy greens.
+• Reduce: Deep-fried foods, red chili, caffeine, and refined flour (Maida).
+• Hydration: Drinking lukewarm water and Jeera water to aid smooth evacuation.`,
     },
+    //fissure
     {
       slug: "fissure",
-      name: "Fissure",
-      nameHindi: "फिशर",
-      image: "/images/Diseases/digestive/fissure.webp",
-      content: `An anal fissure is a small tear in the thin, moist tissue (mucosa) that lines the anus. It typically causes severe pain and bright red bleeding during or after bowel movements, often caused by passing hard or large stools.
+name: "Anal Fissure",
+nameHindi: "परिकर्तिका",
+image: "/images/Diseases/digestive/fissure.webp",
+content: `### What is an Anal Fissure ??
 
-Ayurvedic Treatment & Management:
-• Jatyadi Oil: Application of medicated oils to promote rapid healing of the tear.
-• Avagaha Sweda: Medicated sitz baths to relax the sphincter muscles and relieve pain.
-• Stool Softeners: Using Haritaki or Isabgol to ensure smooth elimination without trauma.`,
+An anal fissure, known as Parikartika in Ayurveda, is a sharp, painful tear or cut in the lining of the anal canal.
+
+The name "Parikartika" literally means "cutting-like pain." It is predominantly a Vata-Pitta disorder where dryness (Rukshata) in the colon leads to hard stools that injure the delicate anal mucosa.
+
+Causes :-
+• Vibandha: Chronic constipation leading to the passage of hard, dry stools.
+• Atisara: Frequent bouts of diarrhea causing irritation to the anal lining.
+• Dehydration: Lack of internal lubrication (Sneha) in the digestive tract.
+• Poor Muscle Tone: Excessive tension in the anal sphincter muscles.
+
+Symptoms :-
+• Kartanavat Vedana: Sharp, "cutting" pain during or after bowel movements.
+• Raktasrava: Streaks of bright red blood on the surface of the stool.
+• Sphincter Spasm: Intense throbbing or burning sensation that lasts for hours.
+• Fear of Evacuation: Avoiding meals or stools due to the anticipation of pain.
+
+Ayurvedic Treatment :-
+• Snehana: Internal administration of Ghee (Cow Ghee) to lubricate the bowel.
+• Jatyadi Ghrita: External application of medicated ghee to promote rapid healing of the tear.
+• Yashtimadhu: Using Licorice to soothe the inflammation and reduce burning.
+
+Panchkarma Therapy :-
+• Anuvasana Basti: Oil-based enemas to nourish the colon and prevent dryness.
+• Matra Basti: Small doses of medicated oil to soften the stool and heal the canal.
+• Avagaha Sweda: Warm sitz baths with Triphala Kwath to relax the sphincter.
+
+Diet Recommendations :-
+• Include: Clarified butter (Ghee), soaked raisins, Isabgol (Psyllium husk), and cooked vegetables.
+• Reduce: Dry snacks, crackers, spicy chili, and astringent foods.
+• Hydration: High intake of fluids and Aloe Vera juice to keep the stools soft.`,
     },
+    //fistula
     {
       slug: "fistula",
-      name: "Fistula",
-      nameHindi: "फिस्टुला",
-      image: "/images/Diseases/digestive/fistula.jpg",
-      content: `Anal fistula is a small tunnel that develops between the end of the bowel and the skin near the anus. It's usually the result of an infection or an abscess that didn't heal properly, causing persistent discharge and pain.
+name: "Anal Fistula",
+nameHindi: "भगंदर",
+image: "/images/Diseases/digestive/fistula.jpg",
+content: `### What is an Anal Fistula ??
 
-Ayurvedic Treatment & Management:
-• Kshar Sutra Ligation: Considered the gold standard in Ayurveda for treating fistula with minimal recurrence.
-• Blood Purifiers: Herbs like Manjistha and Neem to control the underlying infection.
-• Wound Care: Regular cleaning with Triphala Kwath (decoction) to keep the area sterile.`,
+Bhagandara is the Ayurvedic term for Anal Fistula. It refers to a chronic abnormal track or tunnel that forms between the end of the bowel and the skin near the anus.
+
+It usually starts as an abscess (pus collection) that doesn't heal properly. In Ayurveda, it is considered a difficult condition involving all three doshas, leading to the destruction of deeper tissues (Dhatus).
+
+Causes :-
+• Unresolved Abscess: Improperly treated boils or infections near the rectal area.
+• Puyasrava: Chronic infection leading to the formation of a discharging tract.
+• Trauma: Injury to the anal region or complications from previous surgeries.
+• Poor Hygiene: Accumulation of sweat and bacteria leading to recurring infections.
+
+Symptoms :-
+• Srava: Constant or intermittent discharge of pus, blood, or watery fluid.
+• Shopha: Swelling and tenderness around the anal opening.
+• Recurring Boils: An abscess that keeps appearing and bursting in the same spot.
+• Katishoola: Pain in the lower back or pelvic region due to deep-seated infection.
+
+Ayurvedic Treatment :-
+• Triphala Guggulu: To reduce inflammation and act as a natural antibiotic.
+• Gandhak Rasayan: A powerful sulfur-based detoxifier to clear chronic skin and tissue infections.
+• Kshara Sutra: The Gold Standard treatment—a medicated thread that cuts and heals the track simultaneously.
+
+Panchkarma Therapy :-
+• Virechana: To detoxify the blood and reduce the "Pitta" responsible for pus formation.
+• Dhavana: Regular cleaning of the tract with Triphala or Neem decoction.
+• Kshara Karma: Application of alkaline pastes to chemically cauterize the infected tissue.
+
+Diet Recommendations :-
+• Include: Turmeric, Bitter gourd, Bottle gourd, and light, easily digestible food.
+• Reduce: Meat, heavy sweets, fermented foods (Curd/Idli), and excessive salt.
+• Immunity: Regular consumption of Giloy to help the body fight the recurring infection.`,
+    },
+    //ibs
+    {
+        slug: "ibs",
+        name: "IBS (Irritable Bowel Syndrome)",
+        nameHindi: "ग्रहणी रोग",
+        image: "/images/Diseases/digestive/ibs.jpg",
+        content: `### What is IBS ??
+
+In Ayurveda, Irritable Bowel Syndrome is closely correlated with **Grahani Roga**. The "Grahani" is the anatomical part of the digestive tract (small intestine/duodenum) responsible for holding and digesting food. 
+
+When the **Agni** (digestive fire) is weakened (Mandagni), food is not digested properly. This leads to the formation of **Ama** (toxins), causing the intestines to alternate between releasing undigested food and holding it too long. It is a classic Vata-Pitta-Kapha disturbance depending on the subtype.
+
+Causes :-
+• Abhashana: Irregular eating habits or eating before the previous meal is digested.
+• Viruddha Ahara: Consuming incompatible food combinations (e.g., milk and fish).
+• Vegadharana: Suppression of natural urges like hunger, thirst, or bowel movements.
+• Manasika Vikara: High stress, grief, and fear which directly impact the "Gut-Brain" axis.
+
+Symptoms :-
+• Muhur Baddha / Muhur Dravam: Alternating bouts of constipation and diarrhea.
+• Ama Dosha: Passing mucus in stools and a feeling of incomplete evacuation.
+• Udara Shoola: Abdominal cramping and bloating, often relieved by passing gas or stool.
+• Aruchi & Trishna: Loss of appetite, altered taste, and constant thirst.
+
+Ayurvedic Treatment :-
+• Kutajghan Vati: A powerful herbal tablet used to treat diarrhea, dysentery, and intestinal infections.
+• Takrarishta: A medicated buttermilk formulation that is considered the "Nectar" for Grahani patients.
+• Bilva Churna: Bael fruit powder which acts as an astringent to improve the consistency of stools.
+
+Panchkarma Therapy :-
+• Deepana-Pachana: Using herbs like Chitraka or Shunthi to rekindle the Agni and digest toxins.
+• Piccha Basti: A specialized medicated enema used to heal the mucosal lining of the colon.
+• Shirodhara: To treat the psychological component (stress/anxiety) that often triggers IBS symptoms.
+
+Diet Recommendations :-
+• Include: Fresh Buttermilk (Takra) with roasted Cumin, Pomegranate, Khichdi, and Ginger.
+• Reduce: Raw salads, caffeine, carbonated drinks, heavy beans, and spicy peppers.
+• Lifestyle: Practice Vajrasana for 10 minutes after meals and maintain a strict "Dinacharya" (daily routine).`,
+    },
+    //indigestion
+    {
+      slug: "indigestion",
+name: "Indigestion",
+nameHindi: "अजीर्ण",
+image: "/images/Diseases/digestive/indigestion.jpg",
+content: `### What is Indigestion ??
+
+Indigestion, or Ajirna in Ayurveda, is the root cause of most diseases. It occurs when the Jatharagni (digestive fire) is too weak to process food properly.
+
+This leads to the formation of Ama (metabolic toxins) which circulates in the body, causing heaviness, gas, and a lack of energy. Ayurveda emphasizes that how you eat is just as important as what you eat.
+
+Causes :-
+• Adhyashana: Eating a new meal before the previous one is fully digested.
+• Viruddha Ahara: Consuming incompatible food combinations (e.g., milk with fish).
+• Emotional Stress: Eating while angry, anxious, or rushed (Manas Tapa).
+• Irregular Routine: Sleeping immediately after meals or skipping meals.
+
+Symptoms :-
+• Anaha: Bloating, flatulence, and a feeling of fullness.
+• Aruchi: Loss of appetite or distaste for food.
+• Udgara: Sour or bitter eructations (burps).
+• Alasya: Lethargy and heaviness in the body after eating.
+
+Ayurvedic Treatment :-
+• Laghana: Therapeutic fasting or eating very light meals to give the Agni a rest.
+• Chitrakadi Vati: To stimulate the digestive fire and burn away toxins.
+• Hingwashtak Churna: A classic formula to relieve gas, bloating, and abdominal pressure.
+
+Panchkarma Therapy :-
+• Vamana: Medicated emesis to clear Kapha and Ama from the upper digestive tract.
+• Deepana-Pachana: External and internal therapies to rekindle the metabolic fire.
+• Nabhi Basti: Applying medicated oil around the navel to balance the Samana Vata.
+
+Diet Recommendations :-
+• Include: Ginger (Adrak), Cumin, Rock Salt (Saindhava), and Pomegranate.
+• Reduce: Cold drinks, heavy dairy products, and overeating at night.
+• Fluid Intake: Sips of Ginger-infused warm water during or after meals.`,
+    },
+    //cholestrol
+    {
+      slug: "cholesterol",
+name: "High Cholesterol",
+nameHindi: "मेदो रोग",
+image: "/images/Diseases/digestive/cholesterol.jpg",
+content: `### What is High Cholesterol ??
+
+In Ayurveda, high cholesterol is linked to Medo Roga (imbalance of fat tissue) and Ama (toxins).
+
+When the Medodhatwagni (fat metabolism fire) is sluggish, the body produces "bad" fats that clog the Srotas (circulatory channels). This creates a blockage called Sanga, which restricts the flow of nutrients and increases the risk of heart ailments.
+
+Causes :-
+• Dietary Factors: High intake of Snehana (fatty/oily foods) and sweet, heavy diets.
+• Lack of Vyayama: Sedentary lifestyle with minimal physical exertion.
+• Metabolic Weakness: Poor liver function and slow metabolism.
+• Age & Genetics: Natural decline in metabolic rate or hereditary predispositions.
+
+Symptoms :-
+• Daurbalya: General weakness or lack of stamina.
+• Daurgandhya: Foul body odor due to accumulated toxins in sweat.
+• Shwasa: Shortness of breath even with mild exertion.
+• Angagaurava: A heavy feeling in the limbs and chest.
+
+Ayurvedic Treatment :-
+• Guggulu: Using Medohara Guggulu or Triphala Guggulu to scrape away fat deposits.
+• Arjunarishta: To strengthen the heart and improve blood circulation.
+• Vrikshamla (Garcinia): To naturally inhibit fat production and boost metabolism.
+
+Panchkarma Therapy :-
+• Udvartana: Dry herbal powder massage to mobilize and dissolve subcutaneous fat.
+• Virechana: Cleansing the liver to improve fat processing and bile secretion.
+• Lekhana Basti: Medicated enemas designed to "scrape" toxins from the channels.
+
+Diet Recommendations :-
+• Include: Garlic, Flaxseeds, Barley (Yava), Honey, and bitter gourds.
+• Reduce: Butter, ghee (in excess), sweets, and processed meats.
+• Fluid Intake: Warm water with Honey and Lemon in the morning on an empty stomach.`
     },
   ],
 },
 
   // 4️⃣ Skin Disorders
   {
-    categorySlug: "skin",
-    categoryName: "Skin Disorders",
+    categorySlug: "hair-skin",
+    categoryName: "Hair & Skin Disorders",
     categoryNameHindi: "त्वचा विकार",
     image: "/images/Diseases/skin.jpg",
     diseases: [
+
+      //eczemea
       {
         slug: "eczema",
-        name: "Eczema",
-        image: "/images/Diseases/skin/eczema.jpg",
-        content: `Eczema causes itchy and inflamed skin.
+name: "Eczema",
+nameHindi: "विचर्चिका",
+image: "/images/Diseases/skin/eczema.jpg",
+content: `### What is Eczema ??
 
-Ayurvedic Treatment:
-• Blood purification
-• Herbal ointments
-• Diet control`,
+In Ayurveda, Eczema is known as Vicharchika. It is a chronic skin condition characterized by intense itching, redness, and discharge.
+
+It is primarily a Kustha Roga caused by the vitiation of Kaph-Pitta doshas, which contaminate the Rakta (blood) and Mamsa (muscle tissue). This leads to the characteristic "oozing" or "leaching" of fluids from the skin surface.
+
+Causes :-
+• Viruddha Ahara: Consuming incompatible foods like milk with sour fruits or fish.
+• Vega Dharana: Suppressing natural urges like vomiting or urination.
+• Stress: High mental stress that triggers Vata-Pitta imbalances.
+• External Irritants: Exposure to harsh chemicals, detergents, or allergens.
+
+Symptoms :-
+• Kandu: Intense, persistent itching that worsens at night.
+• Srava: Oozing or discharge of fluid from the affected area.
+• Shyava: Darkening or discoloration of the skin (hyperpigmentation).
+• Pidaka: Small eruptions or blisters on the skin surface.
+
+Ayurvedic Treatment :-
+• Neem & Manjistha: Blood-purifying herbs used to detoxify the blood and soothe the skin.
+• Khadirarishta: A potent classical liquid preparation for all types of skin disorders.
+• Karanja Taila: External application of Pongamia oil to reduce itching and heal lesions.
+
+Panchkarma Therapy :-
+• Vamana: Medicated emesis to expel excess Kapha and toxins from the body.
+• Raktamokshana: Bloodletting therapy (usually via Leech Therapy) to remove localized toxins.
+• Virechana: Purgation to balance the Pitta and cleanse the liver.
+
+Diet Recommendations :-
+• Include: Bitter gourds, Turmeric, Moong dal, and Pomegranate.
+• Reduce: Sour foods (curd, pickles), fermented items, and excessive salt.
+• Fluid Intake: Drinking Neem-infused water to purify the system.`,
       },
+      //leucoderma
       {
-        slug: "leucoderma",
-        name: "Leucoderma",
-        image: "/images/Diseases/skin/leukoderma.jpg",
-        content: `Leucoderma causes white patches on skin.
+       slug: "leukoderma",
+name: "Leukoderm ",
+nameHindi: "श्वित्र",
+image: "/images/Diseases/skin/leukoderma.jpg",
+content: `### What is Leukoderma ??
 
-Ayurvedic Treatment:
-• Herbal pigmentation therapy
-• Sun exposure guidance
-• Detoxification`,
+Leukoderma, known as Shvitra or Kilasa in Ayurveda, is a condition where white patches appear on the skin due to the loss of pigment.
+
+Ayurveda views this as a deep-seated imbalance of the Bhrajaka Pitta (the sub-dosha of Pitta that gives skin its color). It involves the corruption of Rakta (blood), Mamsa (muscle), and Meda (fat) tissues, often linked to past dietary "crimes" or toxins.
+
+Causes :-
+• Viruddha Ahara: Long-term consumption of milk with salt, fish, or radish.
+• Chardi Nigraha: Habitual suppression of the vomiting reflex.
+• Agni Mandya: Chronic indigestion leading to the accumulation of Ama.
+• Psychological Factors: Intense grief, fear, or mental trauma.
+
+Symptoms :-
+• Shveta Patra: Appearance of white or pale patches on the skin.
+• Daha: Occasional burning sensation in the affected area.
+• Loma-Shvetya: Whitening of the hair over the affected skin patches.
+• Aruchi: Loss of appetite, often seen as a precursor to the condition.
+
+Ayurvedic Treatment :-
+• Bakuchi (Psoralea corylifolia): The primary herb used both internally and externally to stimulate pigment production.
+• Arogyavardhini Vati: To improve liver function and balance the body's internal chemistry.
+• Khadirodaka: Using Khadira wood decoction to purify the blood and skin tissues.
+
+Panchkarma Therapy :-
+• Virechana: Strong purgation to cleanse the liver and balance the Bhrajaka Pitta.
+• Snehana-Swedana: Oleation and steaming to mobilize toxins from deep tissues.
+• Pradeha: Application of specialized herbal pastes that react with sunlight to restore color.
+
+Diet Recommendations :-
+• Include: Dates, walnuts, whole grains, and leafy vegetables.
+• Reduce: Citrus fruits, tamarind, curd, and non-vegetarian food.
+• Hygiene: Avoid using harsh soaps; use Triphala water for washing.`,
       },
+      //urticaria
       {
         slug: "urticaria",
-        name: "Urticaria",
-        image: "/images/Diseases/skin/urticaria.jpg",
-        content: `Urticaria causes itchy skin rashes.
+name: "Urticaria",
+nameHindi: "शीतपित्त ",
+image: "/images/Diseases/skin/urticaria.jpg",
+content: `### What is Urticaria ??
 
-Ayurvedic Treatment:
-• Anti-allergic herbs
-• Blood cleansing
-• Dietary changes`,
+In Ayurveda, Urticaria is termed Sheetapitta. It is a condition where itchy, red wheals (rashes) appear on the skin, often in response to cold or allergens.
+
+The name comes from Sheeta (cold) and Pitta (heat). It occurs when the body is exposed to cold air, causing the Vata and Kapha to aggravate and merge with Pitta, resulting in a "burning" rash on the skin surface.
+
+Causes :-
+• Sheet-Atapa Vyatyaya: Sudden exposure to cold after being in the sun (or vice versa).
+• Krimy: Intestinal worms or parasites.
+• Allergens: Exposure to dust, pollen, or insect bites.
+• Dietary Triggers: Excessive intake of mustard, spicy foods, or sour items.
+
+Symptoms :-
+• Varati-Dashta Vat: Rashes resembling an insect bite.
+• Kandu & Daha: Intense itching accompanied by a burning sensation.
+• Shotha: Swelling or inflammation of the skin and underlying tissues.
+• Jwara: Mild fever or malaise during acute flare-ups.
+
+Ayurvedic Treatment :-
+• Haridra Khanda: A classic turmeric-based formula that acts as a natural anti-allergic.
+• Guduchi: To modulate the immune system and reduce the body's over-reactivity.
+• Amrita Bhallataka: Used in chronic cases to build long-term resistance.
+
+Panchkarma Therapy :-
+• Abhyanga: Warm oil massage with Eladi Taila to calm the Vata-Pitta.
+• Vamana: Highly effective in acute cases to remove the root cause of the allergy.
+• Mridu Virechana: Gentle laxatives to ensure Pitta is regularly flushed out.
+
+Diet Recommendations :-
+• Include: Ghee, Turmeric milk, Bitter vegetables, and Coconut water.
+• Reduce: Ice creams, cold drinks, pickles, and fermented foods.
+• Prevention: Avoid sudden temperature changes and wrap up in cold weather.`,
+      },
+      //Psoriasis
+      {
+        slug: "psoriasis",
+name: "Psoriasis",
+nameHindi: "एककुष्ठ",
+image: "/images/Diseases/skin/psoriasis.jpg",
+content: `### What is Psoriasis ??
+
+Psoriasis is correlated with Eka-Kustha in Ayurveda. It is a chronic skin condition where the skin cells multiply too quickly, leading to thick, scaly patches.
+
+It is a Tridoshic disorder involving Vata (causing dryness and scaling) and Kapha (causing itching and thickening). It is often linked to the accumulation of Virisha (slow-acting toxins) in the blood and skin.
+
+Causes :-
+• Mithya Ahara: Excessive intake of salty, sour, and heavy-to-digest foods.
+• Viruddha Ahara: Regular consumption of fish and milk together.
+• Mental Stress: Deep-seated anxiety or suppressed emotions trigger flare-ups.
+• Toxin Accumulation: Chronic constipation leading to reabsorption of toxins.
+
+Symptoms :-
+• Matsyashakalo-paman: Skin scaling that resembles the scales of a fish.
+• Asvedanam: Total absence of sweating in the affected area.
+• Mahavastu: Extensive spread of patches over the body.
+• Kina-khara-sparsha: Patches that feel very hard and rough to the touch.
+
+Ayurvedic Treatment :-
+• Panchatiktaka Ghrita: Medicated ghee made from five bitter herbs to purify the blood.
+• Guggulu Tiktaka: To reduce the thickness of the plaques and control inflammation.
+• Swarnaprashan: In specific cases, used to modulate the immune system.
+
+Panchkarma Therapy :-
+• Takra Dhara: Pouring medicated buttermilk over the forehead or affected area to manage stress and scaling.
+• Snehapana: Consuming large doses of medicated ghee to "lubricate" the dry scales from within.
+• Virechana: Systematic purging to remove the deep-seated blood toxins.
+
+Diet Recommendations :-
+• Include: Bottle Gourd, Moong beans, Pumpkin, and Boiled water.
+• Reduce: Red meat, alcohol, smoking, yogurt, and excessive salt.
+• Skincare: Regular application of Coconut oil or Neem oil to prevent cracking.`
+      },
+      //Hair Loss
+      {
+        slug: "hair-fall",
+        name: "Hair Fall",
+        nameHindi: "खालित्य / केश पतन",
+        image: "/images/Diseases/skin/hair.png",
+        content: `### What is Hair Fall ??
+
+In Ayurveda, Hair Fall is termed **Khalitya**. It is classified as a **Paittika** disorder, meaning it is primarily caused by an excess of **Pitta Dosha** in the body. The heat of Pitta burns the hair follicles (Romakupa), leading to premature shedding.
+
+When combined with Vata, it causes dryness and split ends; when combined with Kapha, it causes oily scalp and dandruff (Darunaka) that blocks hair growth. It is also deeply connected to the health of **Asthi Dhatu** (bone tissue), as hair is considered a byproduct (Mala) of bone formation.
+
+Causes :-
+• Ushna-Tikshna Ahara: Excessive consumption of salty, sour, spicy, and fermented foods.
+• Chinta & Shoka: High levels of stress, anxiety, and grief which "dry up" the nourishing juices.
+• Prajagara: Late-night awakening or irregular sleep patterns that aggravate Vata and Pitta.
+• Lavana-Atisevana: Excessive intake of salt, which is known to cause premature graying and hair loss.
+
+Symptoms :-
+• Kesha-Patan: Excessive strands of hair falling out during combing or washing.
+• Darunaka: Presence of dandruff or an itchy, flaky scalp.
+• Khalitya: Visible thinning of hair or appearance of small bald patches.
+• Indralupta: Sudden, localized hair loss (Alopecia Areata).
+
+Ayurvedic Treatment :-
+• Bhringraj Taila: Known as the "King of Hair," it cools the scalp and revitalizes follicles.
+• Narasimha Rasayana: A potent medicated jam that nourishes the bone tissue and promotes hair growth.
+• Amalaki (Amla): Rich in Vitamin C and Pitta-pacifying properties to strengthen the roots.
+
+Panchkarma Therapy :-
+• Shirodhara: Pouring warm medicated oil on the forehead to reduce stress and balance Pitta.
+• Nasya: Administering oil drops through the nose to nourish the "Shira" (head) and sensory organs.
+• Raktamokshana: Leech therapy (Jalaukavacharana) in specific cases to clear localized scalp toxins.
+
+Diet Recommendations :-
+• Include: Curry leaves, Coconut, Sesame seeds (Til), Amla, and Aloe Vera juice.
+• Reduce: Pickles, Vinegar, Carbonated drinks, and excessively hot/spicy street food.
+• Lifestyle: Practice "Balayam" (fingernail rubbing) and avoid washing hair with very hot water.`,
       },
     ],
   },
@@ -408,39 +841,124 @@ Ayurvedic Treatment:
     categoryNameHindi: "स्त्री रोग विकार",
     image: "/images/Diseases/gynae.png",
     diseases: [
+
+      //PCOD
       {
         slug: "pcod",
-        name: "PCOD",
+        name: "PCOD (Polycystic Ovarian Disease)",
+        nameHindi: "आर्तव वह स्रोतस विकार ",
         image: "/images/Diseases/gynae/pcod.jpg",
-        content: `PCOD is a hormonal imbalance condition.
+        content: `### What is PCOD ??
 
-Ayurvedic Treatment:
-• Hormone balancing herbs
-• Weight management
-• Detox therapies`,
+In Ayurveda, PCOD is categorized under Artava Vaha Srotas disorders, often linked to Pushpagni Rewati or Granthi. It is a metabolic-endocrine disorder where multiple small cysts form in the ovaries.
+
+It is primarily a Kapha-dominant disorder. Excess Kapha blocks the movement of Vata, preventing the natural release of the egg (ovulation) and leading to the accumulation of fluid-filled sacs (cysts).
+
+Causes :-
+• Apathya Ahara: Excessive consumption of sweets, dairy, and heavy "Abhishyandi" foods.
+• Diva-Swapna: Sleeping during the day, which increases Kapha and slows metabolism.
+• Beeja Dosha: Genetic predisposition or congenital factors affecting the reproductive tissue.
+• Manasika Hetu: High levels of anxiety and a sedentary lifestyle leading to hormonal chaos.
+
+Symptoms :-
+• Anartava / Alpavartava: Irregular, delayed, or very scanty menstrual periods.
+• Sthaulya: Rapid weight gain, especially around the abdominal area.
+• Mukhapidaka: Persistent acne and oily skin due to androgen imbalance.
+• Lomashatwa: Hirsutism (excessive hair growth on the face and body).
+
+Ayurvedic Treatment :-
+• Kanchanar Guggulu: A prime formulation used to "scrape" (Lekhana) and dissolve cysts and glandular swellings.
+• Latakaranja: A potent herb used to regularize the ovulatory cycle and balance hormones.
+• Dashmoolarishta: A restorative tonic to strengthen the uterus and balance Vata.
+
+Panchkarma Therapy :-
+• Vamana: Medicated emesis to reduce systemic Kapha and balance the hormonal axis.
+• Basti: Specifically Uttara Basti, where medicated oil is administered into the uterus to clear blockages.
+• Udvartana: Dry herbal powder massage to improve metabolism and aid in weight loss.
+
+Diet Recommendations :-
+• Include: Fenugreek (Methi), Cinnamon, Flaxseeds, and Bitter gourd.
+• Reduce: White sugar, refined flour (Maida), soy products, and heavy milk products.
+• Lifestyle: Regular Surya Namaskar and Yoga to improve pelvic blood circulation.`,
       },
+      //leucorrhea
       {
-        slug: "leucorrhea",
-        name: "Leucorrhea",
-        image: "/images/Diseases/gynae/leucorrhea.jpg",
-        content: `Leucorrhea is abnormal vaginal discharge.
+  slug: "leucorrhea",
+  name: "Leucorrhea (White Discharge)",
+  nameHindi: "श्वेत प्रदर",
+  image: "/images/Diseases/gynae/leucorrhea.jpg",
+  content: `### What is Leucorrhea ??
 
-Ayurvedic Treatment:
-• Herbal tonics
-• Hygiene care
-• Immunity boost`,
-      },
+In Ayurveda, Leucorrhea is known as **Shweta Pradara**. It is characterized by an abnormal white, yellowish, or thick vaginal discharge. It is primarily considered a disorder of the **Rasa Dhatu** (plasma tissue) caused by an imbalance in Kapha Dosha.
+
+When Kapha increases excessively due to dietary or lifestyle factors, it vitiates the reproductive system, leading to the discharge. It is often associated with a lack of hygiene, nutritional deficiencies, or infections.
+
+Causes :-
+• Apathya Ahara: Excessive intake of heavy, sour, salty, and fermented foods.
+• Ati-Maithuna: Excessive sexual indulgence leading to local irritation or weakness.
+• Ashoucha: Lack of proper intimate hygiene and cleanliness.
+• Shrama & Chinta: Excessive physical exhaustion and mental stress weakening the immunity.
+
+Symptoms :-
+• Shweta Srava: Persistent white or creamy vaginal discharge.
+• Kati Shoola: Backache and a dragging sensation in the pelvic region.
+• Yonikandu: Itching or burning sensation in the vaginal area.
+• Daurbalya: General weakness, fatigue, and irritability.
+
+Ayurvedic Treatment :-
+• Pushyanuga Churna: The drug of choice for all types of vaginal discharges; it acts as a powerful astringent.
+• Lodhrasava: An effective liquid formulation that balances Kapha and Pitta in the reproductive tract.
+• Chandraprabha Vati: Helps in clearing infections and strengthening the genitourinary system.
+
+Panchkarma Therapy :-
+• Yoni Prakshalana: Vaginal douching with herbal decoctions like Triphala or Nyagrodhadi Kwath to maintain pH and kill pathogens.
+• Yoni Pichu: Inserting a sterile medicated oil/ghee cotton plug into the vagina for deep healing.
+• Virechana: Mild purgation to detoxify the body and balance the Pitta-Kapha axis.
+
+Diet Recommendations :-
+• Include: Rice water (Tandulodaka), Cranberries, Asparagus (Shatavari), and Amla.
+• Reduce: Spicy food, pickles, excessive tea/coffee, and refined sugar.
+• Lifestyle: Practice Vajrasana after meals and maintain strict local hygiene.`,
+},
+//menstural disorder
       {
-        slug: "menstrual-disorders",
-        name: "Menstrual Disorders",
-        image: "/images/Diseases/gynae/menstural.avif",
-        content: `Menstrual disorders include irregular or painful periods.
+  slug: "menstrual-disorder",
+  name: "Menstrual Disorders",
+  nameHindi: "आर्तव व्यापद / कष्टार्तव",
+  image: "/images/Diseases/gynae/menstural.avif",
+  content: `### What are Menstrual Disorders ??
 
-Ayurvedic Treatment:
-• Uterine tonics
-• Hormonal balance herbs
-• Lifestyle correction`,
-      },
+Ayurveda describes 20 types of **Yonivyapad**, many of which relate to menstrual irregularities known as **Artava Vyapad**. These range from painful periods (Kashtartava) to heavy bleeding (Asrigdara) or irregular cycles.
+
+These disorders are primarily caused by an imbalance in **Apana Vata**, the sub-dosha of Vata responsible for the downward flow of menstruation. When Vata is obstructed or aggravated, it leads to pain and cycle irregularity.
+
+Causes :-
+• Vega Dharana: Suppressing natural urges (like urination or bowel movements).
+• Ahara Dosha: Eating dry, cold, or light food during periods which aggravates Vata.
+• Ativyayama: Excessive physical exercise or traveling during the menstrual cycle.
+• Beeja-Dosha: Underlying abnormalities in the ovum or uterus.
+
+Symptoms :-
+• Kashtartava: Severe cramping or pain during the onset of menstruation.
+• Asrigdara: Heavy or prolonged menstrual bleeding (Menorrhagia).
+• Aniyamita Artava: Irregularities in the duration or interval of the cycle.
+• Grathita Artava: Presence of clots in the menstrual blood.
+
+Ayurvedic Treatment :-
+• Ashokarishta: Known as a "uterine tonic," it is excellent for regulating cycles and reducing heavy flow.
+• Kumaryasava: Prepared from Aloe Vera, it helps in cases of painful or suppressed menstruation.
+• Rajahpravartini Vati: Specifically used to induce and regularize menses in case of delays.
+
+Panchkarma Therapy :-
+• Matra Basti: Small oil enemas to pacify Apana Vata and reduce menstrual pain.
+• Uttara Basti: Specialized internal therapy to cleanse the uterus and improve fertility.
+• Abhyanga: Full body oil massage (except during active bleeding) to calm the nervous system.
+
+Diet Recommendations :-
+• Include: Ghee, Warm soups, Sesame seeds, Jaggery, and Ginger tea.
+• Reduce: Cold drinks, dry snacks (chips/crackers), and excessive caffeine.
+• Lifestyle: Practice Pranayama and Shavasana; ensure complete rest during the first three days of the cycle.`,
+},
     ],
   },
 
@@ -451,38 +969,122 @@ Ayurvedic Treatment:
     categoryNameHindi: "गुर्दा विकार",
     image: "/images/Diseases/renal.webp",
     diseases: [
+      //kidney stone
       {
         slug: "kidney-stone",
         name: "Kidney Stone",
-        image: "/images/Diseases/kidney-stone.jpg",
-        content: `Kidney stones are hard deposits in kidneys.
+        nameHindi: "वृक्क अश्मरी",
+        image: "/images/Diseases/renal/kidneystone.webp",
+        content: `### What is Kidney Stone ??
 
-Ayurvedic Treatment:
-• Stone dissolving herbs
-• Hydration therapy
-• Diet management`,
+In Ayurveda, Kidney Stones are known as **Ashmari** (Ashma = Stone, Ari = Enemy). It is a condition where Vata dries up the Pitta or Kapha secretions in the urinary tract, leading to the formation of hard, stone-like structures.
+
+It is primarily a Vata-Kapha disorder. When Kapha (mucus/minerals) is aggravated and Vata (movement/drying) is out of balance, the urine becomes concentrated, and crystals begin to precipitate in the **Vrikka** (Kidney) or **Vasti** (Bladder).
+
+Causes :-
+• Ati-Vyayama: Excessive physical exertion in hot weather leading to dehydration.
+• Ushna-Tikshna Ahara: Excessive consumption of spicy, dry, and astringent foods.
+• Madya-Sevana: Over-consumption of alcohol or caffeinated beverages.
+• Vega-Dharana: Frequent suppression of the urge to urinate.
+
+Symptoms :-
+• Vasti-Vedana: Severe, radiating pain in the lower back, flanks, or groin area.
+• Mutrakrichra: Difficulty or pain during urination (Dysuria).
+• Sarudhir-Mutra: Presence of blood in the urine (Haematuria).
+• Jwara & Chardi: Fever, chills, and nausea due to obstruction or infection.
+
+Ayurvedic Treatment :-
+• Varunadi Vati: A prime litholytic (stone-breaking) herb that helps flush out stones.
+• Pashanbhed: Literally meaning "Stone Breaker," it helps in dissolving the stone matrix.
+• Gokshuradi Guggulu: A diuretic that strengthens the kidneys and reduces inflammation.
+
+Panchkarma Therapy :-
+• Snehana-Swedana: External oil massage and steam to relax the ureters and ease stone passage.
+• Uttar Basti: Administration of medicated oils into the bladder to lubricate the tract.
+• Virechana: Medicated purgation to balance Pitta and clear systemic toxins.
+
+Diet Recommendations :-
+• Include: Barley (Yava), Horse gram (Kulthi) soup, Radish, and Coconut water.
+• Reduce: Spinach, Tomatoes, Cashew nuts, Red meat, and Excessive salt.
+• Lifestyle: Drink at least 3-4 liters of water daily and practice Dhanurasana.`,
       },
+      //prostate disorder
       {
-        slug: "prostate",
+        slug: "prostate-disorder",
         name: "Prostate Disorder",
-        image: "/images/Diseases/prostate.jpg",
-        content: `Prostate disorders affect urinary function.
+        nameHindi: "पौरुष ग्रंथि शोथ / मूत्रघात",
+        image: "/images/Diseases/renal/prostate.webp",
+        content: `### What is Prostate Disorder ??
 
-Ayurvedic Treatment:
-• Prostate tonics
-• Anti-inflammatory herbs
-• Lifestyle changes`,
+Ayurveda correlates prostate enlargement (BPH) with **Vastivata** or **Mutraghata**. It is considered a natural aging process influenced by the aggravation of **Vata Dosha** in the lower abdominal region.
+
+As age increases, Vata increases, causing the prostate gland (Paurush Granthi) to enlarge and obstruct the flow of urine. If associated with inflammation, it is influenced by Pitta; if there is heavy congestion, Kapha is involved.
+
+Causes :-
+• Ati-Maithuna: Excessive sexual activity or total suppression of sexual urges.
+• Ruksha Ahara: Consuming very dry, cold, or processed foods that increase Vata.
+• Sheet-Sevana: Exposure to cold environments or drinking chilled water.
+• Sitting Habit: Prolonged sitting on hard surfaces which creates pressure on the pelvic floor.
+
+Symptoms :-
+• Mutradhara Sangha: Weak urinary stream or "dribbling" after urination.
+• Nakta-Mutra: Frequent urge to urinate during the night (Nocturia).
+• Vasti-Purana: A feeling of fullness or heaviness in the bladder even after voiding.
+• Sashula-Mutra: Pain or discomfort in the perineum or during ejaculation.
+
+Ayurvedic Treatment :-
+• Kanchanar Guggulu: Used to reduce glandular swellings and clear growths.
+• Chandraprabha Vati: The most effective formulation for all urinary and prostate issues.
+• Shilajit: Rejuvenates the urogenital system and reduces prostate size naturally.
+
+Panchkarma Therapy :-
+• Matra Basti: Small oil enemas (usually with Dhanwantaram oil) to pacify Vata in the pelvis.
+• Avagaha Sweda: Medicated sitz baths to reduce inflammation and relax the prostate.
+• Kati Basti: Specialized oil pooling on the lower back to strengthen the nerves governing the bladder.
+
+Diet Recommendations :-
+• Include: Pumpkin seeds (rich in Zinc), Watermelon seeds, Garlic, and Turmeric.
+• Reduce: Excessive Red meat, Alcohol, and very Spicy/Pungent foods.
+• Lifestyle: Avoid sitting for long hours; practice Ashwini Mudra (Anal lock) to strengthen the pelvic floor.`,
       },
+      // CKD
       {
-        slug: "ckd",
+        slug: "chronic-kidney-disease",
         name: "Chronic Kidney Disease (CKD)",
-        image: "/images/Diseases/ckd.jpg",
-        content: `CKD is gradual loss of kidney function.
+        nameHindi: "जीर्ण वृक्क रोग",
+        image: "/images/Diseases/renal/ckd.webp",
+        content: `### What is CKD ??
 
-Ayurvedic Treatment:
-• Renal protective herbs
-• Detoxification
-• Diet regulation`,
+In Ayurveda, CKD is a complex disorder involving multiple **Srotas** (channels), primarily the **Mutravaha Srotas** (urinary system). It is often a complication of long-term Prameha (Diabetes) or Vatarakta (Hypertension).
+
+It occurs when the **Vrikka** (Kidneys) lose their ability to filter toxins due to damage to the "Srotas" (micro-channels). It involves a depletion of **Ojas** (vitality) and a severe imbalance where Ama (toxins) blocks the channels while Vata causes tissue wasting.
+
+Causes :-
+• Prameha Upadrava: Long-term uncontrolled Diabetes damaging the kidney microvasculature.
+• Rakta-Chapa: High blood pressure causing "Srotas-Drishti" (damage to vessels).
+• Bheshaja-Atisevana: Excessive use of painkillers (NSAIDs) and chemical antibiotics.
+• Viruddha-Ahara: Chronic consumption of processed, salty, and chemically laden foods.
+
+Symptoms :-
+• Shotha: Swelling (Edema) around the eyes, ankles, and feet.
+• Alpavartava: Decreased urine output (Oliguria) or change in urine color.
+• Pandu: Anemia or pale skin due to lack of erythropoietin production.
+• Daurbalya: Profound weakness, nausea, and loss of appetite.
+
+Ayurvedic Treatment :-
+• Punarnavadi Kwath: A powerful diuretic and rejuvenator that reduces swelling and repairs kidney cells.
+• Gokshura: Helps in maintaining the glomerular filtration rate (GFR) and clearing toxins.
+• Varun: Acts as a natural nephroprotective agent that helps clear blockages.
+
+Panchkarma Therapy :-
+• Mridu Virechana: Very gentle purgation to remove toxins without dehydrating the patient.
+• Basti: Specifically 'Ksheera Basti' (Milk-based enema) to nourish the body while detoxifying.
+• Raktamokshana: In specific cases, used to reduce systemic toxicity and high blood pressure.
+
+Diet Recommendations :-
+• Include: Old Rice (Shali Rice), Mung Dal, Bottle Gourd (Lauki), and Parwal.
+• Reduce: High-potassium fruits (Bananas), High-protein (Urad dal/Red meat), and Salt.
+• Lifestyle: Practice mild Pranayama (Anulom Vilom) to manage stress and oxygenate the blood.`,
       },
     ],
   },
@@ -494,11 +1096,12 @@ Ayurvedic Treatment:
     categoryNameHindi: "स्पोंडिलाइटिस",
     image: "/images/Diseases/spondylitis.webp",
     diseases: [
+      //cervical spondylosis
       {
   slug: "cervical-spondylosis",
   name: "Cervical Spondylosis",
   nameHindi: "ग्रीवा स्पोंडिलोसिस (गर्दन का दर्द)",
-  image: "/images/Diseases/lifestyle/cervical_spondylosis.webp",
+  image: "/images/Diseases/spondylitis/cervical.png",
   content: `### ***What is Cervical Spondylosis?***
 
 Cervical Spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop.
@@ -532,11 +1135,12 @@ In Ayurveda, this is known as **Griva Sandhigata Vata**. It is primarily a **Vat
 • **Hydration:** Drink warm water throughout the day to maintain lubrication in the joints.
 `
 },
+//lumbar spondylosis
       {
   slug: "lumbar-spondylosis",
   name: "Lumbar Spondylosis (Lower Back Pain)",
   nameHindi: "कटि स्पोंडिलोसिस (कमर दर्द)",
-  image: "/images/Diseases/lifestyle/lumbar_spondylosis.webp",
+  image: "/images/Diseases/spondylitis/lumber.png",
   content: `### ***What is Lumbar Spondylosis?***
 
 Lumbar Spondylosis refers to the degeneration of the vertebrae and discs in the lower back. It often leads to narrowing of the space between vertebrae, causing nerve compression.
@@ -569,11 +1173,13 @@ Ayurveda categorizes this under **Kati Vata** or **Kati Graha**. When Vata settl
 • **Reduce:** Minimize heavy, fried foods that cause constipation, as "Vibandha" (constipation) worsens back pain.
 • **Lifestyle:** Practice gentle **Kati Chakrasana** and avoid soft, sagging mattresses.
 `
-},{
+},
+//ankylosing spondylitis
+{
   slug: "ankylosing-spondylitis",
   name: "Ankylosing Spondylitis",
   nameHindi: "एन्किलोज़िंग स्पॉन्डिलाइटिस",
-  image: "/images/Diseases/lifestyle/ankylosing_spondylitis.webp",
+  image: "/images/Diseases/spondylitis/akynlosing.webp",
   content: `### ***What is Ankylosing Spondylitis?***
 
 Ankylosing Spondylitis (AS) is a rare type of arthritis that causes pain and stiffness in the spine. Over time, it can cause some of the small bones in the spine to fuse, leading to a "Bamboo Spine."
@@ -613,7 +1219,7 @@ In Ayurveda, this is often correlated with **Amavata** (Rheumatoid-like conditio
   {
     categorySlug: "joint-disorders",
     categoryName: "Joint & Uric Disorders",
-    image: "/images/Diseases/uric.jpg",
+    image: "/images/Diseases/joint-pain.png",
     diseases: [
       {
         slug: "uric-acid",
@@ -651,195 +1257,353 @@ Ayurvedic Treatment:
     ],
   },
 
-  // 9️⃣ Endocrine Disorders
+  // 9️⃣ Liver Disorders
 {
-  categorySlug: "endocrine",
-  categoryName: "Endocrine",
-  image: "/images/Diseases/endocrine.png",
+  categorySlug: "liver",
+  categoryName: "Liver Disorders",
+  categoryNameHindi: "यकृत विकार",
+  image: "/images/Diseases/liver.jpg",
   diseases: [
+    //fatty liver
     {
-      slug: "thyroid-disorder",
-      name: "Thyroid Disorder",
-      image: "/images/Diseases/thyroid.jpg",
-      content: `
-Thyroid disorders affect hormone production and metabolism.
+        slug: "fatty-liver",
+        name: "Fatty Liver",
+        nameHindi: "यकृत मेदवृद्धि",
+        image: "/images/Diseases/liver/fattyliver.webp",
+        content: `### What is Fatty Liver ??
 
-Ayurvedic Treatment:
-• Herbal thyroid balance therapy
-• Detoxification
-• Diet correction
-      `,
-    },
+In Ayurveda, Fatty Liver is understood as **Yakrit-Dalodara** or a state of **Medovriddhi** (excess fat) in the Liver (**Yakrit**). Since the liver is the seat of **Pitta**, any imbalance in Agni (digestive fire) leads to the accumulation of "Ama" (toxins) and "Meda" (fat) in the hepatic cells.
+
+It is primarily a Kapha-Pitta disorder where the sticky nature of Kapha obstructs the metabolic functions of the Liver, causing fat to deposit instead of being processed.
+
+Causes :-
+• Apathya Ahara: Excessive consumption of fried foods, sweets, and heavy dairy.
+• Madya-Pana: Frequent intake of alcohol which directly damages Liver Agni.
+• Avyayama: A sedentary lifestyle with no physical activity, leading to slow metabolism.
+• Diva-Swapna: Regular daytime sleeping, which significantly increases Kapha and Meda.
+
+Symptoms :-
+• Gaurava: A persistent feeling of heaviness or fullness in the upper right abdomen.
+• Alasya: Chronic fatigue, lethargy, and a general lack of energy.
+• Agnimandya: Poor appetite and slow digestion.
+• Chardi: Occasional nausea or a coated tongue in the morning.
+
+Ayurvedic Treatment :-
+• Rohitakarishta: A specialized liquid tonic for liver and spleen disorders.
+• Kalmegh: A potent bitter herb that acts as a natural "Liver Stimulant" and detoxifier.
+• Phaltrikadi Kwath: A combination of Triphala and other herbs to clear fat from the liver.
+
+Panchkarma Therapy :-
+• Virechana: The gold standard treatment for liver disorders to flush out excess Pitta and Kapha.
+• Udvartana: Dry herbal powder massage to reduce systemic fat and improve metabolism.
+• Vamana: If Kapha is very dominant, medicated emesis is used to clear the chest and upper GI tract.
+
+Diet Recommendations :-
+• Include: Buttermilk (Takra), Garlic, Turmeric, Papaya, and Bitter gourd.
+• Reduce: Refined flour (Maida), White sugar, Alcohol, and Saturated fats.
+• Lifestyle: Practice Kapalbhati Pranayama and brisk walking for 30 minutes daily.`,
+      },
+      //cirrhosis
     {
-      slug: "diabetes-endocrine",
-      name: "Diabetes",
-      image: "/images/Diseases/diabetes.jpg",
-      content: `
-Diabetes is a metabolic endocrine disorder causing high blood sugar.
+        slug: "liver-cirrhosis",
+        name: "Liver Cirrhosis",
+        nameHindi: "यकृत क्षय / कुम्भ कामला",
+        image: "/images/Diseases/liver/Cirrhosis.jpg",
+        content: `### What is Liver Cirrhosis ??
 
-Ayurvedic Treatment:
-• Herbal formulations
-• Sugar control diet
-• Lifestyle modification
-      `,
-    },
+Liver Cirrhosis is a chronic condition that Ayurveda relates to an advanced stage of **Kamala** (Jaundice) or **Yakrit-Kshaya**. It represents the "Kshaya" (wasting) of the liver tissue where healthy cells are replaced by non-functional scar tissue.
+
+This is a **Sannipatika** condition (involving all three Doshas) but dominated by Vata (causing dryness/fibrosis) and Pitta (causing inflammation and cell death).
+
+Causes :-
+• Ati-Madya-Pana: Long-term chronic alcoholism leading to structural damage.
+• Jirna-Kamala: Neglected or untreated chronic Jaundice or Hepatitis.
+• Viruddha-Ahara: Chronic intake of toxic food combinations and chemical preservatives.
+• Vishaja: Exposure to environmental toxins or heavy metal poisoning.
+
+Symptoms :-
+• Kamala: Yellowish discoloration of skin and eyes (Jaundice).
+• Jalodara: Accumulation of fluid in the abdominal cavity (Ascites).
+• Kshudha-Nasha: Complete loss of appetite and extreme weight loss.
+• Rakta-Srava: Easy bruising or bleeding from the nose/gums due to lack of clotting factors.
+
+Ayurvedic Treatment :-
+• Arogyavardhini Vati: Literally "Improver of Health," it clears toxins and balances all three Doshas.
+• Bhumyamalaki: The most powerful herb for regenerating liver cells and protecting the liver.
+• Punarnavadi Mandur: Helps in managing anemia and reducing fluid retention (Edema).
+
+Panchkarma Therapy :-
+• Mridu Virechana: Gentle purgation to reduce the load on the liver without causing weakness.
+• Nitya Basti: Daily mild oil enemas to pacify Vata and prevent further tissue wasting.
+• Takradhara: Pouring medicated buttermilk on the forehead to manage stress and improve digestion.
+
+Diet Recommendations :-
+• Include: Pomegranate juice, Sugarcane juice (if not diabetic), Radish, and Mung dal water.
+• Reduce: Salt, Spicy food, Oil, and any form of protein that is hard to digest.
+• Lifestyle: Ensure complete physical and mental rest; avoid all forms of intoxicants.`,
+      },
+      //hepatitis
     {
-      slug: "pcod-endocrine",
-      name: "PCOD",
-      image: "/images/Diseases/pcod.jpg",
-      content: `
-PCOD is a hormonal imbalance affecting women.
+        slug: "hepatitis",
+        name: "Hepatitis",
+        nameHindi: "कामला / कोष्ठ-शाखाश्रित कामला",
+        image: "/images/Diseases/liver/hepatisis.jpg",
+        content: `### What is Hepatitis ??
 
-Ayurvedic Treatment:
-• Hormone balancing herbs
-• Weight management
-• Detox therapies
-      `,
-    },
+In Ayurveda, Hepatitis is known as **Kamala**. It is essentially an inflammation of the liver caused by highly aggravated **Pitta Dosha** which vitiates the blood (**Rakta**) and the flesh (**Mamsa**).
+
+Ayurveda divides it into **Koshta-shakhrita** (occurring in the gut and tissues) and **Ruddhapatha** (obstructive Jaundice). It involves a breakdown in the liver's ability to process "Ranjaka Pitta" (the bile pigment).
+
+Causes :-
+• Pittal-Ahara: Excessive consumption of sour, salty, and very spicy foods.
+• Krimi-Dosha: Viral or bacterial infections (Krimi) that attack the liver.
+• Rakta-Drishti: Systemic blood impurities caused by poor lifestyle or external pathogens.
+• Ushna-Vatavarana: Excessive exposure to heat and sunlight which triggers Pitta.
+
+Symptoms :-
+• Peeta-Netra/Mutra: Distinct yellowing of the eyes, skin, and dark yellow urine.
+• Daha: Burning sensation in the body or stomach.
+• Daurbalya: Intense physical weakness and malaise.
+• Sweta-Varcha: Clay-colored or pale stools (indicative of bile obstruction).
+
+Ayurvedic Treatment :-
+• Katuki: A bitter herb that acts as a potent cholagogue (promotes bile flow).
+• Avipattikar Churna: Helps in clearing the excess Pitta from the digestive tract.
+• Yakrit Plihantak Churna: A specific blend for reducing inflammation of the liver and spleen.
+
+Panchkarma Therapy :-
+• Snehapana: Drinking medicated ghee (like Mahatiktaka Ghrita) to soothe the inflamed liver.
+• Virechana: Therapeutic purgation is the primary detoxification for Hepatitis to remove excess bile.
+• Nasya: Medicated oil drops in the nose to clear "Urdhva-jatru-gata" (upper body) Pitta.
+
+Diet Recommendations :-
+• Include: Coconut water, Barley water, Sugarcane, Sweet grapes, and Steamed vegetables.
+• Reduce: Fried food, Chilies, Garlic, Curd, and Fermented items like Idli/Dosa.
+• Lifestyle: Avoid strenuous exercise and sun exposure during the recovery phase.`,
+      },
   ],
-},
+},      
 
 // 🔟 Respiratory Disorders
 {
   categorySlug: "respiratory",
-  categoryName: "Respiratory",
+  categoryName: "Respiratory Disorders",
+  categoryNameHindi: "श्वसन विकार",
   image: "/images/Diseases/respirtory.png",
   diseases: [
+    //asthma
     {
-      slug: "asthma-respiratory",
-      name: "Asthma",
-      image: "/images/Diseases/asthma.jpg",
-      content: `
-Asthma is a chronic respiratory condition causing breathing difficulty.
+        slug: "asthma",
+        name: "Asthma",
+        nameHindi: "तमक श्वास",
+        image: "/images/Diseases/respiratory/asthama.png",
+        content: `### What is Asthma ??
 
-Ayurvedic Treatment:
-• Herbal bronchodilators
-• Steam therapy
-• Immunity boosting
-      `,
-    },
+In Ayurveda, Asthma is known as **Tamaka Shwasa**. It is a condition where the **Vata Dosha**, aggravated by various factors, moves in the upward direction (Pratiloma) and gets obstructed by **Kapha Dosha** in the respiratory channels (Pranavaha Srotas).
+
+This obstruction leads to a narrowing of the airways, causing severe difficulty in breathing, wheezing, and a feeling of darkness (Tamas) before the eyes, which is why it is called 'Tamaka'.
+
+Causes :-
+• Raja-Dhooma: Exposure to dust, smoke, and strong chemical odors.
+• Sheeta-Ahara: Excessive consumption of cold water, curd, and refrigerated foods.
+• Ama-Dosha: Undigested food toxins that block the micro-channels of the lungs.
+• Kula-Vritti: Genetic predisposition or history of allergies in the family.
+
+Symptoms :-
+• Ghurghuraka: Audible wheezing or whistling sound during breathing.
+• Kasa: Frequent bouts of cough, often worse at night or early morning.
+• Krichra-Shwasa: Intense breathlessness, often relieved by sitting up (Asino Labhate Sukham).
+• Hrit-Peeda: Tightness or pressure in the chest area.
+
+Ayurvedic Treatment :-
+• Swas Kasa Chintamani Ras: A potent mineral formulation used for acute respiratory distress.
+• Agastya Haritaki: A legendary Rasayana (rejuvenator) for the lungs and immunity.
+• Sitopaladi Churna: Mixed with honey to clear congestion and soothe the throat.
+
+Panchkarma Therapy :-
+• Snehana & Swedana: Applying warm medicated oil to the chest followed by herbal steam to liquefy Kapha.
+• Vamana: Therapeutic emesis to eliminate excess Kapha from the stomach and lungs.
+• Virechana: Mild purgation to balance the Pitta-Vata axis and detoxify the system.
+
+Diet Recommendations :-
+• Include: Old Rice, Kulthi (Horse gram), Garlic, Ginger, and warm water.
+• Reduce: Curd, Bananas, Cold drinks, Heavy sweets, and Fried foods.
+• Lifestyle: Practice Deep Breathing (Pranayama) and avoid sleeping immediately after meals.`,
+      },
+      //bronchitis
     {
-      slug: "bronchitis",
-      name: "Bronchitis",
-      image: "/images/Diseases/bronchitis.jpg",
-      content: `
-Bronchitis is inflammation of bronchial tubes.
+        slug: "bronchitis",
+        name: "Bronchitis",
+        nameHindi: "कास रोग / श्वासनलिका शोथ",
+        image: "/images/Diseases/respiratory/bronchitis.avif",
+        content: `### What is Bronchitis ??
 
-Ayurvedic Treatment:
-• Herbal expectorants
-• Nasya therapy
-• Respiratory strengthening
-      `,
-    },
+Bronchitis is understood in Ayurveda as a manifestation of **Kasa Roga** (Cough) that progresses into **Shwasa** (Breathing difficulty). It involves inflammation of the bronchial tubes due to the vitiation of Vata and Kapha.
+
+When the protective lining of the respiratory tract is irritated by infections or pollutants, Kapha accumulates, leading to a productive cough and narrowing of the air passages.
+
+Causes :-
+• Ruksha-Sevana: Constant intake of dry or light foods that aggravate Vata.
+• Ati-Vyayama: Excessive physical exertion leading to respiratory fatigue.
+• Vega-Rodha: Suppressing the natural urge to cough or sneeze.
+• Infections: Viral or bacterial invasions that vitiate the Rasa Dhatu.
+
+Symptoms :-
+• Kapha-Shteevana: Expectoration of thick, yellowish, or clear mucus.
+• Parshwa-Shoola: Pain in the sides of the chest or ribs due to constant coughing.
+• Jwara: Low-grade fever or a feeling of heaviness in the body.
+• Swara-Bheda: Hoarseness of voice or irritation in the larynx.
+
+Ayurvedic Treatment :-
+• Vasarishta: A liquid fermented preparation that acts as a powerful bronchodilator.
+• Kantakari Avaleha: A herbal jam specifically for chronic cough and bronchial inflammation.
+• Talisadi Churna: Effective in clearing the upper and lower respiratory tracts.
+
+Panchkarma Therapy :-
+• Nasyam: Administering medicated drops through the nose to clear the head and sinuses.
+• Dhumapana: Inhalation of medicinal herbal smoke to dry up excess Kapha.
+• Abhyanga: Warm oil massage on the back and chest to improve circulation and loosen phlegm.
+
+Diet Recommendations :-
+• Include: Honey, Black pepper, Turmeric, Long pepper (Pippali), and Lukewarm water.
+• Reduce: Cold salads, Raw sprouts, Ice cream, and heavy Dairy products.
+• Lifestyle: Keep the chest warm and avoid exposure to cold winds or air conditioning.`,
+      },
+      //sinusitis
     {
-      slug: "sinusitis",
-      name: "Sinusitis",
-      image: "/images/Diseases/sinusitis.jpg",
-      content: `
-Sinusitis causes sinus inflammation and blockage.
+        slug: "sinusitis",
+        name: "Sinusitis",
+        nameHindi: "पीनस / प्रतिश्याय",
+        image: "/images/Diseases/respiratory/sinusitis.webp",
+        content: `### What is Sinusitis ??
 
-Ayurvedic Treatment:
-• Nasya therapy
-• Steam inhalation
-• Herbal cleansing
-      `,
-    },
+In Ayurveda, Sinusitis is primarily correlated with **Dustha Pratishyaya** or **Pinasa**. It is an inflammatory condition of the paranasal sinuses caused by an imbalance of Kapha and Vata, leading to the accumulation of mucus in the "Shira" (Head) region.
+
+If left untreated, it can turn into "Dustha" (chronic/foul), affecting the sense of smell and causing recurring headaches.
+
+Causes :-
+• Sheeta-Ambu: Frequent use of cold water for drinking or bathing.
+• Diva-Swapna: Day-time sleeping which increases Kapha in the head region.
+• Dhooli-Rajas: Chronic exposure to dust, pollen, and environmental pollutants.
+• Mala-Vishtambha: Chronic constipation which causes toxins to move upward (Urdhvagati).
+
+Symptoms :-
+• Shiro-Gaurava: Heaviness and throbbing pain in the forehead and cheeks.
+• Nasa-Avarodha: Nasal congestion or blockage, making mouth-breathing necessary.
+• Gandha-Ajnana: Temporary loss or reduction in the sense of smell.
+• Galo-Upalepa: Post-nasal drip or a feeling of mucus stuck in the throat.
+
+Ayurvedic Treatment :-
+• Shadbindu Taila: Medicated oil used for Nasya to clear sinus cavities and strengthen nerves.
+• Vyoshadi Vati: A herbal tablet that is kept in the mouth to clear the nasal path and throat.
+• Laxmi Vilas Ras (Nardiya): A potent formulation for chronic sinus and upper respiratory issues.
+
+Panchkarma Therapy :-
+• Pradhamana Nasya: Blowing medicinal powders into the nose to trigger the release of deep-seated mucus.
+• Kavala & Gandusha: Gargling with warm salt water or medicated oils to clear the throat.
+• Bashpa Sweda: Facial herbal steam inhalation to liquefy and drain the sinuses.
+
+Diet Recommendations :-
+• Include: Garlic, Tulsi, Ginger, Cumin, and spicy (Katu) foods to dry Kapha.
+• Reduce: Curd, Bananas, Cold water, Fried food, and Heavy sweets.
+• Lifestyle: Practice Neti (Nasal irrigation) regularly and avoid sleeping on the stomach.`,
+      },
   ],
 },
 
 // 1️⃣1️⃣ Hair & Skin Disorders
-{
-  categorySlug: "hair-skin",
-  categoryName: "Hair & Skin",
-  image: "/images/Diseases/hair-and-skin.png",
-  diseases: [
-    {
-      slug: "hair-fall",
-      name: "Hair Fall",
-      image: "/images/Diseases/hairfall.jpg",
-      content: `
-Hair fall may occur due to stress, hormonal imbalance or nutrition deficiency.
+// {
+//   categorySlug: "sexual-disorders",
+//   categoryName: "Sexual Disorders",
+//   image: "/images/Diseases/hair-and-skin.png",
+//   diseases: [
+//     {
+//       slug: "hair-fall",
+//       name: "Hair Fall",
+//       image: "/images/Diseases/hairfall.jpg",
+//       content: `
+// Hair fall may occur due to stress, hormonal imbalance or nutrition deficiency.
 
-Ayurvedic Treatment:
-• Herbal hair oils
-• Stress management
-• Nutritional therapy
-      `,
-    },
-    {
-      slug: "eczema-skin",
-      name: "Eczema",
-      image: "/images/Diseases/eczema.jpg",
-      content: `
-Eczema causes itchy and inflamed skin.
+// Ayurvedic Treatment:
+// • Herbal hair oils
+// • Stress management
+// • Nutritional therapy
+//       `,
+//     },
+//     {
+//       slug: "eczema-skin",
+//       name: "Eczema",
+//       image: "/images/Diseases/eczema.jpg",
+//       content: `
+// Eczema causes itchy and inflamed skin.
 
-Ayurvedic Treatment:
-• Blood purification
-• Herbal ointments
-• Diet regulation
-      `,
-    },
-    {
-      slug: "psoriasis",
-      name: "Psoriasis",
-      image: "/images/Diseases/psoriasis.jpg",
-      content: `
-Psoriasis is a chronic autoimmune skin condition.
+// Ayurvedic Treatment:
+// • Blood purification
+// • Herbal ointments
+// • Diet regulation
+//       `,
+//     },
+//     {
+//       slug: "psoriasis",
+//       name: "Psoriasis",
+//       image: "/images/Diseases/psoriasis.jpg",
+//       content: `
+// Psoriasis is a chronic autoimmune skin condition.
 
-Ayurvedic Treatment:
-• Detox therapy
-• Medicated oils
-• Immune balancing herbs
-      `,
-    },
-  ],
-},
+// Ayurvedic Treatment:
+// • Detox therapy
+// • Medicated oils
+// • Immune balancing herbs
+//       `,
+//     },
+//   ],
+// },
 
 // 1️⃣2️⃣ Joint Pain Disorders
-{
-  categorySlug: "joint-pain",
-  categoryName: "Joint Pain",
-  image: "/images/Diseases/joint-pain.png",
-  diseases: [
-    {
-      slug: "arthritis-joint",
-      name: "Arthritis",
-      image: "/images/Diseases/arthritis.jpg",
-      content: `
-Arthritis causes joint pain and stiffness.
+// {
+//   categorySlug: "joint-pain",
+//   categoryName: "Joint Pain",
+//   image: "/images/Diseases/joint-pain.png",
+//   diseases: [
+//     {
+//       slug: "arthritis-joint",
+//       name: "Arthritis",
+//       image: "/images/Diseases/arthritis.jpg",
+//       content: `
+// Arthritis causes joint pain and stiffness.
 
-Ayurvedic Treatment:
-• Anti-inflammatory herbs
-• Abhyanga therapy
-• Panchkarma detox
-      `,
-    },
-    {
-      slug: "rheumatoid-arthritis-joint",
-      name: "Rheumatoid Arthritis",
-      image: "/images/Diseases/rheumatoid.jpg",
-      content: `
-Autoimmune inflammation affecting joints.
+// Ayurvedic Treatment:
+// • Anti-inflammatory herbs
+// • Abhyanga therapy
+// • Panchkarma detox
+//       `,
+//     },
+//     {
+//       slug: "rheumatoid-arthritis-joint",
+//       name: "Rheumatoid Arthritis",
+//       image: "/images/Diseases/rheumatoid.jpg",
+//       content: `
+// Autoimmune inflammation affecting joints.
 
-Ayurvedic Treatment:
-• Immunity balancing herbs
-• Basti therapy
-• Joint strengthening treatment
-      `,
-    },
-    {
-      slug: "osteoarthritis-joint",
-      name: "Osteoarthritis",
-      image: "/images/Diseases/osteoarthritis.jpg",
-      content: `
-Degenerative joint disease causing cartilage breakdown.
+// Ayurvedic Treatment:
+// • Immunity balancing herbs
+// • Basti therapy
+// • Joint strengthening treatment
+//       `,
+//     },
+//     {
+//       slug: "osteoarthritis-joint",
+//       name: "Osteoarthritis",
+//       image: "/images/Diseases/osteoarthritis.jpg",
+//       content: `
+// Degenerative joint disease causing cartilage breakdown.
 
-Ayurvedic Treatment:
-• Oil therapies
-• Strengthening exercises
-• Pain management herbs
-      `,
-    },
-  ],
-},
+// Ayurvedic Treatment:
+// • Oil therapies
+// • Strengthening exercises
+// • Pain management herbs
+//       `,
+//     },
+//   ],
+// },
 ];

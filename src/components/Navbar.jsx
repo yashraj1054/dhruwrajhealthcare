@@ -176,7 +176,7 @@ const Navbar = () => {
             </Link>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 ">
               <Link to="/" className="hover:text-gray-600">
                 Home
               </Link>
@@ -190,27 +190,6 @@ const Navbar = () => {
     })),
   }))}
 />
-              {/* <NavItem
-                label="Diseases"
-                menuId="diseases"
-                links={[
-                  {
-                    name: "Heart Disease",
-                    subLinks: [
-                      { name: "Arrhythmia", href: "/diseases/heart/arrhythmia" },
-                      { name: "Hypertension", href: "/diseases/heart/hypertension" },
-                    ],
-                  },
-                  { name: "Neurology", href: "/diseases/neurology" },
-                  {
-                    name: "Liver & Gall Disease",
-                    subLinks: [
-                      { name: "Fatty Liver", href: "/diseases/liver/fatty" },
-                      { name: "Gall Stones", href: "/diseases/liver/stones" },
-                    ],
-                  },
-                ]}
-              /> */}
 
               <NavItem
                 label="Therapy"

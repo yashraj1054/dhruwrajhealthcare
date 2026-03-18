@@ -275,7 +275,7 @@ const Home = () => {
     { name: "Endocrine", slug: "endocrine", img: "/images/Diseases/endocrine.png" },
     { name: "Respiratory", slug: "respiratory", img: "/images/Diseases/respirtory.png" },
     { name: "Hair & Skin", slug: "hair-skin", img: "/images/Diseases/hair-and-skin.png" },
-    { name: "Joint Pain", slug: "joint-pain", img: "/images/Diseases/joint-pain.png" },
+    { name: "Joint Pain", slug: "joint-disorders", img: "/images/Diseases/joint-pain.png" },
     { name: "Gynae", slug: "gynae", img: "/images/Diseases/gynae.png" },
   ].map((item, index) => (
     <Link
@@ -614,82 +614,6 @@ const Home = () => {
       </section>
 
       {/* ================= BOOK APPOINTMENT SECTION ================= */}
-      {/* <section className="bg-[#Fdfbf3] py-24">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start"> */}
-          {/* ================= LEFT SIDE ================= */}
-          {/* <div>
-            <h2 className="text-4xl font-bold mb-4">Dhruwraj Ayurveda</h2>
-
-            <h3 className="text-3xl font-bold mb-6">
-              <span className="text-[#C4531A]">Consultation</span> Advantages
-            </h3>
-
-            <p className="text-gray-600 leading-relaxed mb-10">
-              We Have Treated more than 8,000 patients speak with our Ayurvedic
-              expert to understand the root cause of their health problems and
-              receive personalised treatment.
-            </p> */}
-
-            {/* Stats Cards */}
-            {/* <div className="grid grid-cols-2 gap-6">
-              {["13+ Years of Experience", "8000+ Patients Treated"].map(
-                (item, index) => (
-                  <div
-                    key={index}
-                    className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition"
-                  >
-                    <div className="text-[#C4531A] text-3xl mb-4">★</div>
-                    <p className="font-semibold text-gray-800">{item}</p>
-                  </div>
-                ),
-              )}
-            </div>
-          </div> */}
-
-          {/* ================= RIGHT SIDE ================= */}
-          {/* <div className="bg-white p-10 rounded-2xl shadow-lg">
-            <h3 className="text-3xl font-bold mb-8 text-gray-900">
-              Book An Appointment
-            </h3>
-
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <select
-                value={consultation}
-                onChange={(e) => setConsultation(e.target.value)}
-                className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#C4531A]"
-              >
-                <option value="">Select Consultation</option>
-                <option>Video Consultation</option>
-                <option>Clinical Consultation</option>
-                <option>Telephonic Consultation</option>
-              </select>
-
-              <input
-                type="text"
-                placeholder="Patient Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#C4531A]"
-              />
-
-              <input
-                type="tel"
-                placeholder="Mobile Number"
-                value={mobile}
-                onChange={(e) => setMobile(e.target.value)}
-                className="w-full border border-gray-300 p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-[#C4531A]"
-              />
-
-              <button
-                type="submit"
-                className="w-full bg-[#C4531A] text-white py-4 tracking-widest uppercase font-semibold hover:opacity-90 transition"
-              >
-                Submit via WhatsApp
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>  */}
 
       <section className="bg-[#Fdfbf3] py-24">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">

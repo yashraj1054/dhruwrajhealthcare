@@ -42,11 +42,10 @@ const MeetDoctor = () => {
             </h3>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Dr. R.K Pal is a highly experienced Ayurvedic physician with
-              more than 13 years of clinical experience in Ayurveda and
-              Panchkarma therapies. He has successfully treated thousands of
-              patients suffering from chronic diseases using authentic
-              Ayurvedic treatments.
+              Dr. R.K. Pal is a highly experienced Ayurvedic physician with more than 12 years of clinical as well as academic experience. 
+              He is currently working as an Associate Professor in the Department of Panchakarma. 
+              He is also an author of Ayurvedic academic books and has published many articles in journals related to Ayurveda and Panchakarma therapies. 
+              He has successfully treated thousands of patients suffering from chronic diseases using authentic Ayurvedic treatments.
             </p>
 
             {/* Qualification */}
@@ -57,9 +56,9 @@ const MeetDoctor = () => {
 
               <ul className="space-y-1 text-gray-700">
                 <li> <b>1. B.A.M.S.</b>  – Bachelor of Ayurvedic Medicine & Surgery</li>
-                <li> <b>2. M.D.</b>  – Panchkarma Specialist</li>
-                <li> <b>3. C.A.R.D</b> – Ayurvedic Rheumatology & Disorders</li>
-                <li> <b>4. Ph.D. (Scholar)</b> – Research in Ayurveda</li>
+                <li> <b>2. M.D.</b>  – Panchkarma </li>
+                <li> <b>3. C.A.R.D</b> – Certificate in Anorectal Disease</li>
+                <li> <b>4. Ph.D. (Sch.)</b> – Ayurveda Medicine</li>
               </ul>
             </div>
 

@@ -98,7 +98,7 @@ function App() {
 
           </Routes>
         </main>
-        {/* Footer (optional) */}
+        {/* Footer */}
         <Footer/>
 
       </div>
