@@ -1,13 +1,16 @@
 import { ayurvedaBlogs } from "./ayurveda/ayurvedaBlogs";
-import { digestiveBlogs } from "./digestive/digestiveBlogs";
+// import { digestiveBlogs } from "./digestive/digestiveBlogs";
+import { kidneyBlogs } from "./kidney/kidneyBlogs";
 
 export const blogs = [
   ...ayurvedaBlogs,
-  ...digestiveBlogs,
+  // ...digestiveBlogs,
+  ...kidneyBlogs,
 ];
 
 export const blogCategories = [
   "All",
   "Ayurveda",
-  "Digestive",
+  // "Digestive",
+  "Kidney",
 ];

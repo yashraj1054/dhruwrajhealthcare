@@ -70,8 +70,8 @@ const MeetDoctor = () => {
               </h4>
 
               <ul className="grid grid-cols-2 gap-2 text-gray-700">
-                <li>✔ Diabetes Management</li>
                 <li>✔ Joint Pain & Arthritis</li>
+                <li>✔ Diabetes Management</li>
                 <li>✔ Thyroid & PCOD</li>
                 <li>✔ Infertility Treatment</li>
                 <li>✔ Digestive Disorders</li>
