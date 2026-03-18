@@ -67,15 +67,7 @@ Disease Name: ${disease.name}
 </div>
         </p>
        
-  <div className="aspect-video mt-2">
-    <iframe
-      className="w-full h-full rounded-2xl"
-      src={`https://www.youtube.com/embed/${disease.patient1_youtubeId}`}
-      title="Patient Testimonial 1"
-      allowFullScreen
-    ></iframe>
-    <p className="text-right  text-[#C4531A] mt-2"><a href="/testimonials">and Many More Happy Patients - View All</a></p>
-  </div>
+
 
 <div className="bg-white rounded-3xl shadow-lg p-10 mt-4">
           <h2 className="text-2xl font-bold text-[#C4531A] mb-6">

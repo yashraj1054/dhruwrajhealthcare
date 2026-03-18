@@ -1,52 +1,37 @@
 import React, { useState } from "react";
 import { healthTips } from "../data/healthTips";
 import { Helmet } from "react-helmet-async";
-<Helmet>
-
-<title>
-Ayurvedic Health Tips & Natural Remedies
-</title>
-
-<meta
-name="description"
-content="Learn natural Ayurvedic health tips, home remedies and lifestyle guidance for better health."
-/>
-
-<link rel="canonical" href="https://dhruwraj.com/health-tips" />
-
-</Helmet>
 
 const HealthTips = () => {
   const [filter, setFilter] = useState("All");
   const [search, setSearch] = useState("");
+  // New state to handle the popup video
+  const [selectedVideoId, setSelectedVideoId] = useState(null);
 
-  const categories = [
-    "All",
-    ...new Set(healthTips.map((v) => v.category))
-  ];
+  const categories = ["All", ...new Set(healthTips.map((v) => v.category))];
 
   const filteredVideos = healthTips.filter((video) => {
-    const matchCategory =
-      filter === "All" || video.category === filter;
-
-    const matchSearch =
-      video.title.toLowerCase().includes(search.toLowerCase());
-
+    const matchCategory = filter === "All" || video.category === filter;
+    const matchSearch = video.title.toLowerCase().includes(search.toLowerCase());
     return matchCategory && matchSearch;
   });
 
   return (
     <section className="bg-[#FDFBF3] py-24 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6">
+      <Helmet>
+        <title>Ayurvedic Health Tips & Natural Remedies</title>
+        <meta
+          name="description"
+          content="Learn natural Ayurvedic health tips, home remedies and lifestyle guidance for better health."
+        />
+        <link rel="canonical" href="https://dhruwraj.com/health-tips" />
+      </Helmet>
 
+      <div className="max-w-7xl mx-auto px-6">
         {/* Hero */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Ayurvedic Health Tips
-          </h1>
-          <p className="text-gray-600">
-            Watch expert advice & natural healing tips
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Ayurvedic Health Tips</h1>
+          <p className="text-gray-600">Watch expert advice & natural healing tips</p>
         </div>
 
         {/* Search */}
@@ -56,7 +41,7 @@ const HealthTips = () => {
             placeholder="Search video..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full md:w-1/3 border p-3 rounded-full focus:ring-2 focus:ring-[#C4531A]"
+            className="w-full md:w-1/3 border p-3 rounded-full focus:ring-2 focus:ring-[#C4531A] outline-none"
           />
         </div>
 
@@ -80,12 +65,10 @@ const HealthTips = () => {
         {/* Video Grid */}
         <div className="grid md:grid-cols-3 gap-10">
           {filteredVideos.map((video) => (
-            <a
+            <div
               key={video.id}
-              href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden group"
+              onClick={() => setSelectedVideoId(video.youtubeId)} // Open Modal on click
+              className="bg-white rounded-3xl shadow-md hover:shadow-xl hover:-translate-y-2 transition overflow-hidden group cursor-pointer"
             >
               {/* Thumbnail */}
               <div className="relative">
@@ -94,10 +77,8 @@ const HealthTips = () => {
                   alt={video.title}
                   className="w-full h-60 object-cover"
                 />
-
-                {/* Play Button Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-white/80 w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                  <div className="bg-white/80 text-[#C4531A] w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition">
                     ▶
                   </div>
                 </div>
@@ -105,18 +86,58 @@ const HealthTips = () => {
 
               {/* Info */}
               <div className="p-6">
-                <h3 className="text-lg font-semibold text-[#C4531A]">
-                  {video.title}
-                </h3>
+                <h3 className="text-lg font-semibold text-[#C4531A]">{video.title}</h3>
                 <span className="inline-block mt-3 text-xs bg-[#FDFBF3] px-3 py-1 rounded-full">
                   {video.category}
                 </span>
               </div>
-            </a>
+            </div>
           ))}
         </div>
-
       </div>
+
+      {/* --- VIDEO POPUP MODAL --- */}
+{selectedVideoId && (
+  <div 
+    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+    onClick={() => setSelectedVideoId(null)} // Closes if you click the background
+  >
+    {/* Modal Container */}
+    <div 
+      className="relative w-full max-w-5xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10"
+      onClick={(e) => e.stopPropagation()} // Prevents closing when clicking the video itself
+    >
+      
+      {/* Enhanced Cross Button */}
+      <button 
+        onClick={() => setSelectedVideoId(null)}
+        className="absolute top-4 right-4 z-[110] bg-black/50 hover:bg-[#C4531A] text-white w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 group"
+        aria-label="Close modal"
+      > 
+      <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-7 w-7 group-hover:rotate-90 transition-transform" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+      </button>
+
+      {/* YouTube Embed */}
+      <iframe
+        className="w-full h-full"
+        src={`https://www.youtube.com/embed/${selectedVideoId}?autoplay=1&rel=0`}
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+      
+    </div>
+  </div>
+)}
     </section>
   );
 };

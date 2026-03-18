@@ -495,27 +495,117 @@ Ayurvedic Treatment:
     image: "/images/Diseases/spondylitis.webp",
     diseases: [
       {
-        slug: "cervical-spondylitis",
-        name: "Cervical Spondylitis",
-        image: "/images/Diseases/cervical.jpg",
-        content: `Cervical spondylitis affects neck vertebrae.
+  slug: "cervical-spondylosis",
+  name: "Cervical Spondylosis",
+  nameHindi: "ग्रीवा स्पोंडिलोसिस (गर्दन का दर्द)",
+  image: "/images/Diseases/lifestyle/cervical_spondylosis.webp",
+  content: `### ***What is Cervical Spondylosis?***
 
-Ayurvedic Treatment:
-• Neck therapies
-• Oil massage
-• Posture correction`,
-      },
+Cervical Spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop.
+
+In Ayurveda, this is known as **Griva Sandhigata Vata**. It is primarily a **Vata** disorder where the drying quality (*Ruksha Guna*) of Vata leads to the degeneration of the soft tissues and bones in the neck (*Griva*), often complicated by **Kapha** causing stiffness.
+
+### **Causes :-**
+
+• **Vata-Aggravating Diet:** Excessive consumption of dry, cold, or stale food.
+• **Postural Habits:** Prolonged use of computers/smartphones ("Tech Neck") and sleeping on high pillows.
+• **Ageing:** Natural depletion of **Dhatu** (tissues) over time.
+• **Trauma:** Past injuries to the neck or shoulder region.
+
+### **Symptoms :-**
+
+• **Griva Stambha:** Stiffness in the neck that limits movement.
+• **Shoola:** Radiating pain from the neck to the shoulders or arms.
+• **Suptata:** Numbness or a "pins and needles" sensation in the hands.
+• **Bhrama:** Dizziness or vertigo, especially when moving the head suddenly.
+
+### **Ayurvedic Treatment :-**
+
+• **Griva Basti:** A specialized treatment where a pool of warm medicated oil is kept on the back of the neck to nourish the discs.
+• **Herbal Remedies:** Use of **Guggulu** (Yograj or Kaishore) to reduce inflammation and **Ashwagandha** to strengthen nerves.
+• **Nasya:** Administration of medicated oils (*Anu Taila*) through the nostrils to clear the channels of the head and neck.
+
+### **Diet Recommendations :-**
+
+• **Include:** Warm, oily, and easy-to-digest foods. Use **Ghee**, Sesame seeds, and Drumsticks.
+• **Reduce:** Avoid "Vata-prokopa" foods like Rajma, Chana, and cold salads.
+• **Hydration:** Drink warm water throughout the day to maintain lubrication in the joints.
+`
+},
       {
-        slug: "lumbar-spondylitis",
-        name: "Lumbar Spondylitis",
-        image: "/images/Diseases/lumbar.jpg",
-        content: `Lumbar spondylitis affects lower spine.
+  slug: "lumbar-spondylosis",
+  name: "Lumbar Spondylosis (Lower Back Pain)",
+  nameHindi: "कटि स्पोंडिलोसिस (कमर दर्द)",
+  image: "/images/Diseases/lifestyle/lumbar_spondylosis.webp",
+  content: `### ***What is Lumbar Spondylosis?***
 
-Ayurvedic Treatment:
-• Kati basti
-• Strengthening therapy
-• Pain management herbs`,
-      },
+Lumbar Spondylosis refers to the degeneration of the vertebrae and discs in the lower back. It often leads to narrowing of the space between vertebrae, causing nerve compression.
+
+Ayurveda categorizes this under **Kati Vata** or **Kati Graha**. When Vata settles in the **Kati** (lower back) region, it causes depletion of the synovial fluid and weakens the **Asthi Dhatu** (bone tissue).
+
+### **Causes :-**
+
+• **Overexertion:** Lifting heavy weights with improper posture.
+• **Sedentary Lifestyle:** Long hours of sitting without lumbar support.
+• **Abhigata:** Direct injury to the lower spine or tailbone.
+• **Dhatu Kshaya:** Degeneration due to aging or poor nutrition.
+
+### **Symptoms :-**
+
+• **Kati Shoola:** Persistent aching or sharp pain in the lower back.
+• **Stambha:** Morning stiffness that improves slightly with movement.
+• **Sakthi Shoola:** Sciatic-like pain radiating down the legs (Gridhrasi).
+• **Weakness:** Feeling of heaviness or lack of strength in the lower limbs.
+
+### **Ayurvedic Treatment :-**
+
+• **Kati Basti:** Retention of warm herbal oil (like **Sahacharadi Taila**) on the lumbar region to deep-hydrate the discs.
+• **Patra Pinda Sweda:** Fomentation using boluses of medicinal leaves to relieve muscle spasms.
+• **Internal Medicines:** **Shallaki** (Boswellia) for inflammation and **Dashmoola** decoctions to balance Vata.
+
+### **Diet Recommendations :-**
+
+• **Include:** Garlic cooked in milk (**Lashuna Ksheera Pak**), Ginger, and Calcium-rich foods like Ragi.
+• **Reduce:** Minimize heavy, fried foods that cause constipation, as "Vibandha" (constipation) worsens back pain.
+• **Lifestyle:** Practice gentle **Kati Chakrasana** and avoid soft, sagging mattresses.
+`
+},{
+  slug: "ankylosing-spondylitis",
+  name: "Ankylosing Spondylitis",
+  nameHindi: "एन्किलोज़िंग स्पॉन्डिलाइटिस",
+  image: "/images/Diseases/lifestyle/ankylosing_spondylitis.webp",
+  content: `### ***What is Ankylosing Spondylitis?***
+
+Ankylosing Spondylitis (AS) is a rare type of arthritis that causes pain and stiffness in the spine. Over time, it can cause some of the small bones in the spine to fuse, leading to a "Bamboo Spine."
+
+In Ayurveda, this is often correlated with **Amavata** (Rheumatoid-like condition) or **Vatarakta**. It involves the accumulation of **Ama** (toxins) and aggravated **Vata** in the spine, leading to chronic inflammation and loss of flexibility.
+
+### **Causes :-**
+
+• **Autoimmune Factor:** An underlying genetic predisposition (HLA-B27) triggered by poor digestion.
+• **Ama Accumulation:** Formation of toxins due to **Mandagni** (weak digestive fire) that circulate and settle in joints.
+• **Viruddha Ahara:** Consuming incompatible foods (e.g., milk with fish) that trigger immune responses.
+
+### **Symptoms :-**
+
+• **Stiffness:** Severe morning stiffness that lasts for hours but improves with exercise.
+• **Fused Spine:** Gradual loss of flexibility, resulting in a hunched-forward posture.
+• **Fatigue:** Constant tiredness due to systemic inflammation.
+• **Pain:** Deep pain in the sacroiliac joints (buttocks) and rib cage.
+
+### **Ayurvedic Treatment :-**
+
+• **Deepana-Pachana:** Using herbs like **Trikatu** and **Chitrakadi Vati** to ignite digestive fire and burn "Ama."
+• **Valuka Sweda:** Dry heat fomentation (sand bolus) to reduce inflammation without increasing moisture.
+• **Basti Therapy:** **Kshara Basti** or **Erhunda Taila Basti** to eliminate toxins from the root and restore mobility.
+
+### **Diet Recommendations :-**
+
+• **Include:** Anti-inflammatory spices like **Turmeric**, **Ginger**, and **Cinnamon**. Light meals like Moong Dal Khichdi.
+• **Reduce:** Strictly avoid curd, fermented foods (Idli/Dosa), and heavy sweets which increase "Ama."
+• **Fluid Intake:** Sip warm water with dry ginger (Sunthi) throughout the day.
+`
+}
     ],
   },
 
