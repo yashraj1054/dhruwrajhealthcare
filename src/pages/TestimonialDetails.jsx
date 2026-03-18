@@ -60,7 +60,7 @@ const TestimonialDetails = () => {
               />
               {/* Play Overlay */}
               <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition">
-                <div className="bg-white/90 w-20 h-20 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
+                <div className="bg-white/90 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
                   <span className="text-[#C4531A] text-3xl ml-1">▶</span>
                 </div>
               </div>
