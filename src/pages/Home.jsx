@@ -229,7 +229,7 @@ const Home = () => {
 
       {/* Image */}
       <img
-        src="/images/popup-img.png"
+        src="/images/pop-up-img.png"
         alt="Consultation Offer"
         className="w-full h-60 object-fill"
       />
