@@ -20,6 +20,13 @@ const Navbar = () => {
       📞 Call Now: +91-97950 53040
     </a>,
     "|",
+    <a
+      href="tel:+919196053040"
+      className="hover:underline font-semibold"
+    >
+      ☎️ Helpline: +91 9196053040
+    </a>,
+    "|",
     "🎉 20% Discount on Panchkarma Therapy",
     "|",
     "🕒 Open Monday - Saturday | 4PM - 8PM",
