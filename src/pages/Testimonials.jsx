@@ -83,7 +83,7 @@ const Testimonials = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-3 gap-10">
+        {/* <div className="grid md:grid-cols-3 gap-10">
           {filtered.map((patient) => (
             <Link
               key={patient.slug}
@@ -110,7 +110,66 @@ const Testimonials = () => {
               </div>
             </Link>
           ))}
+        </div> */}
+        <div className="grid md:grid-cols-3 gap-8">
+  {filtered.map((patient) => (
+    <Link
+      key={patient.slug}
+      to={`/testimonials/${patient.slug}`}
+      className="group bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col p-6"
+    >
+      {/* Google Style Header */}
+      <div className="flex items-center gap-4 mb-4">
+        <div className="relative">
+          <img
+            src={patient.image}
+            alt={patient.name}
+            className="w-16 h-16 rounded-full object-cover border-2 border-[#FDFBF3] shadow-sm"
+            loading="lazy"
+          />
+          {/* Verified Checkmark Badge */}
+          <div className="absolute -bottom-1 -right-1 bg-blue-500 text-white rounded-full p-0.5 border-2 border-white">
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
         </div>
+        
+        <div className="flex-1">
+          <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#C4531A] transition-colors">
+            {patient.name}
+          </h3>
+          <div className="flex items-center gap-1">
+            <div className="flex text-yellow-400 text-sm">
+              {"★".repeat(5)}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Review Body */}
+      <div className="flex-grow">
+        <p className="text-gray-600 text-sm leading-relaxed line-clamp-4 italic">
+          "{patient.testimonialSnippet || `I was struggling with ${patient.issue} for a long time. After the treatment, I feel much better and the results are amazing...`}"
+        </p>
+      </div>
+
+      {/* Bottom Tags / Meta */}
+      <div className="mt-6 pt-4 border-t border-gray-50 flex flex-wrap gap-2">
+        <span className="text-[11px] font-bold uppercase tracking-wider text-[#C4531A] bg-[#FDFBF3] px-3 py-1 rounded-md">
+          {patient.issue}
+        </span>
+        {/* <span className="text-[11px] font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-md">
+          {patient.disease}
+        </span> */}
+      </div>
+      
+      <div className="mt-4 text-[#C4531A] text-xs font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+        Read Full Story <span>→</span>
+      </div>
+    </Link>
+  ))}
+</div>
 
       </div>
     </section>
