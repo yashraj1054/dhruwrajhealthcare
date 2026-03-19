@@ -51,10 +51,24 @@ Nasya therapy provided long-term relief.
       youtubeId: ""
     }
   ],
+  Diabetes: [
+    {
+      slug: "abhishek-gupta",
+      name: "Abhishek Gupta",
+      disease: "Diabetes",
+      issue: "High Blood Sugar",
+      image: "/images/Patients/Diabaties/Abhishek.jpg",
+      description: `
+Abhishek Gupta suffered from high blood sugar levels.
+Ayurvedic treatment helped manage his condition effectively.
+      `,
+      youtubeId: ""
+    }
+  ],
 
   Infertility: [],
   Skin: [],
   "Thyroid PCOD": [],
   Respiratory: [],
-  Diabetes: [],
+  
 };
