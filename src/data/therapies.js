@@ -28,7 +28,7 @@ Benefits:
   {
     slug: "shirodhara",
     name: "Shirodhara",
-    image: "/images/Therapy/shirodhara.jpg",
+    image: "/images/Therapy/Shirodhara.jpg",
     shortDescription: "Relaxing oil flow therapy for stress and neurological balance.",
     shloka: "शिरोधारानिषेवेण शिरोरोगः प्रशाम्यति । अनिद्रा शिरसो जाड्यं नृणां च प्रशमं व्रजेत् ॥",
     content: `
