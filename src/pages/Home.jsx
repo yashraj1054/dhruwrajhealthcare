@@ -318,7 +318,7 @@ const Home = () => {
           {/* Therapy Cards */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
   {[
-    { name: "Shirodhara", img: "/images/Therapy/shirodhara.jpg", slug: "shirodhara" },
+    { name: "Shirodhara", img: "/images/Therapy/Shirodhara.jpg", slug: "shirodhara" },
     { name: "Abhyanga", img: "/images/Therapy/abhyanga.jpg", slug: "abhyanga" },
     { name: "Nasya", img: "/images/Therapy/nasya.avif", slug: "nasya" },
     { name: "Janu Basti", img: "/images/Therapy/janubasti.jpg", slug: "janu-basti" },
