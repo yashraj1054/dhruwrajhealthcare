@@ -8,6 +8,7 @@ export const testimonials = {
       disease: "Joint Pain",
       issue: "Knee Pain",
       image: "/images/Patients/Joint/anshugupta.webp",
+      shortReview: "Knee pain reduced and mobility improved.",
       description: `
 Anshu Gupta was suffering from long-term knee pain and unstable sugar levels.
 After Ayurvedic treatment and personalized herbal therapy,
@@ -25,6 +26,7 @@ his mobility improved and blood sugar levels stabilized.
       disease: "Joint Pain",
       issue: "Severe Knee Pain",
       image: "/images/Patients/Joint/seema.webp",
+      shortReview: "Knee pain drastically reduced after treatment.",
       description: `
 Seema experienced chronic knee pain.
 After Panchkarma therapy and herbal oil treatment,
@@ -44,6 +46,7 @@ pain reduced drastically.
       disease: "Migraine Nerve",
       issue: "Nerve Pain",
       image: "/images/Patients/Nerve/YashGupta.jpg",
+      shortReview: "Nasya therapy provided long-term relief from nerve pain and migraines.",
       description: `
 Yash Gupta suffered from recurring nerve pain and migraines.
 Nasya therapy provided long-term relief.
@@ -58,6 +61,7 @@ Nasya therapy provided long-term relief.
       disease: "Diabetes",
       issue: "High Blood Sugar",
       image: "/images/Patients/Diabaties/abhishekgupta.jpg",
+      shortReview: "My Blood sugar levels stabilized after treatment. I highly recommend Dr. R.K. Pal for anyone struggling with diabetes.",
       description: `
 Abhishek Gupta suffered from high blood sugar levels.
 Ayurvedic treatment helped manage his condition effectively.

@@ -479,104 +479,108 @@ const Home = () => {
 
       {/* ================= TESTIMONIALS ================= */}
       <section className="bg-[#FDFBF3] py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* Heading */}
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-6">Our Happy Patients</h2>
-            <div className="w-24 h-1 bg-[#C4531A] mx-auto mt-4 rounded-full"></div>
-          </div>
+  <div className="max-w-7xl mx-auto px-6">
+    {/* Heading */}
+    <div className="text-center mb-12">
+      <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Happy Patients</h2>
+      <div className="w-24 h-1 bg-[#C4531A] mx-auto mt-4 rounded-full"></div>
+    </div>
 
-          {/* Category Pills */}
-          <div className="flex flex-wrap justify-center gap-4 mb-16">
-            {Object.keys(testimonials).map((cat, i) => (
-              <button
-                key={i}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition ${
-                  activeCategory === cat
-                    ? "bg-[#7A3E1D] text-white"
-                    : "bg-[#EAD8B3] text-[#7A3E1D]"
-                }`}
+    {/* Category Pills */}
+    <div className="flex flex-wrap justify-center gap-4 mb-16">
+      {Object.keys(testimonials).map((cat, i) => (
+        <button
+          key={i}
+          onClick={() => setActiveCategory(cat)}
+          className={`px-6 py-2 rounded-full text-sm font-medium transition ${
+            activeCategory === cat
+              ? "bg-[#7A3E1D] text-white"
+              : "bg-[#EAD8B3] text-[#7A3E1D] hover:bg-[#dec18a]"
+          }`}
+        >
+          {cat}
+        </button>
+      ))}
+    </div>
+
+    {/* Carousel */}
+    {currentTestimonials.length > 0 && (
+      <div className="relative">
+        {/* Navigation Buttons */}
+        <button
+          onClick={() => setCurrentIndex((prev) => (prev === 0 ? currentTestimonials.length - 1 : prev - 1))}
+          className="absolute -left-4 top-1/2 -translate-y-1/2 bg-white shadow-xl w-12 h-12 rounded-full flex items-center justify-center z-10 hover:bg-gray-50 transition"
+        >
+          <span className="text-2xl text-gray-600">‹</span>
+        </button>
+
+        <div className="overflow-hidden">
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{
+              transform: `translateX(-${currentIndex * (100 / (window.innerWidth >= 768 ? 3 : 1))}%)`,
+            }}
+          >
+            {currentTestimonials.map((item) => (
+              <Link
+                key={item.slug}
+                to={`/testimonials/${item.slug}`}
+                className="w-full md:w-1/3 flex-shrink-0 px-4"
               >
-                {cat}
-              </button>
+                <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition duration-300 h-full flex flex-col">
+                  {/* Google Style Header: Profile & Rating */}
+                  <div className="flex items-center gap-4 mb-4">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-14 h-14 rounded-full object-cover border-2 border-gray-50"
+                    />
+                    <div>
+                      <h3 className="font-bold text-gray-900 leading-tight hover:text-[#C4531A]">
+                        {item.name}
+                      </h3>
+                      <div className="flex text-yellow-400 text-sm mt-1">
+                        {/* Static 5 stars or item.rating */}
+                        {"★".repeat(5)}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Review Snippet */}
+                  <div className="flex-grow">
+                    <p className="text-gray-600 text-sm italic mb-4 line-clamp-3">
+                      "{item.shortReview || "The treatment was excellent and the results were visible within weeks..."}"
+                    </p>
+                  </div>
+
+                  {/* Footer Badge */}
+                  <div className="flex items-center justify-between pt-4 border-t border-gray-50">
+                    <span className="text-xs font-semibold text-[#C4531A] uppercase tracking-wider">
+                      {item.issue}
+                    </span>
+                    {/* <div className="flex items-center gap-1 text-green-600">
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+                      </svg>
+                      <span className="text-[10px] font-bold">Verified</span>
+                    </div> */}
+                  </div>
+                </div>
+              </Link>
             ))}
           </div>
-
-          {/* Carousel */}
-          {currentTestimonials.length > 0 && (
-            <div className="relative">
-              {/* Left */}
-              <button
-                onClick={() =>
-                  setCurrentIndex((prev) =>
-                    prev === 0 ? currentTestimonials.length - 1 : prev - 1,
-                  )
-                }
-                className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md w-10 h-10 rounded-full flex items-center justify-center z-10"
-              >
-                ‹
-              </button>
-
-              <div className="overflow-hidden">
-                <div
-                  className="flex transition-transform duration-500 ease-in-out"
-                  style={{
-                    transform: `translateX(-${currentIndex * (100 / (window.innerWidth >= 768 ? 3 : 1))}%)`,
-                  }}
-                >
-                  {currentTestimonials.map((item, index) => (
-                    // <div
-                    //   key={index}
-                    //   className="w-full md:w-1/3 flex-shrink-0 px-4"
-                    // >
-                    //   <div className="bg-white rounded-3xl shadow-lg p-6">
-                    //     <img
-                    //       src={item.image}
-                    //       alt={item.name}
-                    //       className="rounded-2xl w-full h-64 object-cover mb-6"
-                    //     />
-                    //     <h3 className="text-xl font-semibold text-gray-900 text-center">
-                    //       {item.name} - {item.issue}
-                    //     </h3>
-                    //   </div>
-                    // </div>
-                    <Link
-  key={item.slug}
-  to={`/testimonials/${item.slug}`}
-  className="w-full md:w-1/3 flex-shrink-0 px-4"
->
-  <div className="bg-white rounded-3xl shadow-lg p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300 cursor-pointer">
-    <img
-      src={item.image}
-      alt={item.name}
-      className="rounded-2xl w-full h-64 object-cover mb-6"
-      loading="lazy"
-    />
-    <h3 className="text-xl font-semibold text-gray-900 text-center">
-      {item.name} - {item.issue}
-    </h3>
-  </div>
-</Link>
-                  ))}
-                </div>
-              </div>
-
-              {/* Right */}
-              <button
-                onClick={() =>
-                  setCurrentIndex(
-                    (prev) => (prev + 1) % currentTestimonials.length,
-                  )
-                }
-                className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md w-10 h-10 rounded-full flex items-center justify-center z-10"
-              >
-                ›
-              </button>
-            </div>
-          )}
         </div>
-      </section>
+
+        <button
+          onClick={() => setCurrentIndex((prev) => (prev + 1) % currentTestimonials.length)}
+          className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white shadow-xl w-12 h-12 rounded-full flex items-center justify-center z-10 hover:bg-gray-50 transition"
+        >
+          <span className="text-2xl text-gray-600">›</span>
+        </button>
+      </div>
+    )}
+  </div>
+</section>
 
       {/* ================= AYURVEDIC HEALTH TIPS (EMBEDDED) ================= */}
       <section className="bg-white py-20">
