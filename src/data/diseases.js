@@ -1219,40 +1219,359 @@ In Ayurveda, this is often correlated with **Amavata** (Rheumatoid-like conditio
   {
     categorySlug: "joint-disorders",
     categoryName: "Joint & Uric Disorders",
+    categoryNameHindi: "संधि और यूरिक विकार",
     image: "/images/Diseases/joint-pain.png",
     diseases: [
+      //arthitis
       {
-        slug: "uric-acid",
-        name: "High Uric Acid",
-        image: "/images/Diseases/uric.jpg",
-        content: `High uric acid can cause joint pain and gout.
+        slug: "arthritis",
+        name: "Arthritis",
+        nameHindi: "आमवात / संधिवात",
+        image: "/images/Diseases/joints/arthritis.png",
+        content: `### What is Arthritis ??
 
-Ayurvedic Treatment:
-• Uric acid reducing herbs
-• Diet control
-• Detox therapy`,
+In Ayurveda, Arthritis is a broad term involving the vitiation of **Vata Dosha** in the joints (**Sandhi**). Depending on the presence of toxins (**Ama**), it is classified either as degenerative or inflammatory.
+
+When Vata increases, it dries up the synovial fluid (Shleshaka Kapha), leading to friction, pain, and limited mobility. If combined with Ama, it causes systemic inflammation.
+
+Causes :-
+• Viruddha Ahara: Incompatible food combinations leading to toxin formation.
+• Sheeta-Vatavarana: Excessive exposure to cold and damp weather.
+• Vayu-Vriddhi: Natural aging or excessive intake of dry, light foods.
+• Abhigata: Trauma or injury to the joints that was not properly healed.
+
+Symptoms :-
+• Sandhi-Shoola: Pain in the joints, often worse during movement.
+• Sandhi-Stambha: Stiffness, especially after periods of rest.
+• Shotha: Swelling around the affected joints.
+• Prasarana-Akunchana Pravritti: Difficulty in extending or flexing the limbs.
+
+Ayurvedic Treatment :-
+• Yogaraj Guggulu: The primary formulation for all types of Vata-related joint issues.
+• Rasnadi Kwath: A potent anti-inflammatory decoction for pain relief.
+• Ashwagandha: To strengthen the nerves and tissues surrounding the joints.
+
+Panchkarma Therapy :-
+• Abhyanga: Full-body warm oil massage with Mahanarayana Taila.
+• Patra Pinda Sweda: Bolus massage using medicinal leaves to reduce pain and swelling.
+• Basti: Medicated enemas to eliminate the root cause of Vata from the colon.
+
+Diet Recommendations :-
+• Include: Ginger, Garlic, Fenugreek (Methi), and warm, cooked meals.
+• Reduce: Curd, Cold drinks, Rajma, and heavy fermented foods.
+• Lifestyle: Practice gentle joint rotations (Sukshma Vyayama) daily.`,
       },
+      // rheumatoid arthritis
       {
         slug: "rheumatoid-arthritis",
         name: "Rheumatoid Arthritis",
-        image: "/images/Diseases/rheumatoid.jpg",
-        content: `Autoimmune joint inflammation disorder.
+        nameHindi: "आमवात",
+        image: "/images/Diseases/joints/ra.webp",
+        content: `### What is Rheumatoid Arthritis ??
 
-Ayurvedic Treatment:
-• Anti-inflammatory herbs
-• Panchkarma
-• Joint lubrication therapy`,
+**Amavata** is a condition where **Ama** (undigested toxic waste) and **Vata** move together into the joints. Unlike simple joint pain, this is an auto-immune response triggered by poor digestive fire (**Mandagni**).
+
+The "Ama" acts as a foreign substance, causing the immune system to attack the joint linings, leading to symmetrical pain and systemic symptoms like fever and fatigue.
+
+Causes :-
+• Mandagni: Weak digestion leading to the buildup of metabolic toxins.
+• Viruddha Ahara: Eating heavy or incompatible foods while having low digestion.
+• Nishcheshtata: Lack of physical activity immediately after a heavy meal.
+• Snigdha-Ushna Sevana: Excessive oily/hot food followed by cold exposure.
+
+Symptoms :-
+• Angamarda: Generalized body aches and heavy feeling.
+• Hasta-Pada Sandhi Shoola: Symmetrical pain in small joints (fingers, toes).
+• Gaurava: A feeling of heaviness and lack of enthusiasm.
+• Jwara: Low-grade fever, especially during flare-ups.
+
+Ayurvedic Treatment :-
+• Simhanada Guggulu: Specifically formulated to "digest" Ama and soothe Vata.
+• Ajmodadi Churna: Helps in improving digestion and reducing joint stiffness.
+• Castor Oil (Eranda Taila): Used as a mild laxative to clear Ama from the gut.
+
+Panchkarma Therapy :-
+• Valuka Sweda: Dry sand fomentation (instead of oil) to "dry up" the Ama/swelling.
+• Virechana: Therapeutic purgation to detoxify the digestive tract.
+• Vaitarana Basti: A specialized enema used specifically for Amavata.
+
+Diet Recommendations :-
+• Include: Barley (Yava), Horse gram soup, Ginger, and warm water.
+• Reduce: Heavy dairy, sweets, curd, and cold water.
+• Lifestyle: Avoid day-sleeping and keep the body warm.`,
       },
+      //osteoarthritis
       {
         slug: "osteoarthritis",
         name: "Osteoarthritis",
-        image: "/images/Diseases/osteoarthritis.jpg",
-        content: `Degenerative joint disease.
+        nameHindi: "संधिगत वात",
+        image: "/images/Diseases/joints/osteoarthritis.jpg",
+        content: `### What is Osteoarthritis ??
 
-Ayurvedic Treatment:
-• Cartilage support herbs
-• Oil massage
-• Strengthening exercises`,
+**Sandhigata Vata** is a degenerative joint disorder. It occurs when the **Vata Dosha** increases in the **Sandhi** (joints), leading to the "Kshaya" (depletion) of the protective cartilage and synovial fluid.
+
+It is primarily a disease of aging or "wear and tear." The dryness (Rukshata) of Vata makes the joints "creak" and causes the bones to rub against each other.
+
+Causes :-
+• Jara: The natural aging process where Vata naturally dominates.
+• Ruksha Ahara: Chronic intake of dry, cold, or light foods.
+• Ativyayama: Overuse of joints through excessive walking or heavy lifting.
+• Dhatu Kshaya: Depletion of bone and fat tissues (Asthi and Meda Dhatu).
+
+Symptoms :-
+• Sandhi Sphutana: "Crepitus" or cracking/popping sounds in the joints.
+• Prasarana-Akunchana Vedana: Pain specifically during flexion and extension.
+• Shotha: Mild swelling (usually without heat) in the weight-bearing joints (Knees/Hips).
+• Graha: Stiffness that eases slightly with warmth or movement.
+
+Ayurvedic Treatment :-
+• Lakshadi Guggulu: Rich in calcium and herbs that help in bone healing.
+• Hadjod (Cissus quadrangularis): A potent herb for bone and cartilage repair.
+• Ksheerabala Taila: Used for both internal and external lubrication.
+
+Panchkarma Therapy :-
+• Janu Basti: Pooling warm medicated oil over the knee joints.
+• Abhyanga: Regular application of Balaswagandhadi Taila to prevent further degeneration.
+• Anuvasana Basti: Oil-based enemas to nourish the tissues and pacify Vata.
+
+Diet Recommendations :-
+• Include: Milk, Ghee, Sesame seeds, Walnuts, and Calcium-rich foods.
+• Reduce: Bitter, Astringent, and Pungent foods that increase dryness.
+• Lifestyle: Low-impact exercise (Swimming/Yoga) to maintain joint mobility.`,
+      },
+      // osteoporosis
+      {
+        slug: "osteoporosis",
+        name: "Osteoporosis",
+        nameHindi: "अस्थि सौषिर्य",
+        image: "/images/Diseases/joints/osteoporosis.png",
+        content: `### What is Osteoporosis ??
+
+In Ayurveda, Osteoporosis is known as **Asthi-Saushirya** (porosity of bones). It is considered a result of **Dhatu Kshaya** (tissue depletion), specifically the **Asthi Dhatu** (Bone tissue).
+
+When Vata increases excessively, it enters the pores of the bones, making them brittle, light, and prone to fractures. It is deeply linked with the "Purishavaha Srotas" (colon), as bone health is governed by the absorption in the gut.
+
+Causes :-
+• Ati-Katu/Tikta Ahara: Excessive intake of pungent and bitter foods.
+• Alpahar: Malnutrition or chronic dieting leading to mineral deficiency.
+• Raja-Nivritti: Menopause in women, which triggers rapid Vata increase.
+• Vyavaya: Excessive physical or sexual exertion.
+
+Symptoms :-
+• Asthi-Shoola: Deep-seated bone pain.
+• Nakha-Danta Bhanga: Weakness or brittleness in nails and teeth.
+• Kesha-Loma Patan: Excessive hair loss (as hair is a byproduct of bone).
+• Bhanga-Pravritti: Increased risk of fractures even with minor trauma.
+
+Ayurvedic Treatment :-
+• Mukta Panchamrut Ras: A pearl-based calcium supplement for bone density.
+• Ashwagandha: Helps in the synthesis of bone matrix and reduces Vata.
+• Praval Pishti: Natural coral calcium to strengthen the skeletal system.
+
+Panchkarma Therapy :-
+• Tikta Ksheera Basti: Medicated milk enemas (bitter herbs + milk) which are the best treatment for bone health.
+• Shiro-Pichu: Nourishing the head to balance the hormonal axis (especially post-menopause).
+• Abhyanga: With Dhanwantaram Taila to prevent bone density loss.
+
+Diet Recommendations :-
+• Include: Milk, Sesame seeds (Til), Ragi (Finger millet), and Moringa.
+• Reduce: Excessive salt, carbonated drinks, and caffeine.
+• Lifestyle: Weight-bearing exercises and early morning sun exposure.`,
+      },
+      //AVN
+      {
+        slug: "avn",
+        name: "AVN (Avascular Necrosis)",
+        nameHindi: "अस्थि-मज्जा क्षय",
+        image: "/images/Diseases/joints/avn.jpg",
+        content: `### What is AVN ??
+
+Avascular Necrosis (AVN) is the death of bone tissue due to a lack of blood supply. In Ayurveda, this is a severe form of **Asthimajja Vidradhi** or **Kshaya**, where the channels (**Srotas**) supplying the bone are blocked.
+
+It involves **Vata** obstructing the flow of **Rakta** (blood) and **Majja** (marrow), leading to the "necrosis" or death of the bone tissue, most commonly seen in the femoral head (hip).
+
+Causes :-
+• Abhigata: Deep trauma or injury that damaged the blood vessels.
+• Madya-Pana: Chronic alcoholism which affects lipid metabolism and bone blood flow.
+• Steroid-Atisevana: Excessive use of corticosteroids (modern medicine side effects).
+• Margavarodha: Blockage of channels due to high cholesterol or toxins.
+
+Symptoms :-
+• Kati-Sandhi Shoola: Severe pain in the hip joint, often radiating to the groin or knee.
+• Limping: Difficulty in walking or standing for long periods.
+• Limited Range: Stiffness and inability to rotate the leg inward or outward.
+• Pain at Rest: Constant dull ache that persists even during sleep.
+
+Ayurvedic Treatment :-
+• Guggulu Tikta Ghrita: Medicated ghee that penetrates deep into the bone and marrow.
+• Kaishore Guggulu: Cleanses the blood and reduces inflammation.
+• Panchatikta Ghrita Guggulu: Specific for deep-seated bone and marrow pathology.
+
+Panchkarma Therapy :-
+• Rakta-Mokshana: Leech therapy to remove localized blood stasis and improve circulation.
+• Matra Basti: Daily oil enemas to provide nourishment to the bone tissue.
+• Pizhichil: Pouring warm medicated oil over the affected joint to improve blood flow.
+
+Diet Recommendations :-
+• Include: Cow Ghee, Garlic, Turmeric, and Omega-3 rich seeds.
+• Reduce: Excessive salt, heavy fried foods, and alcohol.
+• Lifestyle: Avoid high-impact sports; use a walking aid if necessary to reduce weight on the joint.`,
+      },
+      //fibromyalgia
+      {
+        slug: "fibromyalgia",
+        name: "Fibromyalgia",
+        nameHindi: "मांसगत वात",
+        image: "/images/Diseases/joints/Fibromyalgia.jpg",
+        content: `### What is Fibromyalgia ??
+
+In Ayurveda, Fibromyalgia is understood as **Mansagata Vata** (Vata in the muscles) or **Mamsa-dhatu-gat-Vata**. It is a condition where aggravated Vata spreads into the muscle tissues, causing widespread pain and fatigue.
+
+It is often linked to **Ama** (toxins) blocking the muscle channels and a depletion of **Ojas**, leading to hypersensitivity of the nervous system.
+
+Causes :-
+• Manasika Hetu: Chronic stress, anxiety, or emotional trauma.
+• Alpa-Nidra: Prolonged lack of restorative sleep.
+• Visham-ashana: Irregular eating habits that disturb metabolism.
+• Ati-shrama: Physical or mental over-exhaustion.
+
+Symptoms :-
+• Sarvanga-Vedana: Widespread pain throughout the body.
+• Klama: Fatigue that doesn't go away with rest.
+• Suptata: Numbness or tingling sensations in the limbs.
+• Glani: Mental fog and lack of concentration.
+
+Ayurvedic Treatment :-
+• Brahmi: To calm the nervous system and reduce pain perception.
+• Ashwagandha: To strengthen muscles and improve sleep quality.
+• Shallaki: A natural anti-inflammatory for muscle and joint comfort.
+
+Panchkarma Therapy :-
+• Shirodhara: To manage the psychological stress and "reset" the nervous system.
+• Udvartana: Herbal powder massage to improve circulation in the muscles.
+• Swedana: Herbal steam to open channels and release muscle tension.
+
+Diet Recommendations :-
+• Include: Magnesium-rich foods (Green leafy veg), Pumpkin seeds, and warm soups.
+• Reduce: Caffeine, sugar, and processed foods that trigger inflammation.
+• Lifestyle: Practice "Yoga Nidra" for deep relaxation and mild stretching.`,
+      },
+      //gout
+      {
+        slug: "gout",
+        name: "Gout",
+        nameHindi: "वात-रक्त",
+        image: "/images/Diseases/joints/gout.jpg",
+        content: `### What is Gout ??
+
+Ayurveda calls Gout **Vatarakta**. It occurs when both **Vata Dosha** and **Rakta Dhatu** (Blood) are vitiated. The aggravated Vata is obstructed by the impure blood, leading to the accumulation of toxins in the small joints.
+
+It is characterized by sudden, severe attacks of pain, redness, and tenderness in joints, often the joint at the base of the big toe.
+
+Causes :-
+• Lavana/Amla Ahara: Excessive intake of salty, sour, and pungent foods.
+• Shaka-Atisevana: Over-consumption of certain leafy greens or heavy proteins.
+• Madya-Pana: Frequent intake of alcohol (especially beer).
+• Diva-Swapna: Sleeping during the day, which disturbs blood purity.
+
+Symptoms :-
+• Sandhi-Daha: Intense burning sensation in the affected joint.
+• Shyava-Tamra Varna: Reddish or purplish discoloration of the skin over the joint.
+• Teevra-Ruja: Sudden, excruciating pain, often starting at night.
+• Toda: Pricking or needle-like sensations in the joint.
+
+Ayurvedic Treatment :-
+• Kaishore Guggulu: The herb of choice for clearing uric acid and purifying blood.
+• Guduchi (Giloy): A powerful blood cleanser and immunomodulator.
+• Amrutadi Guggulu: Specifically used for inflammatory conditions of Vatarakta.
+
+Panchkarma Therapy :-
+• Raktamokshana: Leech therapy is highly effective for immediate relief from gouty pain.
+• Virechana: To remove the Pitta and Rakta impurities from the system.
+• Ksheera Vasthi: Medicated milk enemas to balance both Vata and Rakta.
+
+Diet Recommendations :-
+• Include: Old barley, Wheat, Mung dal, and Bitter gourd.
+• Reduce: Spinach, Red meat, Seafood, Curd, and Alcohol.
+• Lifestyle: Stay hydrated and avoid tight-fitting footwear.`,
+      },
+      // hip joint pain
+      {
+        slug: "hip-joint-pain",
+        name: "Hip Joint Pain",
+        nameHindi: "कटिशूल / श्रोणिगत वात",
+        image: "/images/Diseases/joints/hip-joint.jpg",
+        content: `### What is Hip Joint Pain ??
+
+Hip pain is often categorized under **Shronigata Vata** (Vata in the pelvic region) or **Kati-graha**. It can also be a symptom of **Gridhrasi** (Sciatica) if the pain radiates down the leg.
+
+The hip joint is a major site of Vata. When Vata is aggravated by cold, dryness, or injury, it causes stiffness and pain in the "Shroni" (pelvis) and "Kati" (lower back).
+
+Causes :-
+• Vishama-Upaveshana: Poor sitting posture or sitting on hard surfaces for long.
+• Ati-Maithuna: Excessive sexual activity leading to Vata increase in the lower body.
+• Bhar-Vahana: Carrying heavy loads on the back or hips.
+• Vayu-Pradhana Ahara: Eating foods that increase gas and dryness.
+
+Symptoms :-
+• Stambha: Stiffness in the hip, especially upon waking or standing.
+• Kati-Suptata: Numbness in the hip or gluteal region.
+• Sakthi-Kshepa: Difficulty in lifting the leg or walking.
+• Ruja: Pain that increases with cold weather or physical activity.
+
+Ayurvedic Treatment :-
+• Trayodasang Guggulu: A specific formulation for pain in the lower back, hips, and legs.
+• Sahacharadi Thailam: An oil specifically for lower-limb Vata disorders.
+• Rasna Saptak Kwath: Used for pain involving the lower back and hip joints.
+
+Panchkarma Therapy :-
+• Kati Basti: Retaining warm oil on the lower back/hip area using a dough ring.
+• Patra Pinda Sweda: Hot herbal bolus massage to improve flexibility.
+• Anuvasana Basti: Nourishing oil enemas to pacify Vata in the pelvic region.
+
+Diet Recommendations :-
+• Include: Ghee, Garlic, Sesame oil, and warm soups.
+• Reduce: Potatoes, Chickpeas (Chana), and cold/dry snacks.
+• Lifestyle: Practice "Kati-Chakrasana" and avoid sitting for prolonged periods.`,
+      },
+      //high uric acid
+      {
+        slug: "high-uric-acid",
+        name: "High Uric Acid",
+        nameHindi: "वातरक्त - पूर्वरूप",
+        image: "/images/Diseases/joints/high-uric.jpg",
+        content: `### What is High Uric Acid ??
+
+In Ayurveda, high uric acid is the early stage of **Vatarakta**. It signifies an accumulation of metabolic waste in the **Rakta Dhatu** (Blood) due to poor protein metabolism and impaired kidney function.
+
+It is a state of **Rakta-Pitta** imbalance where the blood becomes "hot" and "acidic" (Ushna-Tikshna), eventually leading to the formation of crystals in the joints (Gout).
+
+Causes :-
+• Ati-Shrama: Excessive physical strain without adequate hydration.
+• Ahara-Vidahi: Consuming foods that cause "burning" or acidity (Deep-fried/Spicy).
+• Protein-Atisevana: Excessive intake of lentils (Dals), mushrooms, and red meat.
+• Mutra-Vegadharana: Suppressing the urge to urinate, which prevents uric acid clearance.
+
+Symptoms :-
+• Kandu: Mild itching in the skin or joints.
+• Vidaha: Burning sensation in the palms and soles.
+• Vaivarnya: Slight discoloration of the skin.
+• Sandhi-Alpa-Vedana: Occasional, fleeting pain in the joints before it becomes chronic.
+
+Ayurvedic Treatment :-
+• Guduchi (Giloy) Juice: The most effective remedy for neutralizing uric acid.
+• Gokshuradi Guggulu: Helps the kidneys flush out excess uric acid through urine.
+• Punarnava: Acts as a diuretic and systemic cleanser.
+
+Panchkarma Therapy :-
+• Virechana: Cleansing the blood and liver to improve protein metabolism.
+• Nitya-Sneha-Pana: Small daily doses of medicated ghee to soothe the Rakta Dhatu.
+• Basti: Medicated enemas to balance the Vata which drives the distribution of toxins.
+
+Diet Recommendations :-
+• Include: Plenty of water, Lemon juice, Amla, and Moong Dal.
+• Reduce: Soy products, Cauliflower, Red meat, and High-fructose corn syrup.
+• Lifestyle: Maintain a healthy weight and avoid intense exercise during high-level phases.`,
       },
     ],
   },

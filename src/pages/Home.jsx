@@ -419,7 +419,7 @@ const Home = () => {
               Ayurvedic Expert & Panchkarma Specialist
             </h4>
             <p className="text-gray-600 mb-6">
-              With 13+ years of experience in Ayurveda & Panchkarma, Dr. R.K Pal
+              With 12+ years of experience in Ayurveda & Panchkarma, Dr. R.K Pal
               has successfully treated thousands of patients, blending profound
               traditional wisdom with the rigorous standards of modern clinical
               practice. His journey is defined by a rare combination of academic
@@ -435,20 +435,16 @@ const Home = () => {
               <br />
               <ul>
                 <li>
-                  <strong>1. B.A.M.S.</strong> (Bachelor of Ayurvedic Medicine
-                  and Surgery)
+                  <strong>1. B.A.M.S.</strong> Bachelor of Ayurvedic Medicine & Surgery
                 </li>
                 <li>
-                  <strong>2. M.D. – Panchakarma</strong> (Specialist in
-                  Bio-cleansing and Detoxification)
+                  <strong>2. M.D. </strong> Panchakarma
                 </li>
                 <li>
-                  <strong>3. C.A.R.D. (Mumbai)</strong> (Certificate in
-                  Ayurvedic Rheumatology & Disorders)
+                  <strong>3. C.A.R.D. (Mumbai)</strong> Certificate in Anorectal Disease
                 </li>
                 <li>
-                  <strong>4. Ph.D. (Scholar)</strong> (Advancing research in
-                  evidence-based Ayurveda)
+                  <strong>4. Ph.D. (Sch.)</strong> Ayurveda Medicine
                 </li>
               </ul>
               <br />

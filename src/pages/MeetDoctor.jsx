@@ -42,7 +42,7 @@ const MeetDoctor = () => {
             </h3>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Dr. R.K. Pal is a highly experienced Ayurvedic physician with more than 12 years of clinical as well as academic experience. 
+              Dr. R.K. Pal is a highly experienced Ayurvedic physician with more than 12+ years of clinical as well as academic experience. 
               He is currently working as an Associate Professor in the Department of Panchakarma. 
               He is also an author of Ayurvedic academic books and has published many articles in journals related to Ayurveda and Panchakarma therapies. 
               He has successfully treated thousands of patients suffering from chronic diseases using authentic Ayurvedic treatments.
