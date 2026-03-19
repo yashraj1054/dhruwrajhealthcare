@@ -24,6 +24,7 @@ const TestimonialDetails = () => {
           src={patient.image}
           alt={patient.name}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
         
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white">
@@ -59,6 +60,7 @@ const TestimonialDetails = () => {
                 src={`https://img.youtube.com/vi/${patient.youtubeId}/maxresdefault.jpg`}
                 alt={patient.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                loading="lazy"
               />
               {/* Play Overlay */}
               <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition">
@@ -81,6 +83,7 @@ const TestimonialDetails = () => {
                   src={img}
                   alt="Before After"
                   className="rounded-2xl shadow-md"
+                  loading="lazy"
                 />
               ))}
             </div>

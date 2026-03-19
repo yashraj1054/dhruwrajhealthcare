@@ -207,6 +207,7 @@ const Home = () => {
               src="/images/brandphoto.png"
               alt="Doctor"
               className="rounded-3xl shadow-2xl"
+              loading="lazy"
             />
           </div>
         </div>
@@ -232,6 +233,7 @@ const Home = () => {
         src="/images/pop-up-img.png"
         alt="Consultation Offer"
         className="w-full h-60 object-fill"
+        loading="lazy"
       />
 
       {/* Content */}
@@ -287,6 +289,7 @@ const Home = () => {
         src={item.img}
         alt={item.name}
         className="w-full h-32 object-cover"
+        loading="lazy"
       />
       <div className="py-4 font-semibold text-gray-800 text-lg text-center">
         {item.name}
@@ -334,6 +337,7 @@ const Home = () => {
         src={item.img}
         alt={item.name}
         className="w-full h-32 object-cover"
+        loading="lazy"
       />
 
       <div className="py-5 text-lg font-semibold text-[#C4531A] text-center">
@@ -397,6 +401,7 @@ const Home = () => {
             src="/images/brandicon.png"
             alt="Clinic"
             className="rounded-3xl shadow-xl"
+            loading="lazy"
           />
         </div>
       </section>
@@ -408,6 +413,7 @@ const Home = () => {
             src="/images/doctor2.jpg"
             alt="Doctor"
             className="rounded-3xl shadow-2xl"
+            loading="lazy"
           />
 
           <div>
@@ -545,6 +551,7 @@ const Home = () => {
       src={item.image}
       alt={item.name}
       className="rounded-2xl w-full h-64 object-cover mb-6"
+      loading="lazy"
     />
     <h3 className="text-xl font-semibold text-gray-900 text-center">
       {item.name} - {item.issue}

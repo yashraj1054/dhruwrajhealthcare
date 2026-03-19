@@ -143,6 +143,7 @@ const BlogDetails = () => {
           src={blog.image}
           alt={blog.title}
           className="rounded-2xl mb-6 w-full object-cover"
+          loading="lazy"
         />
 
         {/* Language Selection Buttons */}

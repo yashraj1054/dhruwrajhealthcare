@@ -77,6 +77,7 @@ const HealthTips = () => {
                   src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
                   alt={video.title}
                   className="w-full h-60 object-cover"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-white/80 text-[#C4531A] w-14 h-14 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition">

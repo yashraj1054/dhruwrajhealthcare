@@ -27,6 +27,7 @@ const MeetDoctor = () => {
               src="/images/doctor3.jpg"
               alt="Dr RK Pal"
               className="rounded-3xl shadow-xl w-full max-w-md object-cover"
+              loading="lazy"
             />
           </div>
 

@@ -54,6 +54,7 @@ Therapy Name: ${therapy.name}
           src={therapy.image}
           alt={therapy.name}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
 
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-center px-6">

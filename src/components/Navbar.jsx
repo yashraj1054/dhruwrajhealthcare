@@ -179,6 +179,7 @@ const Navbar = () => {
                 src="/images/brandicon.png"
                 alt="Dhruwraj Ayurveda & Panchkarma"
                 className="h-12 w-auto object-contain"
+                loading="lazy"
               />
             </Link>
 

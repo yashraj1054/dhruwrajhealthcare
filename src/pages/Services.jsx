@@ -37,6 +37,7 @@ const Services = () => {
                 src={item.image}
                 alt={item.name}
                 className="w-full h-60 object-cover"
+                loading="lazy"
               />
 
               <div className="p-6 text-center">

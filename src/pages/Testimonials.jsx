@@ -94,6 +94,7 @@ const Testimonials = () => {
                 src={patient.image}
                 alt={patient.name}
                 className="w-full h-72 object-cover"
+                loading="lazy"
               />
 
               <div className="p-6">

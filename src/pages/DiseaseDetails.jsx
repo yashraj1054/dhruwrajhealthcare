@@ -38,6 +38,7 @@ Disease Name: ${disease.name}
           src={disease.image}
           alt={disease.name}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-black/50 flex flex-col gap-1 items-center justify-center text-white">
           <h1 className="text-4xl font-bold text-center">{disease.name}</h1>

@@ -7,7 +7,7 @@ export const testimonials = {
       name: "Anshu Gupta",
       disease: "Joint Pain",
       issue: "Knee Pain",
-      image: "/images/Patients/Joint/anshugupta.png",
+      image: "/images/Patients/Joint/anshugupta.webp",
       description: `
 Anshu Gupta was suffering from long-term knee pain and unstable sugar levels.
 After Ayurvedic treatment and personalized herbal therapy,
@@ -24,7 +24,7 @@ his mobility improved and blood sugar levels stabilized.
       name: "Seema",
       disease: "Joint Pain",
       issue: "Severe Knee Pain",
-      image: "/images/Patients/Joint/seema.png",
+      image: "/images/Patients/Joint/seema.webp",
       description: `
 Seema experienced chronic knee pain.
 After Panchkarma therapy and herbal oil treatment,
@@ -57,7 +57,7 @@ Nasya therapy provided long-term relief.
       name: "Abhishek Gupta",
       disease: "Diabetes",
       issue: "High Blood Sugar",
-      image: "/images/Patients/Diabaties/AbhishekGupta.png",
+      image: "/images/Patients/Diabaties/abhishekgupta.jpg",
       description: `
 Abhishek Gupta suffered from high blood sugar levels.
 Ayurvedic treatment helped manage his condition effectively.

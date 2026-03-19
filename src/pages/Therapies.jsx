@@ -37,6 +37,7 @@ const Therapies = () => {
                 src={therapy.image}
                 alt={therapy.name}
                 className="w-full h-52 object-cover"
+                loading="lazy"
               />
               <div className="p-5">
                 <h3 className="text-lg font-semibold text-[#C4531A]">

@@ -44,6 +44,7 @@ const Diseases = () => {
                 src={category.image}
                 alt={category.categoryName}
                 className="w-full h-56 object-cover"
+                loading="lazy"
               />
 
               <div className="p-6">

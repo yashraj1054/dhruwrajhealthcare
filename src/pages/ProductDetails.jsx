@@ -42,6 +42,7 @@ const ProductDetails = () => {
               src={activeImage}
               alt={product.name}
               className="rounded-3xl shadow-lg mb-6"
+              loading="lazy"
             />
 
             <div className="flex gap-2">
@@ -50,6 +51,7 @@ const ProductDetails = () => {
                   key={index}
                   src={img}
                   alt=""
+                  loading="lazy"
                   onClick={() => setActiveImage(img)}
                   className={`h-20 w-20 object-cover rounded-xl cursor-pointer border-2 ${
                     activeImage === img

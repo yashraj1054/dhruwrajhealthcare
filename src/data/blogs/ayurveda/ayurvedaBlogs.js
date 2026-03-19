@@ -63,7 +63,7 @@ export const ayurvedaBlogs = [
     title: "Padabhyanga: The Magic of Kansa Bowl Foot Massage Before Sleep",
     titleHindi: "पादभ्यंग: सोने से पहले कांसे की कटोरी से पैरों के तलवों की मालिश!",
     category: "Ayurveda",
-    image: "/images/Blogs/Ayurvedic/padabhyangana.png",
+    image: "/images/Blogs/Ayurvedic/padabhyangana.jpeg",
     excerpt: "Discover how the ancient Ayurvedic practice of Padabhyanga using a Kansa bowl and ghee can reset your body, improve sleep, and detoxify your system.",
     date: "23 March 2026",
     content: `### ***The Ancient Secret to Resetting Your Body***

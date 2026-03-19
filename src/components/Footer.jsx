@@ -46,6 +46,7 @@ Regards
             src="/images/darklogo.png"
             alt="Dhruwraj Healthcare"
             className="h-18 mb-4 object-contain"
+            loading="lazy"
           />
 
           <p className="text-sm mb-6">

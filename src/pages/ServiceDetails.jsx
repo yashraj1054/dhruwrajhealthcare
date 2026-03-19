@@ -34,6 +34,7 @@ Service: ${service.name}
           src={service.image}
           alt={service.name}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
 
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white text-center px-6">
