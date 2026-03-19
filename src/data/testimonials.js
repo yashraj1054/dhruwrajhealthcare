@@ -57,7 +57,7 @@ Nasya therapy provided long-term relief.
       name: "Abhishek Gupta",
       disease: "Diabetes",
       issue: "High Blood Sugar",
-      image: "/images/Patients/Diabaties/Abhishek.jpg",
+      image: "/images/Patients/Diabaties/AbhishekGupta.png",
       description: `
 Abhishek Gupta suffered from high blood sugar levels.
 Ayurvedic treatment helped manage his condition effectively.

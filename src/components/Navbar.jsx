@@ -236,9 +236,9 @@ const Navbar = () => {
                 Blogs
               </Link>
 
-              <Link to="/store" className="hover:text-gray-600">
+              {/* <Link to="/store" className="hover:text-gray-600">
                 Store
-              </Link>
+              </Link> */}
 
               
 
@@ -439,9 +439,9 @@ const Navbar = () => {
       TESTIMONIALS
     </a>
 
-    <a href="/store" className="block">
+    {/* <a href="/store" className="block">
       STORE
-    </a>
+    </a> */}
 
 
 
