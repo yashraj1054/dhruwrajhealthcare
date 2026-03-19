@@ -19,7 +19,7 @@ content="Book online video consultation with Ayurvedic expert Dr R.K Pal for per
 
 const Services = () => {
   return (
-    <section className="bg-[#FDFBF3] py-24 min-h-screen">
+    <section className="bg-[#FDFBF3] py-10 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
 
         <h1 className="text-4xl font-bold text-center mb-16">

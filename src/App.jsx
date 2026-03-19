@@ -51,7 +51,7 @@ function App() {
         {/* Navbar */}
         <Navbar />
         {/* Main Content */}
-        <main className="flex-grow">
+        <main className="flex-grow ">
           <Routes>
             <Route path="/" element={<Home />} />
 

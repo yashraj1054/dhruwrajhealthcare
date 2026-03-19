@@ -19,7 +19,7 @@ const CategoryDiseases = () => {
   }
 
   return (
-    <section className="bg-[#FDFBF3] min-h-screen py-24">
+    <section className="bg-[#FDFBF3] min-h-screen py-10">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Back Button */}

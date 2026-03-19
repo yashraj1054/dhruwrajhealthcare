@@ -263,7 +263,7 @@ const Home = () => {
 )}
 
       {/* ================= HEALTH CATEGORY PREMIUM ================= */}
-      <section className="bg-white py-24">
+      <section className="bg-white py-10">
         <div className="max-w-7xl mx-auto px-6 text-center">
           {/* Heading */}
           <h2 className="text-3xl font-bold mb-10">
@@ -311,7 +311,7 @@ const Home = () => {
       </section>
 
       {/* ================= THERAPY SECTION ================= */}
-      <section className="bg-[#FDFBF3] py-24">
+      <section className="bg-[#FDFBF3] py-10">
         <div className="max-w-7xl mx-auto px-6 text-center">
           {/* Heading */}
           <h2 className="text-3xl font-bold mb-10">
@@ -478,7 +478,7 @@ const Home = () => {
       </section>
 
       {/* ================= TESTIMONIALS ================= */}
-      <section className="bg-[#FDFBF3] py-24">
+      <section className="bg-[#FDFBF3] py-10">
   <div className="max-w-7xl mx-auto px-6">
     {/* Heading */}
     <div className="text-center mb-12">
@@ -622,7 +622,7 @@ const Home = () => {
 
       {/* ================= BOOK APPOINTMENT SECTION ================= */}
 
-      <section className="bg-[#Fdfbf3] py-24">
+      <section className="bg-[#Fdfbf3] py-10">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
           <div>
             <h2 className="text-3xl font-bold mb-6">
@@ -708,7 +708,7 @@ const Home = () => {
       
 
       {/* ================= FAQ SECTION ================= */}
-      <section className="bg-white py-24">
+      <section className="bg-white py-10">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-16">
             Frequently Asked Questions

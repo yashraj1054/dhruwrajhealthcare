@@ -126,7 +126,7 @@ Patient has agreed to pay ₹${consultationFee} before consultation.
   };
 
   return (
-    <section className="bg-[#FDFBF3] min-h-screen py-24">
+    <section className="bg-[#FDFBF3] min-h-screen py-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
 
         {/* LEFT SIDE */}

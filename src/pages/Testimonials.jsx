@@ -41,11 +41,11 @@ const Testimonials = () => {
   });
 
   return (
-    <section className="bg-[#FDFBF3] py-24 min-h-screen">
+    <section className="bg-[#FDFBF3] py-10 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Hero */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-7">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Our Happy Patients
           </h1>

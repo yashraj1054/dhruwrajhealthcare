@@ -18,7 +18,7 @@ const HealthTips = () => {
   });
 
   return (
-    <section className="bg-[#FDFBF3] py-24 min-h-screen">
+    <section className="bg-[#FDFBF3] py-10 min-h-screen">
       <Helmet>
         <title>Ayurvedic Health Tips & Natural Remedies</title>
         <meta
@@ -30,7 +30,7 @@ const HealthTips = () => {
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-7">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Ayurvedic Health Tips</h1>
           <p className="text-gray-600">Watch expert advice & natural healing tips</p>
         </div>
