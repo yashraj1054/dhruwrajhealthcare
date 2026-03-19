@@ -25,6 +25,7 @@ const TestimonialDetails = () => {
           alt={patient.name}
           className="w-full h-full object-cover"
         />
+        
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold">{patient.name}</h1>
           <button
@@ -37,6 +38,7 @@ const TestimonialDetails = () => {
             {patient.disease}
           </p>
         </div>
+        
       </div>
 
       <div className="max-w-5xl mx-auto px-6 py-16">

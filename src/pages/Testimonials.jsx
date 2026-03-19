@@ -34,7 +34,8 @@ const Testimonials = () => {
       filter === "All" || t.disease === filter;
 
     const matchSearch =
-      t.name.toLowerCase().includes(search.toLowerCase());
+      t.name.toLowerCase().includes(search.toLowerCase()) ||
+      t.disease.toLowerCase().includes(search.toLowerCase());
 
     return matchDisease && matchSearch;
   });
@@ -70,7 +71,7 @@ const Testimonials = () => {
             <button
               key={index}
               onClick={() => setFilter(disease)}
-              className={`px-6 py-2 rounded-full transition ${
+              className={`px-6 py-2 cursor-pointer rounded-full transition ${
                 filter === disease
                   ? "bg-[#C4531A] text-white"
                   : "bg-white border border-[#C4531A] text-[#C4531A]"

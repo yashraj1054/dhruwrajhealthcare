@@ -12,7 +12,8 @@ const HealthTips = () => {
 
   const filteredVideos = healthTips.filter((video) => {
     const matchCategory = filter === "All" || video.category === filter;
-    const matchSearch = video.title.toLowerCase().includes(search.toLowerCase());
+    const matchSearch = video.title.toLowerCase().includes(search.toLowerCase()) || video.category.toLowerCase().includes(search.toLowerCase());
+
     return matchCategory && matchSearch;
   });
 
@@ -46,12 +47,12 @@ const HealthTips = () => {
         </div>
 
         {/* Filter Pills */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
+        <div className="flex flex-wrap justify-center  gap-4 mb-16">
           {categories.map((cat, index) => (
             <button
               key={index}
               onClick={() => setFilter(cat)}
-              className={`px-6 py-2 rounded-full transition ${
+              className={`px-6 py-2 cursor-pointer rounded-full transition ${
                 filter === cat
                   ? "bg-[#C4531A] text-white"
                   : "bg-white border border-[#C4531A] text-[#C4531A]"
