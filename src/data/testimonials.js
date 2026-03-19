@@ -62,7 +62,7 @@ Nasya therapy provided long-term relief.
 Abhishek Gupta suffered from high blood sugar levels.
 Ayurvedic treatment helped manage his condition effectively.
       `,
-      youtubeId: ""
+      youtubeId: "spv5aHC3OoY"
     }
   ],
 
