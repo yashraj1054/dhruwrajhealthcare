@@ -283,12 +283,12 @@ const Home = () => {
     <Link
       key={index}
       to={`/diseases/${item.slug}`}
-      className="bg-[#FDFBF3] rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition duration-300 hover:-translate-y-1 cursor-pointer block"
+      className="bg-[#FDFBF3] rounded-3xl overflow-hidden shadow-sm hover:shadow-lg transition duration-300 hover:-translate-y-1 cursor-pointer block"
     >
       <img
         src={item.img}
         alt={item.name}
-        className="w-full h-32 object-cover"
+        className="w-full h-32  object-cover"
         loading="lazy"
       />
       <div className="py-4 font-semibold text-gray-800 text-lg text-center">

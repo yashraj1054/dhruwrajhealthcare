@@ -45,7 +45,7 @@ pain reduced drastically.
       name: "Yash Gupta",
       disease: "Migraine Nerve",
       issue: "Nerve Pain",
-      image: "/images/Patients/Nerve/YashGupta.jpg",
+      image: "/images/Patients/Nerve/YashGupta.webp",
       shortReview: "Nasya therapy provided long-term relief from nerve pain and migraines.",
       description: `
 Yash Gupta suffered from recurring nerve pain and migraines.
@@ -60,7 +60,7 @@ Nasya therapy provided long-term relief.
       name: "Abhishek Gupta",
       disease: "Diabetes",
       issue: "High Blood Sugar",
-      image: "/images/Patients/Diabaties/abhishekgupta.jpg",
+      image: "/images/Patients/Diabaties/abhishekgupta.webp",
       shortReview: "My Blood sugar levels stabilized after treatment. I highly recommend Dr. R.K. Pal for anyone struggling with diabetes.",
       description: `
 Abhishek Gupta suffered from high blood sugar levels.

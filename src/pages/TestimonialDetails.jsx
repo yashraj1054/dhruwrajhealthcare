@@ -260,6 +260,45 @@ const TestimonialDetails = () => {
     )}
   </div>
 
+  {/* --- ADD THIS MODAL CODE BACK IN --- */}
+  {isVideoOpen && (
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 p-4 backdrop-blur-sm"
+      onClick={() => setIsVideoOpen(false)}
+    >
+      <div
+        className="relative w-full max-w-5xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Close Button */}
+        <button
+          onClick={() => setIsVideoOpen(false)}
+          className="absolute top-4 right-4 z-[110] bg-white/10 hover:bg-[#C4531A] text-white w-12 h-12 rounded-full flex items-center justify-center transition-all group"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7 group-hover:rotate-90 transition-transform"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        {/* Embed Video */}
+        <iframe
+          className="w-full h-full"
+          src={`https://www.youtube.com/embed/${patient.youtubeId}?autoplay=1&rel=0`}
+          title={patient.name}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+  )}
+
   
 </section>
   );
