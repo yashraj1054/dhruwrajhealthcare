@@ -381,6 +381,47 @@ Diet Recommendations :-
 • Reduce: Pickles, Fermented foods (Idli/Dosa), Curd, and Chilies.
 • Lifestyle: Wear sunglasses in bright sun and practice "Anulom Vilom" Pranayama regularly.`,
       },
+      //paralysis
+  {
+    slug: "paralysis",
+    name: "Paralysis",
+    nameHindi: "लकवा (पक्षघात)",
+    image: "/images/Diseases/neurology/paralysis.webp",
+    content: `### ***What is Paralysis ??***
+
+Paralysis (**Pakshaghata**) is the loss of muscle function in part of your body. Ayurveda attributes this to a severe **Vata imbalance** that obstructs the "Prana" (life force) in the channels, leading to loss of sensation and movement.
+
+### **Causes :-**
+
+• **Stroke:** Blockage or bleeding in the brain.  
+• **Nerve Damage:** Spinal cord injury or trauma.  
+• **Hypertension:** Chronic high blood pressure causing brain hemorrhage.  
+
+### **Symptoms :-**
+
+• **Loss of Movement:** Inability to move limbs on one or both sides.  
+• **Speech Issues:** Slurred speech or difficulty swallowing.  
+• **Numbness:** Loss of touch sensation in the affected area.  
+
+### **Ayurvedic Treatment :-**
+
+• **Nervine Rejuvenation:** **Ekangaveer Ras** and **Brahmi Vati** to stimulate brain and nerve function.  
+• **Lubrication:** **Kshirabala Taila** (processed 101 times) for deep nerve nourishment.  
+
+### **Panchkarma Therapy :-**
+
+• **Basti (Sneha/Kashaya):** Crucial for balancing Vata at the root.  
+• **Shirodhara:** To stabilize brain function and reduce mental trauma.  
+• **Nasya:** To clear the brain's channels through medicated nasal drops.  
+
+### **Diet Recommendations :-**
+
+• **Include:** Warm, oily (Snehana), and sweet/sour/salty tastes to pacify Vata.  
+• **Avoid:** Dry, bitter, and astringent foods.  
+
+`,
+    
+  },
     ],
   },
 
@@ -1211,7 +1252,122 @@ In Ayurveda, this is often correlated with **Amavata** (Rheumatoid-like conditio
 • **Reduce:** Strictly avoid curd, fermented foods (Idli/Dosa), and heavy sweets which increase "Ama."
 • **Fluid Intake:** Sip warm water with dry ginger (Sunthi) throughout the day.
 `
-}
+},
+//scapular-wings
+  {
+    slug: "scapular-wings",
+    name: "Scapular Winging",
+    nameHindi: "स्कैपुला विंगिंग",
+    image: "/images/Diseases/spondylitis/scapular-wings.webp",
+    content: `### ***What is Scapular Winging ??***
+
+Scapular winging is a condition where the shoulder blade protrudes from the back rather than lying flat. In Ayurveda, this is often treated as a **Dhatu Kshayaja Vata** (weakness of tissues due to Vata), where the nerves and muscles supporting the shoulder lose their strength and "hold."
+
+### **Causes :-**
+
+• **Nerve Injury:** Damage to the long thoracic nerve.  
+• **Muscle Weakness:** Inactivity or atrophy of the serratus anterior muscle.  
+• **Poor Posture:** Chronic slumping that misaligns the shoulder girdle.  
+
+### **Symptoms :-**
+
+• **Protrusion:** Visible "wing" appearance of the shoulder blade.  
+• **Lifting Difficulty:** Pain or inability to lift the arm above the head.  
+• **Fatigue:** Constant aching in the shoulder and upper back.  
+
+### **Ayurvedic Treatment :-**
+
+• **Mamsa Balya Herbs:** Ashwagandha and Bala are used to nourish muscle tissue.  
+• **Nervine Support:** Mahamash Taila for external massage to stimulate nerve response.  
+
+### **Panchkarma Therapy :-**
+
+• **Griva/Prastha Basti:** Localized oil pooling to nourish the nerves.  
+• **Pinda Sweda:** Heat therapy with medicinal rice to strengthen the muscles.  
+
+### **Diet Recommendations :-**
+
+• **Include:** High-protein grains, Ghee, and Black gram (Urad Dal) for muscle building.  
+• **Avoid:** Cold, dry, and fermented foods that increase Vata.  
+`
+  },
+  //lumbar-lordosis
+  {
+    slug: "lumbar-lordosis",
+    name: "Lumbar Lordosis",
+    nameHindi: "लम्बर लार्डोसिस (कमर का अत्यधिक झुकाव)",
+    image: "/images/Diseases/spondylitis/lumbar-lardosis.webp",
+    content: `### ***What is Lumbar Lordosis ??***
+
+Lumbar Lordosis refers to an excessive inward curve of the lower back. Ayurveda views this as a structural imbalance of the **Asthi Dhatu** (bone tissue) and **Sanyu** (ligaments), often exacerbated by a sedentary lifestyle that weakens the core.
+
+### **Causes :-**
+
+• **Obesity:** Excess belly fat pulling the spine forward.  
+• **Weak Core:** Inactive abdominal muscles.  
+• **Spondylolisthesis:** Displacement of vertebrae.  
+
+### **Symptoms :-**
+
+• **Visible Curve:** A prominent "C" shape in the lower back.  
+• **Gap when Lying:** A large space between the floor and lower back when lying flat.  
+• **Back Pain:** Chronic discomfort in the lumbar region.  
+
+### **Ayurvedic Treatment :-**
+
+• **Vatahara Chikitsa:** Using **Sahacharadi Taila** to improve spinal flexibility.  
+• **Bone Health:** **Lakshadi Guggulu** to support bone density and alignment.  
+
+### **Panchkarma Therapy :-**
+
+• **Kati Basti:** The most effective treatment involving a reservoir of warm oil on the lower spine.  
+• **Matra Basti:** Small medicated enemas to lubricate the internal spinal channels.  
+
+### **Diet Recommendations :-**
+
+• **Include:** Calcium-rich foods like Sesame seeds, Milk, and Drumsticks.  
+• **Avoid:** Heavy, gas-forming foods like Rajma and Chana.  
+`
+  },
+// kyphosis
+  {
+    slug: "kyphosis",
+    name: "Kyphosis",
+    nameHindi: "काइफोसिस (कूबड़ निकलना)",
+    image: "/images/Diseases/spondylitis/kyphosis.webp",
+    content: `### ***What is Kyphosis ??***
+
+Kyphosis is an exaggerated forward rounding of the upper back (hunchback). In Ayurveda, it is known as **Kkubjatwa**, caused by aggravated Vata drying up the lubrication between spinal joints and weakening the skeletal structure.
+
+### **Causes :-**
+
+• **Osteoporosis:** Weakening of bones (Asthi-Kshaya).  
+• **Postural:** Constant hunching while reading or using laptops.  
+• **Congenital:** Structural issues present from birth.  
+
+### **Symptoms :-**
+
+• **Rounded Shoulders:** A visible hump in the upper back.  
+• **Spine Stiffness:** Difficulty standing up straight.  
+• **Respiratory Issues:** In severe cases, pressure on lungs making breathing hard.  
+
+### **Ayurvedic Treatment :-**
+
+• **Asthi-Poshaka:** Herbs like **Arjuna** and **Ashwagandha** to nourish bone density.  
+• **External Oils:** **Bala Ashwagandhadi Taila** to improve spinal muscle tone.  
+
+### **Panchkarma Therapy :-**
+
+• **Prastha Basti:** Pooling oil on the thoracic (upper) spine.  
+• **Abhyanga:** Full body massage to reduce overall Vata and stiffness.  
+
+### **Diet Recommendations :-**
+
+• **Include:** Milk, Almonds, Fig (Anjeer), and Ghee to nourish the bones.  
+• **Avoid:** Carbonated drinks and caffeine that leach calcium from bones.  
+`
+  }
+
     ],
   },
 
@@ -1534,6 +1690,83 @@ Diet Recommendations :-
 • Reduce: Potatoes, Chickpeas (Chana), and cold/dry snacks.
 • Lifestyle: Practice "Kati-Chakrasana" and avoid sitting for prolonged periods.`,
       },
+      // knee ligament tear
+      {
+    slug: "knee-ligament-tear",
+    name: "Knee Ligament Tear (ACL/MCL)",
+    nameHindi: "घुटने के लिगामेंट की चोट",
+    image: "/images/Diseases/joints/knee-ligament-tear.webp",
+    content: `### ***What is a Knee Ligament Tear ??***
+
+A ligament tear involves damage to the tough bands of tissue connecting the knee bones. Ayurveda treats this as **Snayu Abhighata** (injury to ligaments). Healing focuses on "Sandhana" (joining/healing) of the tissues through cooling and then strengthening therapies.
+
+### **Causes :-**
+
+• **Sports Injuries:** Sudden twisting or pivoting movements.  
+• **Accidents:** Direct impact on the knee joint.  
+• **Degeneration:** Weakness in ligaments over time.  
+
+### **Symptoms :-**
+
+• **Popping Sound:** Hearing a "pop" at the time of injury.  
+• **Instability:** Feeling like the knee will "give out."  
+• **Swelling:** Rapid inflammation and bruising around the joint.  
+
+### **Ayurvedic Treatment :-**
+
+• **Sandhaniya Herbs:** **Hadiod (Cissus quadrangularis)** to accelerate tissue repair.  
+• **Pain Management:** **Shallaki** and **Guggulu** to reduce inflammation naturally.  
+
+### **Panchkarma Therapy :-**
+
+• **Janu Basti:** Specialized oil pooling on the knee to promote deep tissue healing.  
+• **Janu Pichu:** Applying medicated oil-soaked pads for prolonged absorption.  
+
+### **Diet Recommendations :-**
+
+• **Include:** Turmeric milk, bone broths (or vegetable soups with ginger), and Walnuts.  
+• **Avoid:** Sour and extremely salty foods that increase inflammation.  
+
+`
+  },
+// calcaneal spur
+  {
+    slug: "calcaneal-spur",
+    name: "Calcaneal Spur (Heel Spur)",
+    nameHindi: "एड़ी की हड्डी बढ़ना",
+    image: "/images/Diseases/joints/calcaneal-spur.webp",
+    content: `### ***What is a Calcaneal Spur ??***
+
+A calcaneal spur is a bony outgrowth on the heel bone. In Ayurveda, this is known as **Vata-Kantaka**, caused by Vata getting lodged in the heel (Padatala) due to walking on uneven surfaces or wearing improper footwear.
+
+### **Causes :-**
+
+• **Foot Strain:** Repeated strain on foot muscles and ligaments.  
+• **Improper Footwear:** Wearing flat shoes without arch support.  
+• **Weight:** Excess body weight putting pressure on the calcaneus.  
+
+### **Symptoms :-**
+
+• **Morning Pain:** Sharp, stabbing pain in the heel during the first few steps of the day.  
+• **Inflammation:** Tenderness and heat at the bottom of the heel.  
+
+### **Ayurvedic Treatment :-**
+
+• **Agnikarma:** A specialized thermal micro-cautery to instantly reduce heel pain (highly effective).  
+• **Internal Meds:** **Kanchanar Guggulu** to reduce the bony outgrowth.  
+
+### **Panchkarma Therapy :-**
+
+• **Ishtika Sweda:** A unique brick-heat therapy for the heels.  
+• **Snehana:** Deep massage with **Dhanwantharam Tailam**.  
+
+### **Diet Recommendations :-**
+
+• **Include:** Warm water and light, digestible foods.  
+• **Avoid:** Cold foods and "Vistambhi" (constipating) foods.  
+
+`
+  },
       //high uric acid
       {
         slug: "high-uric-acid",
