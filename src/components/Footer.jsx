@@ -131,7 +131,7 @@ Regards
       <div className="border-t border-gray-700 mt-12 pt-6 text-center text-sm">
         © {new Date().getFullYear()} Dhruwraj Healthcare. All Rights Reserved.
       </div>
-      <div className="text-center text-sm ">Design and Developed by <a href="https://yashraj1054.github.io/Portfolio/" className="text-[#C4531A] hover:text-white">Yashraj Singh</a></div>
+      {/* <div className="text-center text-sm ">Design and Developed by <a href="https://yashraj1054.github.io/Portfolio/" className="text-[#C4531A] hover:text-white">Yashraj Singh</a></div> */}
 
     </footer>
 

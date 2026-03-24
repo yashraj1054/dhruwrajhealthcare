@@ -274,7 +274,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
   {[
     { name: "Digestive", slug: "digestive", img: "/images/Diseases/digestive.png" },
-    { name: "Endocrine", slug: "endocrine", img: "/images/Diseases/endocrine.png" },
+    { name: "Nuerology", slug: "neurological", img: "/images/Diseases/neurology.webp" },
     { name: "Respiratory", slug: "respiratory", img: "/images/Diseases/respirtory.png" },
     { name: "Hair & Skin", slug: "hair-skin", img: "/images/Diseases/hair-and-skin.png" },
     { name: "Joint Pain", slug: "joint-disorders", img: "/images/Diseases/joint-pain.png" },
