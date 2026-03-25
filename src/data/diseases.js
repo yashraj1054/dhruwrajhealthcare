@@ -6,7 +6,7 @@ export const diseases = [
   categoryNameHindi: "जीवनशैली विकार",
   image: "/images/Diseases/lifestyle.jpg",
   diseases: [
-    
+//hypertension
 {
   slug: "hypertension",
   name: "Hypertension (High Blood Pressure)",
@@ -59,11 +59,12 @@ his mobility improved and blood sugar levels stabilized.`,
 patient1_youtubeId: "VIhiWYXwMOw",
 
 },
+//diabetes
   {
   slug: "diabetes",
   name: "Diabetes",
   nameHindi: "मधुमेह",
-  image: "/images/Diseases/lifestyle/diabetes.jpg",
+  image: "/images/Diseases/lifestyle/diabetes.webp",
 
   content: `### ***What is Diabetes ??***
 
@@ -170,7 +171,7 @@ In Ayurveda, thyroid imbalance is associated with disturbances in **Agni (metabo
 slug: "obesity",
 name: "Obesity",
 nameHindi: "मोटापा",
-image: "/images/Diseases/lifestyle/obesity.png",
+image: "/images/Diseases/lifestyle/obesity.webp",
 
 content: `### ***What is Obesity ??***
 
@@ -230,7 +231,7 @@ In Ayurveda, obesity is known as **Sthaulya**. It occurs due to excessive accumu
         slug: "anxiety-disorder",
         name: "Anxiety Disorder",
         nameHindi: "चित्तोद्वेग",
-        image: "/images/Diseases/neurology/anxiety.jpg",
+        image: "/images/Diseases/neurology/anxiety.webp",
         content: `### What is Anxiety ??
 
 In Ayurveda, Anxiety is termed **Chittodvega**. It is primarily a **Vata** disorder affecting the **Manovaha Srotas** (channels of the mind). When Raja Guna (the quality of activity/restlessness) increases and Sattva (purity/calmness) decreases, the mind becomes unstable.
@@ -554,7 +555,7 @@ Diet Recommendations :-
         slug: "ibs",
         name: "IBS (Irritable Bowel Syndrome)",
         nameHindi: "ग्रहणी रोग",
-        image: "/images/Diseases/digestive/ibs.jpg",
+        image: "/images/Diseases/digestive/ibs.webp",
         content: `### What is IBS ??
 
 In Ayurveda, Irritable Bowel Syndrome is closely correlated with **Grahani Roga**. The "Grahani" is the anatomical part of the digestive tract (small intestine/duodenum) responsible for holding and digesting food. 
@@ -632,7 +633,7 @@ Diet Recommendations :-
       slug: "cholesterol",
 name: "High Cholesterol",
 nameHindi: "मेदो रोग",
-image: "/images/Diseases/digestive/cholesterol.jpg",
+image: "/images/Diseases/digestive/cholesterol.webp",
 content: `### What is High Cholesterol ??
 
 In Ayurveda, high cholesterol is linked to Medo Roga (imbalance of fat tissue) and Ama (toxins).
@@ -760,7 +761,7 @@ Diet Recommendations :-
         slug: "urticaria",
 name: "Urticaria",
 nameHindi: "शीतपित्त ",
-image: "/images/Diseases/skin/urticaria.jpg",
+image: "/images/Diseases/skin/urticaria.webp",
 content: `### What is Urticaria ??
 
 In Ayurveda, Urticaria is termed Sheetapitta. It is a condition where itchy, red wheals (rashes) appear on the skin, often in response to cold or allergens.
@@ -1181,7 +1182,7 @@ In Ayurveda, this is known as **Griva Sandhigata Vata**. It is primarily a **Vat
   slug: "lumbar-spondylosis",
   name: "Lumbar Spondylosis (Lower Back Pain)",
   nameHindi: "कटि स्पोंडिलोसिस (कमर दर्द)",
-  image: "/images/Diseases/spondylitis/lumber.png",
+  image: "/images/Diseases/spondylitis/lumber.webp",
   content: `### ***What is Lumbar Spondylosis?***
 
 Lumbar Spondylosis refers to the degeneration of the vertebrae and discs in the lower back. It often leads to narrowing of the space between vertebrae, causing nerve compression.
@@ -1383,7 +1384,7 @@ Kyphosis is an exaggerated forward rounding of the upper back (hunchback). In Ay
         slug: "arthritis",
         name: "Arthritis",
         nameHindi: "आमवात / संधिवात",
-        image: "/images/Diseases/joints/arthritis.png",
+        image: "/images/Diseases/joints/arthritis.webp",
         content: `### What is Arthritis ??
 
 In Ayurveda, Arthritis is a broad term involving the vitiation of **Vata Dosha** in the joints (**Sandhi**). Depending on the presence of toxins (**Ama**), it is classified either as degenerative or inflammatory.
@@ -1461,7 +1462,7 @@ Diet Recommendations :-
         slug: "osteoarthritis",
         name: "Osteoarthritis",
         nameHindi: "संधिगत वात",
-        image: "/images/Diseases/joints/osteoarthritis.jpg",
+        image: "/images/Diseases/joints/osteoarthritis.webp",
         content: `### What is Osteoarthritis ??
 
 **Sandhigata Vata** is a degenerative joint disorder. It occurs when the **Vata Dosha** increases in the **Sandhi** (joints), leading to the "Kshaya" (depletion) of the protective cartilage and synovial fluid.
@@ -1500,7 +1501,7 @@ Diet Recommendations :-
         slug: "osteoporosis",
         name: "Osteoporosis",
         nameHindi: "अस्थि सौषिर्य",
-        image: "/images/Diseases/joints/osteoporosis.png",
+        image: "/images/Diseases/joints/osteoporosis.webp",
         content: `### What is Osteoporosis ??
 
 In Ayurveda, Osteoporosis is known as **Asthi-Saushirya** (porosity of bones). It is considered a result of **Dhatu Kshaya** (tissue depletion), specifically the **Asthi Dhatu** (Bone tissue).
@@ -1539,7 +1540,7 @@ Diet Recommendations :-
         slug: "avn",
         name: "AVN (Avascular Necrosis)",
         nameHindi: "अस्थि-मज्जा क्षय",
-        image: "/images/Diseases/joints/avn.jpg",
+        image: "/images/Diseases/joints/avn.webp",
         content: `### What is AVN ??
 
 Avascular Necrosis (AVN) is the death of bone tissue due to a lack of blood supply. In Ayurveda, this is a severe form of **Asthimajja Vidradhi** or **Kshaya**, where the channels (**Srotas**) supplying the bone are blocked.
@@ -1578,7 +1579,7 @@ Diet Recommendations :-
         slug: "fibromyalgia",
         name: "Fibromyalgia",
         nameHindi: "मांसगत वात",
-        image: "/images/Diseases/joints/Fibromyalgia.jpg",
+        image: "/images/Diseases/joints/Fibromyalgia.webp",
         content: `### What is Fibromyalgia ??
 
 In Ayurveda, Fibromyalgia is understood as **Mansagata Vata** (Vata in the muscles) or **Mamsa-dhatu-gat-Vata**. It is a condition where aggravated Vata spreads into the muscle tissues, causing widespread pain and fatigue.
@@ -1617,7 +1618,7 @@ Diet Recommendations :-
         slug: "gout",
         name: "Gout",
         nameHindi: "वात-रक्त",
-        image: "/images/Diseases/joints/gout.jpg",
+        image: "/images/Diseases/joints/gout.webp",
         content: `### What is Gout ??
 
 Ayurveda calls Gout **Vatarakta**. It occurs when both **Vata Dosha** and **Rakta Dhatu** (Blood) are vitiated. The aggravated Vata is obstructed by the impure blood, leading to the accumulation of toxins in the small joints.
@@ -1899,7 +1900,7 @@ Diet Recommendations :-
         slug: "hepatitis",
         name: "Hepatitis",
         nameHindi: "कामला / कोष्ठ-शाखाश्रित कामला",
-        image: "/images/Diseases/liver/hepatisis.jpg",
+        image: "/images/Diseases/liver/hepatisis.webp",
         content: `### What is Hepatitis ??
 
 In Ayurveda, Hepatitis is known as **Kamala**. It is essentially an inflammation of the liver caused by highly aggravated **Pitta Dosha** which vitiates the blood (**Rakta**) and the flesh (**Mamsa**).
