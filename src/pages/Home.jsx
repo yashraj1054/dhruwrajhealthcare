@@ -173,7 +173,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="/book-appointment"
-                className="bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition cursor-pointer"
+                className="bg-[#C4531A] text-white text-center px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition cursor-pointer"
               >
                 Book Appointment
               </a>
