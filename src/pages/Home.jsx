@@ -635,7 +635,7 @@ const Home = () => {
               receive personalised treatment.
             </p>
             <div className="grid grid-cols-2 gap-6">
-              {["13+ Years of Experience", "8000+ Patients Treated","Consultation Fees : ₹500","Consultation charges must be paid before confirmation of appointment."].map(
+              {["12+ Years of Experience", "8000+ Patients Treated","Consultation Fees : ₹500","Consultation charges must be paid before confirmation of appointment."].map(
                 (item, index) => (
                   <div
                     key={index}
