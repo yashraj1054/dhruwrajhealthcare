@@ -27,7 +27,7 @@ Please keep me updated with Ayurvedic health tips.
 Regards
 `;
 
-    const mailLink = `mailto:info@dhruwraj.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailLink = `mailto:queries@dhruwraj.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailLink;
 
