@@ -171,12 +171,12 @@ const Home = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button
-                onClick={() => setOpenModal(true)}
-                className="bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition"
+              <a
+                href="/book-appointment"
+                className="bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-lg hover:opacity-90 transition cursor-pointer"
               >
                 Book Appointment
-              </button>
+              </a>
 
               <a
                 href="/health-tips"
