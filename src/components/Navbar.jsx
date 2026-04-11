@@ -225,6 +225,10 @@ const Navbar = () => {
                 ]}
               />
 
+              <Link to="/locations" className="hover:text-gray-600">
+                Locations
+              </Link>
+
               <Link to="/testimonials" className="hover:text-gray-600">
                 Testimonials
               </Link>
@@ -425,6 +429,11 @@ const Navbar = () => {
         </div>
       )}
     </div>
+
+    {/* Locations */}
+    <a href="/locations" className="block">
+      LOCATIONS
+    </a>
 
     {/* Other Links */}
     <a href="/health-tips" className="block">

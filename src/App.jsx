@@ -37,6 +37,9 @@ import { therapies } from "./data/therapies";
 
 import MeetDoctor from "./pages/MeetDoctor";
 
+import Locations from "./pages/Locations";
+import LocationDetails from "./pages/LocationDetails";
+
 import { testimonials } from "./data/testimonials";
 import { services } from "./data/services";
 import { diseases } from "./data/diseases";
@@ -82,6 +85,10 @@ function App() {
             {/* Services */}
             <Route path="/services" element={<Services />} />
             <Route path="/services/:slug" element={<ServiceDetails />} />
+
+            {/* Locations */}
+            <Route path="/locations" element={<Locations />} />
+            <Route path="/locations/:slug" element={<LocationDetails />} />
 
             {/* Store */}
             <Route path="/store" element={<Store />} />
