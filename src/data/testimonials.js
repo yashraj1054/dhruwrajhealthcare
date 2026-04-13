@@ -70,9 +70,9 @@ Ayurvedic treatment helped manage his condition effectively.
     }
   ],
 
-  Infertility: [],
-  Skin: [],
-  "Thyroid PCOD": [],
-  Respiratory: [],
+  // Infertility: [],
+  // Skin: [],
+  // "Thyroid PCOD": [],
+  // Respiratory: [],
   
 };

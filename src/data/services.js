@@ -8,10 +8,10 @@ export const services = [
     description: `
 Consult with our Ayurvedic expert from the comfort of your home via secure video call.
 
-Benefits:
-• No travel required
-• Personalized treatment plan
-• Easy follow-up
+### ***Benefits:***
+* • No travel required
+* • Personalized treatment plan
+* • Easy follow-up
     `
   },
   {
@@ -21,10 +21,10 @@ Benefits:
     description: `
 Get expert Ayurvedic advice over a phone call.
 
-Benefits:
-• Quick consultation
-• Suitable for follow-ups
-• Simple and convenient
+### ***Benefits:***
+* • Quick consultation
+* • Suitable for follow-ups
+* • Simple and convenient
     `
   },
   {
@@ -34,10 +34,10 @@ Benefits:
     description: `
 Visit our clinic for detailed examination and personalized therapy.
 
-Benefits:
-• Physical diagnosis
-• Advanced Panchkarma advice
-• Direct interaction with doctor
+### ***Benefits:***
+* • Physical diagnosis
+* • Advanced Panchkarma advice
+* • Direct interaction with doctor
     `
   },
   {
@@ -47,10 +47,10 @@ Benefits:
     description: `
 Traditional detoxification therapy to rejuvenate your body.
 
-Benefits:
-• Detoxifies body
-• Improves immunity
-• Restores balance
+### ***Benefits:***
+* • Detoxifies body
+* • Improves immunity
+* • Restores balance
     `
   }
 ];

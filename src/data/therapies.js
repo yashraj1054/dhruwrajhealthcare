@@ -9,18 +9,18 @@ export const therapies = [
     content: `
 Panchkarma is a classical Ayurvedic purification therapy that removes toxins (Ama) from the body and balances doshas.
 
-Recommended For:
-• Diabetes
-• Obesity
-• Arthritis
-• Skin Disorders
-• Chronic Diseases
+### ***Recommended For:***
+* • Diabetes
+* • Obesity
+* • Arthritis
+* • Skin Disorders
+* • Chronic Diseases
 
-Benefits:
-• Deep detoxification
-• Improves metabolism
-• Strengthens immunity
-• Restores body balance
+### ***Benefits:***
+* • Deep detoxification
+* • Improves metabolism
+* • Strengthens immunity
+* • Restores body balance
     `
   },
 
@@ -34,17 +34,18 @@ Benefits:
     content: `
 Warm herbal oil is continuously poured over the forehead to calm the nervous system.
 
-Recommended For:
-• Migraine
-• Hypertension
-• Anxiety
-• Insomnia
+### ***Recommended For:***
+* • Migraine
+* • Hypertension
+* • Anxiety
+* • Insomnia
 
-Benefits:
-• Reduces stress
-• Improves sleep
-• Enhances mental clarity
-• Balances hormones
+
+### ***Benefits:***
+* • Reduces stress
+* • Improves sleep
+* • Enhances mental clarity
+* • Balances hormones
     `
   },
 
@@ -58,17 +59,17 @@ Benefits:
     content: `
 Abhyanga is a synchronized herbal oil massage that nourishes tissues and improves circulation.
 
-Recommended For:
-• Arthritis
-• Spondylitis
-• Obesity
-• Muscle stiffness
+### ***Recommended For:***
+* • Arthritis
+* • Spondylitis
+* • Obesity
+* • Muscle stiffness
 
-Benefits:
-• Relieves joint pain
-• Improves blood flow
-• Detoxifies body
-• Reduces fatigue
+### ***Benefits:***
+* • Relieves joint pain
+* • Improves blood flow
+* • Detoxifies body
+* • Reduces fatigue
     `
   },
 
@@ -82,17 +83,17 @@ Benefits:
     content: `
 Medicated herbal oils are administered through the nostrils to cleanse the head region.
 
-Recommended For:
-• Migraine
-• Sinusitis
-• Asthma
-• Cervical Spondylitis
+### ***Recommended For:***
+* • Migraine
+* • Sinusitis
+* • Asthma
+* • Cervical Spondylitis
 
-Benefits:
-• Clears sinuses
-• Improves breathing
-• Reduces headache
-• Enhances mental focus
+### ***Benefits:***
+* • Clears sinuses
+* • Improves breathing
+* • Reduces headache
+* • Enhances mental focus
     `
   },
 
@@ -106,15 +107,15 @@ Benefits:
     content: `
 Warm medicated oil is retained over the lower back area for deep healing.
 
-Recommended For:
-• Lumbar Spondylitis
-• Slip Disc
-• Lower back pain
+### ***Recommended For:***
+* • Lumbar Spondylitis
+* • Slip Disc
+* • Lower back pain
 
-Benefits:
-• Strengthens spine
-• Reduces inflammation
-• Relieves chronic pain
+### ***Benefits:***
+* • Strengthens spine
+* • Reduces inflammation
+* • Relieves chronic pain
     `
   },
 
@@ -196,17 +197,17 @@ Benefits:
   content: `
 Janu Basti is a specialized Ayurvedic therapy where warm medicated oil is retained over the knee joint using a herbal dough ring.
 
-Recommended For:
-• Knee Pain
-• Osteoarthritis
-• Rheumatoid Arthritis
-• Joint Stiffness
+### ***Recommended For:***
+* • Knee Pain
+* • Osteoarthritis
+* • Rheumatoid Arthritis
+* • Joint Stiffness
 
-Benefits:
-• Lubricates knee joint
-• Reduces inflammation
-• Strengthens ligaments
-• Improves mobility
+### ***Benefits:***
+* • Lubricates knee joint
+* • Reduces inflammation
+* • Strengthens ligaments
+* • Improves mobility
   `
 },
 
@@ -243,18 +244,18 @@ Benefits:
   content: `
 Akshitarpana is a specialized Ayurvedic eye care therapy where a pool of lukewarm medicated ghee is retained over the eyes using a herbal dough dam.
 
-Recommended For:
-• Dry Eye Syndrome
-• Burning Sensation in Eyes
-• Myopia & Hyperopia
-• Computer Vision Syndrome
-• Eye Fatigue
+### ***Recommended For:***
+* • Dry Eye Syndrome
+* • Burning Sensation in Eyes
+* • Myopia & Hyperopia
+* • Computer Vision Syndrome
+* • Eye Fatigue
 
-Benefits:
-• Improves eyesight and clarity
-• Strengthens optical nerves
-• Relieves eye strain
-• Nourishes tired and dry eyes
+### ***Benefits:***
+* • Improves eyesight and clarity
+* • Strengthens optical nerves
+* • Relieves eye strain
+* • Nourishes tired and dry eyes
   `
 },
 
@@ -268,17 +269,17 @@ Benefits:
   content: `
 Udvartana is a therapeutic deep-tissue massage performed using dry herbal powders in a direction opposite to hair follicles.
 
-Recommended For:
-• Obesity and Weight Loss
-• Cellulite reduction
-• Poor blood circulation
-• Skin sluggishness
+### ***Recommended For:***
+* • Obesity and Weight Loss
+* • Cellulite reduction
+* • Poor blood circulation
+* • Skin sluggishness
 
-Benefits:
-• Reduces excess body fat
-• Exfoliates and glows the skin
-• Improves lymphatic drainage
-• Balances Kapha dosha
+### ***Benefits:***
+* • Reduces excess body fat
+* • Exfoliates and glows the skin
+* • Improves lymphatic drainage
+* • Balances Kapha dosha
   `
 },
 
@@ -292,18 +293,18 @@ Benefits:
   content: `
 Karnapoorna is an Ayurvedic process where the ear canals are filled with warm, medicated herbal oils to maintain ear health and treat ear disorders.
 
-Recommended For:
-• Earache and Tinnitus
-• Vertigo or Dizziness
-• Excessive Earwax
-• Hearing loss
-• Lockjaw (Hanustambha)
+### ***Recommended For:***
+* • Earache and Tinnitus
+* • Vertigo or Dizziness
+* • Excessive Earwax
+* • Hearing loss
+* • Lockjaw (Hanustambha)
 
-Benefits:
-• Calms Vata in the head region
-• Strengthens ear structures
-• Reduces neck and jaw tension
-• Improves hearing sensitivity
+### ***Benefits:***
+* • Calms Vata in the head region
+* • Strengthens ear structures
+* • Reduces neck and jaw tension
+* • Improves hearing sensitivity
   `
 },
 ];

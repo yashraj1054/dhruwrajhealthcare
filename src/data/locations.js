@@ -24,26 +24,26 @@ export const locations = [
     ]
   },
   // Kakor, Auraiya
-  {
-    slug: "Auraiya-kakor", // Used for the URL
-    city: "Auraiya",
-    name: "Dhruwraj Health Care",
-    inceptionDate: "2018",
-    image: "/images/Locations/Auaraiya/front.jpg",
-    location : "Kakor",
-    address: "  H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh - 206244",
-    phone: "+91 7395053040",
-    timings: "10:00 AM - 4:00 PM",
-    description: "Our flagship center providing authentic Personalized Ayurvedic Treatment & Panchakarma treatments...",
-    images: [
-      "/images/Locations/Auaraiya/front.jpg",
-    ],
-    facilities: ["Advanced Nadi Pariksha & Consultation", "Private Therapy Rooms", "Ayurvedic Pharmacy" ],
-    staff: [
-      { name: "Dr. R.K. Pal", role: "Chief Consultant", image: "/images/doctor2.jpg" },
-      // { name: "Jatin Pal", role: "Clinic Incharge", image: "/images/Locations/Kanpur/jatin.png" },
-      // { name: "Sumit Verma", role: "Male Therapist", image: "https://via.placeholder.com/150" },
-      // { name: "Alpana Singh", role: "Female Therapist", image: "https://via.placeholder.com/150" }
-    ]
-  },
+  // {
+  //   slug: "Auraiya-kakor", // Used for the URL
+  //   city: "Auraiya",
+  //   name: "Dhruwraj Health Care",
+  //   inceptionDate: "2018",
+  //   image: "/images/Locations/Auaraiya/front.jpg",
+  //   location : "Kakor",
+  //   address: "  H.No 227A Mangalpur Road , Kakor, Auraiya, Uttar Pradesh - 206244",
+  //   phone: "+91 7395053040",
+  //   timings: "10:00 AM - 4:00 PM",
+  //   description: "Our flagship center providing authentic Personalized Ayurvedic Treatment & Panchakarma treatments...",
+  //   images: [
+  //     "/images/Locations/Auaraiya/front.jpg",
+  //   ],
+  //   facilities: ["Advanced Nadi Pariksha & Consultation", "Panchkarma", "Private Therapy Rooms", "Ayurvedic Pharmacy"  ],
+  //   staff: [
+  //     { name: "Dr. R.K. Pal", role: "Chief Consultant", image: "/images/doctor2.jpg" },
+  //     // { name: "Jatin Pal", role: "Clinic Incharge", image: "/images/Locations/Kanpur/jatin.png" },
+  //     // { name: "Sumit Verma", role: "Male Therapist", image: "https://via.placeholder.com/150" },
+  //     // { name: "Alpana Singh", role: "Female Therapist", image: "https://via.placeholder.com/150" }
+  //   ]
+  // },
 ];

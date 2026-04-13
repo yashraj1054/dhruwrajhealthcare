@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // Added useState here
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { locations } from "../data/locations";
 
@@ -10,135 +10,116 @@ const Locations = () => {
     window.open(`tel:${phone}`);
   };
 
-  // 1. Filter Logic: Fixed to use the correct variable in the UI
   const filteredLocations = locations.filter(
     (loc) => activeCategory === "All" || loc.city === activeCategory
   );
 
-  // 2. Generate unique cities for the filter buttons
   const uniqueCities = ["All", ...new Set(locations.map((loc) => loc.city))];
 
   return (
-    <section className="bg-[#FDFBF3] min-h-screen py-8">
-      <div className="max-w-7xl mx-auto px-6">
+    // FIX 1: Added overflow-x-hidden to the main container to catch rogue absolute elements
+    <section className="bg-[#FDFBF3] min-h-screen py-12 md:py-24 selection:bg-[#C4531A]/20 overflow-x-hidden">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 w-full">
         
-        {/* Header Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold mb-4 text-gray-800">
-            Our Wellness Centers
-          </h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Experience authentic Ayurvedic healing at any of our specialized clinics. 
-            Click on a center to view staff details, facilities, and more.
-          </p>
+        {/* Editorial Header */}
+        <div className="relative mb-16 md:mb-24">
+          {/* FIX 2: Ensure the watermark is centered and can't push the page width */}
+          <div className="absolute -top-6 md:-top-10 left-1/2 -translate-x-1/2 text-6xl md:text-[120px] font-serif font-black text-[#C4531A]/5 whitespace-nowrap select-none uppercase tracking-widest z-0">
+            Ayurveda
+          </div>
+          
+          <div className="relative text-center z-10">
+            <h1 className="text-4xl md:text-7xl font-serif font-medium mb-4 md:mb-6 text-[#1A1A1A] tracking-tight">
+              Our <span className="italic font-light text-[#C4531A]">Sanctuaries</span>
+            </h1>
+            <p className="text-[#6B6B6B] max-w-lg mx-auto text-base md:text-lg font-light leading-relaxed">
+              Handpicked locations designed for profound rejuvenation and 
+              ancestral healing practices.
+            </p>
+          </div>
         </div>
 
-        {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {uniqueCities.map((category, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveCategory(category)}
-              className={`px-6 py-2 rounded-full cursor-pointer text-sm font-medium transition ${
-                activeCategory === category
-                  ? "bg-[#C4531A] text-white"
-                  : "bg-white text-gray-700 hover:bg-[#EAD8B3]"
-              }`}
-            >
-              {category}
-            </button>
-          ))}
+        {/* Minimalist Filter Navigation */}
+        {/* FIX 3: Added 'max-w-full' and 'w-full' to ensure the bar stays within bounds */}
+        <div className="w-full max-w-full overflow-x-auto no-scrollbar mb-12 md:mb-20 border-b border-[#EAD8B3]/40">
+          <div className="flex md:justify-center items-center gap-6 md:gap-8 pb-4 md:pb-8 min-w-max md:min-w-0 px-2">
+            {uniqueCities.map((category) => (
+              <button
+                key={category}
+                onClick={() => setActiveCategory(category)}
+                className={`relative py-2 text-[10px] md:text-sm uppercase tracking-[0.2em] transition-all duration-500 whitespace-nowrap ${
+                  activeCategory === category
+                    ? "text-[#C4531A] font-bold"
+                    : "text-gray-400 hover:text-gray-600"
+                }`}
+              >
+                {category}
+                {activeCategory === category && (
+                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#C4531A] transition-all duration-500" />
+                )}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Locations Grid */}
-        <div className="grid lg:grid-cols-2 gap-10">
-          {/* 3. Mapping over filteredLocations instead of locations */}
-          {filteredLocations.map((loc) => (
-            <Link 
-              key={loc.slug} 
-              to={`/locations/${loc.slug}`}
-              className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden flex flex-col md:flex-row border border-[#EAD8B3]/30 group"
+        {/* Gallery-Style Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
+          {filteredLocations.map((loc, index) => (
+            <div 
+              key={loc.slug}
+              className="group animate-in fade-in slide-in-from-bottom-5 duration-700 fill-mode-both"
+              style={{ transitionDelay: `${index * 50}ms` }}
             >
-              
-              {/* Image Area */}
-              <div className="md:w-1/2 h-full md:h-auto relative overflow-hidden">
-                <img 
-                  src={loc.image} 
-                  alt={loc.name} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                />
-                <div className="absolute top-4 left-4 bg-[#C4531A] text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                  {loc.location}
-                </div>
-              </div>
-
-              {/* Content Area */}
-              <div className="p-8 md:w-1/2 flex flex-col">
-                <h2 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-[#C4531A] transition-colors leading-tight">
-                  {loc.name}
-                </h2>
-                
-                <div className="space-y-3 mb-6 flex-grow">
-                  <div className="flex items-start gap-3 text-sm text-gray-600">
-                    <span className="text-[#C4531A] font-bold">📍</span>
-                    <p>{loc.address}</p>
-                  </div>
-                  <div className="flex items-center gap-3 text-sm text-gray-600">
-                    <span className="text-[#C4531A] font-bold">⏰</span>
-                    <p>{loc.timings}</p>
+              <Link to={`/locations/`} className="block">
+                <div className="relative overflow-hidden rounded-2xl aspect-square md:aspect-[16/10] mb-6 md:mb-8 shadow-sm">
+                  <img 
+                    src={loc.image} 
+                    alt={loc.name} 
+                    className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
+                  />
+                  <div className="absolute top-0 right-0 bg-white/95 backdrop-blur-md px-4 py-2 md:px-6 md:py-3 rounded-bl-2xl border-b border-l border-[#EAD8B3]/20">
+                    <p className="text-[8px] md:text-[10px] font-bold tracking-[0.2em] text-[#C4531A] uppercase">
+                      Since {loc.inceptionDate}
+                    </p>
                   </div>
                 </div>
 
-                {/* Facilities Preview */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {loc.facilities.slice(0, 3).map((facility, i) => (
-                    <span 
-                      key={i} 
-                      className="text-[10px] bg-[#FDFBF3] text-[#C4531A] border border-[#C4531A]/20 px-2 py-1 rounded font-medium"
-                    >
-                      {facility}
-                    </span>
-                  ))}
-                </div>
-
-                {/* Action Buttons */}
-                <div className="flex gap-3 mt-auto">
-                  <div className="flex-1 bg-[#C4531A] text-white py-3 rounded-xl text-sm font-semibold text-center group-hover:bg-[#a34415] transition">
-                    View Full Details
+                <div className="flex justify-between items-start gap-4">
+                  <div className="flex-1 min-w-0"> {/* min-w-0 helps text truncation work */}
+                    <h2 className="text-2xl md:text-3xl font-serif font-medium text-gray-900 mb-2 md:mb-3 group-hover:text-[#C4531A] transition-colors leading-tight">
+                      {loc.name}
+                    </h2>
+                    
+                    <div className="flex flex-col gap-1.5 text-[#6B6B6B] font-light italic">
+                      <span className="flex items-center gap-2 text-sm md:text-base">
+                        <span className="w-4 h-[1px] bg-[#C4531A]"></span>
+                        {loc.city}
+                      </span>
+                      <p className="text-xs md:text-sm not-italic opacity-70 truncate">
+                        {loc.address}
+                      </p>
+                    </div>
                   </div>
+
                   <button 
                     onClick={(e) => handleCall(e, loc.phone)}
-                    className="px-4 border-2 border-[#C4531A] text-[#C4531A] rounded-xl hover:bg-[#fceee7] transition z-10"
+                    className="w-12 h-12 md:w-14 md:h-14 rounded-full border border-[#EAD8B3] flex-shrink-0 flex items-center justify-center text-[#C4531A] active:bg-[#C4531A] active:text-white transition-all duration-300"
                   >
-                    📞
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.81 12.81 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                    </svg>
                   </button>
                 </div>
-              </div>
-
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
-
-        {/* Empty State */}
-        {filteredLocations.length === 0 && (
-          <div className="text-center py-20 text-gray-500">
-            No centers found in this city.
-          </div>
-        )}
-
-        {/* Bottom Banner */}
-        <div className="mt-20 text-center bg-white rounded-3xl p-10 shadow-md border border-[#EAD8B3]/50">
-          <h3 className="text-xl font-bold mb-2">Need immediate assistance?</h3>
-          <p className="text-gray-600 mb-6">Call our central helpline for appointments and queries.</p>
-          <a 
-            href="tel:+919795053040" 
-            className="inline-block bg-[#C4531A] text-white px-10 py-4 rounded-full font-bold hover:opacity-90 transition shadow-lg"
-          >
-            Call +91 9795053040
-          </a>
-        </div>
       </div>
+
+      <style dangerouslySetInnerHTML={{ __html: `
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      `}} />
     </section>
   );
 };

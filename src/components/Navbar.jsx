@@ -456,7 +456,7 @@ const Navbar = () => {
 
 
      {/* Booking Appointmenr */}
-    <div className="pt-8 flex flex-col gap-4 items-center">
+    {/* <div className="pt-8 flex flex-col gap-4 items-center">
       <a
         href="/book-appointment"
         className="inline-flex items-center gap-3 bg-[#C4531A] text-white px-6 py-3 rounded-full shadow-md"
@@ -469,7 +469,7 @@ const Navbar = () => {
       >
         📞 +91 9795053040
       </a>
-    </div>
+    </div> */}
 
 
     {/* Call Button */}
