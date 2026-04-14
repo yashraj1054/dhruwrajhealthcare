@@ -249,7 +249,7 @@ const TherapyDetails = () => {
                       onClick={handleBooking}
                       className="w-full sm:w-auto bg-[#C4531A] text-white px-12 py-4 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-[#a34415] transition-all shadow-xl shadow-[#C4531A]/20"
                     >
-                      Reserve Your Session
+                      Book Your Session
                     </button>
                     <p className="text-[10px] text-gray-400 font-bold uppercase tracking-[0.2em]">
                       Slots confirm within 24 hours

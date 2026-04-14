@@ -985,7 +985,7 @@ const Home = () => {
                 to="/book-appointment"
                 className="bg-[#C4531A] text-white px-10 py-4 rounded-full shadow-xl shadow-[#C4531A]/20 hover:bg-[#a34415] transition-all duration-300 font-bold text-xs uppercase tracking-widest text-center"
               >
-                Reserve Consultation
+                Book Consultation
               </Link>
               <Link
                 to="/health-tips"
@@ -1051,7 +1051,7 @@ const Home = () => {
                 onClick={() => setShowPopup(false)}
                 className="block bg-[#C4531A] text-white py-3 rounded-full text-[10px] font-bold uppercase tracking-widest"
               >
-                Reserve Your Slot
+                Book Your Slot
               </Link>
             </div>
           </div>
